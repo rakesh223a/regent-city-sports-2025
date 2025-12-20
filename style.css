@@ -1,154 +1,177 @@
-/* ---------- BASE IMPROVEMENTS ---------- */
-body {
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: #f4f6f8;
+    color: #222;
     padding: 10px;
-    font-family: Arial, sans-serif;
   }
   
-  header h1 {
+  /* =========================
+     CONTAINER
+  ========================= */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* =========================
+     HEADER
+  ========================= */
+  .header {
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   
-  /* ---------- BUTTONS ---------- */
-  button {
-    cursor: pointer;
-    white-space: nowrap;
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 6px;
   }
   
-  /* ---------- MOBILE RESPONSIVENESS ---------- */
-  @media (max-width: 768px) {
-  
-    /* Top menu stacks vertically */
-    .top-menu {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  
-    .top-menu button {
-      width: 100%;
-      font-size: 14px;
-      padding: 10px;
-    }
-  
-    /* Sub-menu wraps nicely */
-    .sub-menu {
-      justify-content: center;
-    }
-  
-    .sub-menu button {
-      font-size: 11px;
-      padding: 6px 8px;
-    }
-  
-    /* Section spacing */
-    .section {
-      margin: 8px 0;
-      padding: 10px;
-    }
-  
-    .section h3 {
-      font-size: 15px;
-    }
-  
-    /* Player list */
-    .player {
-      font-size: 13px;
-      padding: 3px 0;
-    }
+  .header p {
+    font-size: 14px;
+    color: #555;
   }
   
-  /* ---------- VERY SMALL DEVICES ---------- */
-  @media (max-width: 420px) {
-  
-    header h1 {
-      font-size: 18px;
-    }
-  
-    .sub-menu button {
-      font-size: 10px;
-    }
-  
-    .player {
-      font-size: 12px;
-    }
-  }
-
-  /* ---------- TOP MENU ---------- */
-.top-menu {
+  /* =========================
+     TOP MENU
+  ========================= */
+  .top-menu {
     display: flex;
+    gap: 10px;
     justify-content: center;
-    gap: 12px;
-    margin: 12px 0;
     flex-wrap: wrap;
+    margin-bottom: 14px;
   }
   
   .top-menu button {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
-    padding: 10px 16px;
+    padding: 12px 20px;
     background: #1e88e5;
     color: #ffffff;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
   }
   
-  /* ---------- SUB MENU (GAMES) ---------- */
+  .top-menu button:hover {
+    background: #1565c0;
+  }
+  
+  /* =========================
+     SUB MENU (GAMES)
+  ========================= */
   .sub-menu {
     display: flex;
-    justify-content: center;
     gap: 8px;
-    margin-bottom: 10px;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 18px;
   }
   
   .sub-menu button {
-    font-size: 12px;
-    padding: 6px 10px;
+    font-size: 13px;
+    padding: 7px 14px;
     background: #e3f2fd;
     color: #0d47a1;
     border: 1px solid #90caf9;
-    border-radius: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
   }
   
-  /* ---------- MOBILE FIX ---------- */
+  .sub-menu button:hover {
+    background: #bbdefb;
+  }
+  
+  /* =========================
+     CONTENT AREA
+  ========================= */
+  #content {
+    margin-top: 10px;
+  }
+  
+  /* =========================
+     CATEGORY TITLE
+  ========================= */
+  .category-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 18px 0 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 4px;
+  }
+  
+  /* =========================
+     PARTICIPANT LIST
+  ========================= */
+  .participant-list {
+    list-style: decimal;
+    padding-left: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .participant-list li {
+    font-size: 15px;
+    padding: 3px 0;
+  }
+  
+  /* =========================
+     FIXTURE / RULES TEXT
+  ========================= */
+  .text-content {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* =========================
+     MOBILE RESPONSIVE
+  ========================= */
   @media (max-width: 768px) {
   
-    /* Stack TOP menu vertically */
+    .header h1 {
+      font-size: 20px;
+    }
+  
     .top-menu {
       flex-direction: column;
-      align-items: stretch;
     }
   
     .top-menu button {
       width: 100%;
-      font-size: 14px;
-      padding: 12px;
+      font-size: 16px;
+      padding: 14px;
     }
   
-    /* Sub menu stays compact */
     .sub-menu {
-      justify-content: center;
+      gap: 6px;
     }
   
     .sub-menu button {
-      font-size: 11px;
-      padding: 6px 8px;
+      font-size: 12px;
+      padding: 7px 10px;
+    }
+  
+    .category-title {
+      font-size: 18px;
+    }
+  
+    .participant-list li {
+      font-size: 14px;
     }
   }
-  
-  /* ---------- SMALL PHONES ---------- */
-  @media (max-width: 420px) {
-  
-    .top-menu button {
-      font-size: 13px;
-      padding: 10px;
-    }
-  
-    .sub-menu button {
-      font-size: 10px;
-    }
-  }
-  
   
