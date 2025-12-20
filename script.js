@@ -27,7 +27,7 @@ function loadGame(game) {
   
         html += `
           <div class="player">
-            ${index + 1}. ${name}${status ? " - " + status : ""}
+            ${index + 1}. ${name}}
           </div>
         `;
       });
