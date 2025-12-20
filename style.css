@@ -1,182 +1,194 @@
-/* =========================
-   RESET & BASE
-========================= */
+/* ==============================
+   GLOBAL RESET
+============================== */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
   }
   
   body {
-    background: #f2f4f7;
+    background: #f5f7fa;
     color: #222;
-  }
-  
-  /* =========================
-     LAYOUT
-  ========================= */
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    background: #ffffff;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
   
-  /* =========================
+  /* ==============================
      HEADER
-  ========================= */
+  ============================== */
   header {
     background: #0d47a1;
-    color: #fff;
-    padding: 16px;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
   
   header h1 {
-    font-size: 24px;
-    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 600;
   }
   
-  header p {
-    font-size: 14px;
-    opacity: 0.9;
-  }
-  
-  /* =========================
-     TOP MENU
-  ========================= */
+  /* ==============================
+     TOP MENU (MAIN NAV)
+  ============================== */
   .top-menu {
+    background: #e3f2fd;
+    padding: 12px;
     display: flex;
     justify-content: center;
-    gap: 12px;
-    padding: 14px;
-    background: #e3f2fd;
+    gap: 14px;
     flex-wrap: wrap;
   }
   
   .top-menu button {
-    font-size: 18px;
-    padding: 14px 26px;
     background: #1e88e5;
     color: white;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
+    padding: 12px 22px;
+    font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
   }
   
   .top-menu button:hover {
     background: #1565c0;
   }
   
-  /* =========================
-     SUB MENU (GAMES)
-  ========================= */
+  /* ==============================
+     SUB MENU (GAME BUTTONS)
+  ============================== */
   .sub-menu {
+    margin: 15px auto;
     display: flex;
-    gap: 10px;
     justify-content: center;
-    padding: 12px;
     flex-wrap: wrap;
-    background: #fafafa;
+    gap: 10px;
   }
   
   .sub-menu button {
-    font-size: 14px;
-    padding: 10px 16px;
-    background: #e8f0fe;
+    background: #90caf9;
     color: #0d47a1;
-    border: 1px solid #90caf9;
+    border: none;
     border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 600;
     cursor: pointer;
+    transition: 0.3s ease;
   }
   
   .sub-menu button:hover {
-    background: #bbdefb;
+    background: #64b5f6;
   }
   
-  /* =========================
-     CONTENT
-  ========================= */
+  /* ==============================
+     CONTENT AREA
+  ============================== */
   #content {
-    padding: 16px;
     flex: 1;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   }
   
-  .category-title {
+  /* ==============================
+     SECTION TITLES
+  ============================== */
+  h2 {
+    margin-bottom: 12px;
     font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0 12px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 4px;
+    color: #0d47a1;
   }
   
-  .participant-list {
-    list-style: decimal;
-    padding-left: 22px;
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #1565c0;
   }
   
-  .participant-list li {
-    font-size: 16px;
+  /* ==============================
+     PARTICIPANT LIST
+  ============================== */
+  ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ol li {
     padding: 4px 0;
+    font-size: 16px;
   }
   
-  /* =========================
+  /* ==============================
      FOOTER
-  ========================= */
+  ============================== */
   footer {
     background: #0d47a1;
-    color: #fff;
-    text-align: center;
-    padding: 12px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 14px;
+    margin-top: 20px;
   }
   
-  /* =========================
-     MOBILE RESPONSIVE
-  ========================= */
+  /* ==============================
+     MOBILE RESPONSIVENESS
+  ============================== */
   @media (max-width: 768px) {
   
-    header h1 {
-      font-size: 20px;
+    header {
+      height: 60px;
     }
   
-    /* BIGGER MENU BUTTONS FOR MOBILE */
+    header h1 {
+      font-size: 18px;
+    }
+  
     .top-menu {
-      flex-direction: column;
-      gap: 10px;
+      padding: 10px;
     }
   
     .top-menu button {
       width: 100%;
-      font-size: 20px;
-      padding: 18px;
-      border-radius: 12px;
+      max-width: 280px;
+      font-size: 18px;
+      padding: 14px;
     }
   
-    /* BIGGER GAME BUTTONS */
     .sub-menu {
-      gap: 8px;
+      margin-top: 10px;
     }
   
     .sub-menu button {
-      font-size: 16px;
-      padding: 14px 16px;
-      border-radius: 10px;
+      font-size: 14px;
+      padding: 10px 16px;
     }
   
-    .category-title {
-      font-size: 20px;
+    #content {
+      margin: 10px;
+      padding: 16px;
     }
   
-    .participant-list li {
-      font-size: 16px;
+    ol li {
+      font-size: 15px;
     }
   
     footer {
+      height: 45px;
       font-size: 13px;
     }
   }
