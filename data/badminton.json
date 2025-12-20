@@ -51,9 +51,11 @@
     "title": "Badminton Singles – Male (14–25)",
     "participants": [
       { "name": "Ayushman Sharma" },
-      { "name": "Kabir" },
+      { "name": "Kabir Shrey" },
       { "name": "Dhimanta Chakraborty" },
-      { "name": "Kaustav Das" }
+      { "name": "Kaustav Das" },
+      {"name": "Ashita Ojha"}
+
     ]
   },
 
@@ -133,7 +135,7 @@
       { "name": "Arja Bhattacharya" },
       { "name": "Isha Das" },
       { "name": "Pragya Choudhary" },
-      { "name": "Kabir" },
+      { "name": "Kabir Shrey" },
       { "name": "Prem Alok" },
       { "name": "Parul Kacker" },
       { "name": "Sushant Patro" },
@@ -144,6 +146,19 @@
       { "name": "Aidya Pattnayak" },
       { "name": "Omkant Ojha" },
       { "name": "Ayushman Sharma" }
+    ]
+  },
+
+  "couple": {
+    "title": "Badminton Couple (Married)",
+    "participants": [
+      { "name": "Sanjay 🌹 Sonal" },
+      { "name": "Rakesh 🌹 Dipa" },
+      { "name": "Samik 🌹 Bidisha" },
+      { "name": "Sushant 🌹 Gitanjali" },
+      { "name": "Jyoti Prakash 🌹 Lakshmi" },
+      { "name": "Deepak 🌹 Puja" },
+      { "name": "Rahul 🌹 Sneha" }
     ]
   }
 }
