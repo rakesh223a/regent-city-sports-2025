@@ -74,4 +74,81 @@ body {
       font-size: 12px;
     }
   }
+
+  /* ---------- TOP MENU ---------- */
+.top-menu {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+  }
+  
+  .top-menu button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 16px;
+    background: #1e88e5;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  /* ---------- SUB MENU (GAMES) ---------- */
+  .sub-menu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .sub-menu button {
+    font-size: 12px;
+    padding: 6px 10px;
+    background: #e3f2fd;
+    color: #0d47a1;
+    border: 1px solid #90caf9;
+    border-radius: 5px;
+  }
+  
+  /* ---------- MOBILE FIX ---------- */
+  @media (max-width: 768px) {
+  
+    /* Stack TOP menu vertically */
+    .top-menu {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .top-menu button {
+      width: 100%;
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    /* Sub menu stays compact */
+    .sub-menu {
+      justify-content: center;
+    }
+  
+    .sub-menu button {
+      font-size: 11px;
+      padding: 6px 8px;
+    }
+  }
+  
+  /* ---------- SMALL PHONES ---------- */
+  @media (max-width: 420px) {
+  
+    .top-menu button {
+      font-size: 13px;
+      padding: 10px;
+    }
+  
+    .sub-menu button {
+      font-size: 10px;
+    }
+  }
+  
   
