@@ -1,4 +1,9 @@
-function loadGame(game) {
+// Load Badminton by default when page opens
+document.addEventListener("DOMContentLoaded", () => {
+    loadGame("badminton");
+  });
+  
+  function loadGame(game) {
     fetch(`data/${game}.json`)
       .then(res => res.json())
       .then(data => renderData(data))
@@ -19,15 +24,10 @@ function loadGame(game) {
   
       let html = `<h3>${section.title}</h3>`;
   
-      section.participants.forEach((p, index) => {
-        // ✔ SUPPORT STRING & OBJECT BOTH
-        const name = typeof p === "string" ? p : p.name;
-        const status =
-          typeof p === "object" && p.status ? p.status : "";
-  
+      section.participants.forEach((name, index) => {
         html += `
           <div class="player">
-            ${index + 1}. ${name}}
+            ${index + 1}. ${name}
           </div>
         `;
       });
