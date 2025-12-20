@@ -1,207 +1,115 @@
-/* ===============================
-   RESET & BASE
-================================ */
+/* RESET */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
-  html {
-    font-size: 16px;
-  }
-  
+  /* BASE */
   body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      sans-serif;
-    background-color: #f5f7fa;
-    color: #1f2937;
-    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #111;
+    font-size: 18px; /* IMPORTANT: BIG BASE FONT */
   }
   
-  /* ===============================
-     HEADER
-  ================================ */
+  /* HEADER */
   header {
-    background-color: #0d47a1;
-    color: #ffffff;
-    padding: 18px 16px;
+    background: #0d47a1;
+    color: #fff;
+    padding: 18px;
     text-align: center;
+    font-size: 22px;
+    font-weight: bold;
   }
   
-  header h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-  }
-  
-  /* ===============================
-     TOP MENU
-  ================================ */
-  .top-menu {
+  /* MAIN MENU */
+  .main-menu {
     display: flex;
-    justify-content: center;
-    gap: 14px;
+    flex-direction: column;
+    gap: 12px;
     padding: 16px;
     background: #e3f2fd;
-    flex-wrap: wrap;
   }
   
-  .top-menu button {
-    background: #1e88e5;
-    color: #ffffff;
+  .main-menu button {
+    font-size: 18px;
+    padding: 14px;
     border: none;
-    border-radius: 10px;
-    padding: 14px 22px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    min-width: 140px;
+    border-radius: 8px;
+    background: #1976d2;
+    color: white;
   }
   
-  .top-menu button:hover {
-    background: #1565c0;
-  }
-  
-  /* ===============================
-     GAME MENU (SUB BUTTONS)
-  ================================ */
+  /* GAME MENU */
   .game-menu {
     display: flex;
-    justify-content: center;
-    gap: 10px;
     flex-wrap: wrap;
+    gap: 10px;
     padding: 12px;
+    background: #ffffff;
   }
   
   .game-menu button {
+    font-size: 16px;
+    padding: 10px 14px;
     background: #90caf9;
-    color: #0d47a1;
     border: none;
-    border-radius: 8px;
-    padding: 8px 14px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    cursor: pointer;
+    border-radius: 6px;
   }
   
-  .game-menu button:hover {
-    background: #64b5f6;
-  }
-  
-  /* ===============================
-     MAIN CONTENT
-  ================================ */
+  /* CONTENT */
   main {
-    width: 100%;
-    max-width: 100%;
-    padding: 20px 16px 60px;
+    padding: 16px;
   }
   
-  .content-wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  
-  /* ===============================
-     GAME CARD / LIST
-  ================================ */
-  .game-card {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 24px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  }
-  
-  .game-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #0d47a1;
+  h2 {
+    font-size: 22px;
     margin-bottom: 12px;
   }
   
-  /* ===============================
-     LIST STYLING (IMPORTANT)
-  ================================ */
-  ol,
-  ul {
-    padding-left: 20px;
-    font-size: 1rem;
+  ol {
+    padding-left: 22px;
   }
   
   li {
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 18px;
     margin-bottom: 6px;
   }
   
-  /* ===============================
-     FIXTURES / RULES TEXT
-  ================================ */
-  .section-text {
-    font-size: 1rem;
-    padding: 12px 0;
-  }
-  
-  /* ===============================
-     FOOTER
-  ================================ */
+  /* FOOTER */
   footer {
     background: #0d47a1;
-    color: #ffffff;
+    color: white;
     text-align: center;
-    padding: 14px;
-    font-size: 0.9rem;
+    padding: 12px;
+    font-size: 14px;
   }
   
-  /* ===============================
-     MOBILE OPTIMIZATION
-  ================================ */
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 1.35rem;
-    }
-  
-    .top-menu {
-      gap: 10px;
-    }
-  
-    .top-menu button {
-      width: 100%;
-      max-width: 320px;
-      font-size: 1.1rem;
-      padding: 16px;
-    }
-  
-    .game-menu button {
-      font-size: 0.9rem;
-      padding: 10px 14px;
-    }
-  
-    .game-title {
-      font-size: 1.3rem;
-    }
-  
-    ol,
-    ul {
-      font-size: 1.05rem;
-    }
-  
-    li {
-      font-size: 1.05rem;
-    }
+  /* HELPERS */
+  .hidden {
+    display: none;
   }
   
-  /* ===============================
-     VERY SMALL DEVICES
-  ================================ */
-  @media (max-width: 420px) {
-    header h1 {
-      font-size: 1.2rem;
+  .hint {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* DESKTOP ENHANCEMENT */
+  @media (min-width: 768px) {
+    .main-menu {
+      flex-direction: row;
+      justify-content: center;
     }
   
-    .game-title {
-      font-size: 1.2rem;
+    .main-menu button {
+      width: 200px;
+    }
+  
+    main {
+      max-width: 900px;
+      margin: auto;
     }
   }
   
