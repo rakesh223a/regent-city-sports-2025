@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const subMenu = document.getElementById("sub-menu");
     const content = document.getElementById("content");
   
+    // Show all game buttons
     subMenu.innerHTML = `
       <button onclick="loadGame('badminton')">🏸 Badminton</button>
       <button onclick="loadGame('cricket')">🏏 Cricket</button>
@@ -16,8 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
       <button onclick="loadGame('carrom')">🎯 Carrom</button>
     `;
   
-    content.innerHTML = `<p>Select a game to view participants.</p>`;
+    // Clear content so only game buttons are visible
+    content.innerHTML = "";
   }
+  
   
   function showFixtures() {
     document.getElementById("sub-menu").innerHTML = "";
