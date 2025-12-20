@@ -100,14 +100,7 @@
   }
   
   /* Inner readable container */
-  .content-inner {
-    max-width: 1100px;   /* wider than before */
-    margin: 0 auto;
-    background: #ffffff;
-    padding: 24px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  }
+ 
   
   
   /* ==============================
