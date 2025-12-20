@@ -13,11 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Show game links
     subMenu.innerHTML = `
-      <button onclick="loadGame('badminton')">🏸 Badminton</button>
-      <button onclick="loadGame('cricket')">🏏 Cricket</button>
-      <button onclick="loadGame('chess')">♟️ Chess</button>
-      <button onclick="loadGame('carrom')">🎯 Carrom</button>
-    `;
+  <button onclick="loadGame('badminton')">🏸 Badminton</button>
+  <button onclick="loadGame('cricket')">🏏 Cricket</button>
+  <button onclick="loadGame('chess')">♟️ Chess</button>
+  <button onclick="loadGame('carrom')">🎯 Carrom</button>
+  <button onclick="loadGame('ludo')">🎲 Ludo</button>
+`;
   
     content.innerHTML = "<p>Select a game to view participants.</p>";
   }

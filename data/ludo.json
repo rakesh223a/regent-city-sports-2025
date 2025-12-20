@@ -1,0 +1,41 @@
+{
+    "below_14": {
+      "title": "Ludo – Below 14 Years",
+      "participants": [
+        { "name": "Advik Ranjan" },
+        { "name": "Ashray Singh" },
+        { "name": "Ishani Sanyal" },
+        { "name": "Shaanvi Dubey" },
+        { "name": "Aidya Pattnayak" },
+        { "name": "Prakhar Choudhary" },
+        { "name": "Sanskar Ojha" },
+        { "name": "Avaneesh Patro" }
+      ]
+    },
+  
+    "above_14": {
+      "title": "Ludo – 14+ Years",
+      "participants": [
+        { "name": "Rakesh Prasad" },
+        { "name": "Sanjay Singh" },
+        { "name": "Souravan Roy" },
+        { "name": "Jyoti Prakash" },
+        { "name": "Sushant Patro" },
+        { "name": "Samik Bhattacharya" },
+        { "name": "Sneha" },
+        { "name": "Ashita Ojha" },
+        { "name": "Gitanjali Patra" },
+        { "name": "Gouri Prabha Behera" }
+      ]
+    },
+  
+    "bye_list": {
+      "title": "Ludo – Bye List (Promoted to Round 2)",
+      "participants": [
+        { "name": "Advik Ranjan" },
+        { "name": "Souravan Roy" },
+        { "name": "Jyoti Prakash" }
+      ]
+    }
+  }
+  
