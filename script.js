@@ -27,10 +27,23 @@ function showRules() {
 }
 
 function loadGame(game) {
-  fetch(`${game}.json`)
-    .then(res => res.json())
-    .then(data => renderGame(data));
-}
+    fetch(`${game}.json`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`File not found: ${game}.json`);
+        }
+        return response.json();
+      })
+      .then(data => renderGame(data))
+      .catch(err => {
+        content.innerHTML = `
+          <h2>Error</h2>
+          <p>${err.message}</p>
+          <p>Please check if the JSON file exists and is committed.</p>
+        `;
+      });
+  }
+  
 
 function renderGame(data) {
   let html = "";
