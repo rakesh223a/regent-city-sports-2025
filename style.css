@@ -1,44 +1,77 @@
-/* ---------- TOP MENU ---------- */
-.top-menu button {
-  font-size: 15px;
-  font-weight: 600;
-  background: #1e88e5;
-  color: #ffffff;
-}
-
-/* ---------- SUB MENU (GAME BUTTONS) ---------- */
-.sub-menu button {
-  font-size: 12px;              /* smaller font */
-  background: #e3f2fd;          /* light blue */
-  color: #0d47a1;               /* dark text */
-  border: 1px solid #90caf9;
-  padding: 6px 10px;
-}
-
-/* Hover effect for sub menu */
-.sub-menu button:hover {
-  background: #bbdefb;
-}
-
-/* ---------- TOP MENU ---------- */
-.top-menu button {
-    font-size: 15px;
-    font-weight: 600;
-    background: #1e88e5;
-    color: #ffffff;
+/* ---------- BASE IMPROVEMENTS ---------- */
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
   }
   
-  /* ---------- SUB MENU (GAME BUTTONS) ---------- */
-  .sub-menu button {
-    font-size: 12px;              /* smaller font */
-    background: #e3f2fd;          /* light blue */
-    color: #0d47a1;               /* dark text */
-    border: 1px solid #90caf9;
-    padding: 6px 10px;
+  header h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   
-  /* Hover effect for sub menu */
-  .sub-menu button:hover {
-    background: #bbdefb;
+  /* ---------- BUTTONS ---------- */
+  button {
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  /* ---------- MOBILE RESPONSIVENESS ---------- */
+  @media (max-width: 768px) {
+  
+    /* Top menu stacks vertically */
+    .top-menu {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .top-menu button {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    /* Sub-menu wraps nicely */
+    .sub-menu {
+      justify-content: center;
+    }
+  
+    .sub-menu button {
+      font-size: 11px;
+      padding: 6px 8px;
+    }
+  
+    /* Section spacing */
+    .section {
+      margin: 8px 0;
+      padding: 10px;
+    }
+  
+    .section h3 {
+      font-size: 15px;
+    }
+  
+    /* Player list */
+    .player {
+      font-size: 13px;
+      padding: 3px 0;
+    }
+  }
+  
+  /* ---------- VERY SMALL DEVICES ---------- */
+  @media (max-width: 420px) {
+  
+    header h1 {
+      font-size: 18px;
+    }
+  
+    .sub-menu button {
+      font-size: 10px;
+    }
+  
+    .player {
+      font-size: 12px;
+    }
   }
   
