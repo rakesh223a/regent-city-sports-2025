@@ -1,8 +1,9 @@
+// Load Participants by default
 document.addEventListener("DOMContentLoaded", () => {
-    showParticipants(); // default view
+    showParticipants();
   });
   
-  /* ---------- TOP MENU ACTIONS ---------- */
+  /* ---------- TOP MENU FUNCTIONS ---------- */
   
   function showParticipants() {
     const subMenu = document.getElementById("sub-menu");
@@ -20,35 +21,26 @@ document.addEventListener("DOMContentLoaded", () => {
   
   function showFixtures() {
     document.getElementById("sub-menu").innerHTML = "";
-  
     document.getElementById("content").innerHTML = `
       <h3>📋 Fixtures</h3>
-      <p>Fixtures will be updated here round-wise.</p>
-      <ul>
-        <li>Round 1</li>
-        <li>Quarter Final</li>
-        <li>Semi Final</li>
-        <li>Final</li>
-      </ul>
+      <p>Fixtures and match schedules will be updated here.</p>
     `;
   }
   
   function showRules() {
     document.getElementById("sub-menu").innerHTML = "";
-  
     document.getElementById("content").innerHTML = `
       <h3>📜 Rules & Regulations</h3>
       <ol>
         <li>Participants must report on time.</li>
-        <li>Match schedules will be announced in advance.</li>
-        <li>Decision of referees will be final.</li>
+        <li>Referee and organizer decisions are final.</li>
         <li>Misconduct may lead to disqualification.</li>
         <li>Organizers reserve the right to amend rules.</li>
       </ol>
     `;
   }
   
-  /* ---------- LOAD GAME DATA ---------- */
+  /* ---------- GAME DATA ---------- */
   
   function loadGame(game) {
     fetch(`data/${game}.json`)
@@ -67,8 +59,8 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.values(data).forEach(section => {
       let html = `<div class="section"><h3>${section.title}</h3>`;
   
-      section.participants.forEach((p, i) => {
-        html += `<div class="player">${i + 1}. ${p.name}</div>`;
+      section.participants.forEach((p, index) => {
+        html += `<div class="player">${index + 1}. ${p.name}</div>`;
       });
   
       html += `</div>`;

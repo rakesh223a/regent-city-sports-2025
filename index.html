@@ -1,18 +1,36 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Regent City Annual Sports 2025–26</title>
+
+  <!-- Disable favicon 404 -->
+  <link rel="icon" href="data:,">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
     <h1>🏆 Regent City Annual Sports 2025–26</h1>
   </header>
-  
+
+  <!-- Top Menu -->
   <nav class="top-menu">
     <button onclick="showParticipants()">Participants</button>
     <button onclick="showFixtures()">Fixtures</button>
     <button onclick="showRules()">Rules & Regulations</button>
   </nav>
-  
-  <!-- Sub menu (dynamic) -->
+
+  <!-- Sub Menu -->
   <div id="sub-menu" class="sub-menu"></div>
-  
-  <!-- Main content -->
+
+  <!-- Main Content -->
   <main id="content">
-    <p>Please select a menu option.</p>
+    <p>Loading…</p>
   </main>
-  
+
+  <!-- Script MUST be at bottom -->
+  <script src="script.js"></script>
+</body>
+</html>
