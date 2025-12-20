@@ -1,15 +1,17 @@
-// Load Participants by default
+// Page load: show only main menu (no games)
 document.addEventListener("DOMContentLoaded", () => {
-    showParticipants();
+    document.getElementById("sub-menu").innerHTML = "";
+    document.getElementById("content").innerHTML =
+      "<p>Please select a menu option.</p>";
   });
   
-  /* ---------- TOP MENU FUNCTIONS ---------- */
+  /* ---------- TOP MENU ---------- */
   
   function showParticipants() {
     const subMenu = document.getElementById("sub-menu");
     const content = document.getElementById("content");
   
-    // Show all game buttons
+    // Show game links
     subMenu.innerHTML = `
       <button onclick="loadGame('badminton')">🏸 Badminton</button>
       <button onclick="loadGame('cricket')">🏏 Cricket</button>
@@ -17,10 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
       <button onclick="loadGame('carrom')">🎯 Carrom</button>
     `;
   
-    // Clear content so only game buttons are visible
-    content.innerHTML = "";
+    content.innerHTML = "<p>Select a game to view participants.</p>";
   }
-  
   
   function showFixtures() {
     document.getElementById("sub-menu").innerHTML = "";
@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <h3>📜 Rules & Regulations</h3>
       <ol>
         <li>Participants must report on time.</li>
+        <li>Match schedules will be announced in advance.</li>
         <li>Referee and organizer decisions are final.</li>
         <li>Misconduct may lead to disqualification.</li>
         <li>Organizers reserve the right to amend rules.</li>
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
   
-  /* ---------- GAME DATA ---------- */
+  /* ---------- LOAD GAME DATA ---------- */
   
   function loadGame(game) {
     fetch(`data/${game}.json`)
