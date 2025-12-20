@@ -1,32 +1,44 @@
-.top-menu, .sub-menu {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin: 12px 0;
-    flex-wrap: wrap;
-  }
-  
-  button {
-    padding: 8px 14px;
-    border: none;
+/* ---------- TOP MENU ---------- */
+.top-menu button {
+  font-size: 15px;
+  font-weight: 600;
+  background: #1e88e5;
+  color: #ffffff;
+}
+
+/* ---------- SUB MENU (GAME BUTTONS) ---------- */
+.sub-menu button {
+  font-size: 12px;              /* smaller font */
+  background: #e3f2fd;          /* light blue */
+  color: #0d47a1;               /* dark text */
+  border: 1px solid #90caf9;
+  padding: 6px 10px;
+}
+
+/* Hover effect for sub menu */
+.sub-menu button:hover {
+  background: #bbdefb;
+}
+
+/* ---------- TOP MENU ---------- */
+.top-menu button {
+    font-size: 15px;
+    font-weight: 600;
     background: #1e88e5;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #ffffff;
   }
   
-  button:hover {
-    background: #1565c0;
+  /* ---------- SUB MENU (GAME BUTTONS) ---------- */
+  .sub-menu button {
+    font-size: 12px;              /* smaller font */
+    background: #e3f2fd;          /* light blue */
+    color: #0d47a1;               /* dark text */
+    border: 1px solid #90caf9;
+    padding: 6px 10px;
   }
   
-  .section {
-    background: #fff;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 6px;
-  }
-  
-  .player {
-    padding: 4px 0;
+  /* Hover effect for sub menu */
+  .sub-menu button:hover {
+    background: #bbdefb;
   }
   
