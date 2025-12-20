@@ -1,6 +1,5 @@
-// Load Badminton by default when page opens
 document.addEventListener("DOMContentLoaded", () => {
-    loadGame("badminton");
+    loadGame("badminton"); // open badminton by default
   });
   
   function loadGame(game) {
@@ -24,12 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
   
       let html = `<h3>${section.title}</h3>`;
   
-      section.participants.forEach((name, index) => {
-        html += `
-          <div class="player">
-            ${index + 1}. ${name}
-          </div>
-        `;
+      section.participants.forEach((item, index) => {
+        // Handle both string and object
+        const name =
+          typeof item === "string"
+            ? item
+            : item.name || "";
+  
+        html += `<div class="player">${index + 1}. ${name}</div>`;
       });
   
       div.innerHTML = html;
