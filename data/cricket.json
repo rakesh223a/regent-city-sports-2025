@@ -1,0 +1,89 @@
+{
+  "junior_mixed": {
+    "title": "Cricket – Mixed (Below 14)",
+    "participants": [
+      { "name": "Aaradhya" },
+      { "name": "Aarohi" },
+      { "name": "Aidya Pattnayak" },
+      { "name": "Akshay Singh" },
+      { "name": "Arannya Ghosh (Jim)" },
+      { "name": "Arik Chowdhury" },
+      { "name": "Arja Bhattacharya" },
+      { "name": "Ashita Ojha" },
+      { "name": "Avaneesh Patro" },
+      { "name": "Avyay Sweet" },
+      { "name": "Ayushman Ghosh" },
+      { "name": "Daksh Upadhyay" },
+      { "name": "Haripriya" },
+      { "name": "Isha Das" },
+      { "name": "Ishani Sanyal" },
+      { "name": "Mainak Roy" },
+      { "name": "Omkant Ojha" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Pragya Choudhary" },
+      { "name": "Prakhar Upadhyay" },
+      { "name": "Priya Pradhan" },
+      { "name": "Rayan Dan" },
+      { "name": "Sanskar Ojha" },
+      { "name": "Saqib Saikh" },
+      { "name": "Varenyam" }
+    ]
+  },
+
+  "female_14_plus": {
+    "title": "Cricket – Female (14+)",
+    "participants": [
+      { "name": "Bidisha Bhattacharya" },
+      { "name": "Chhoti Kumari" },
+      { "name": "Gitanjali Patra" },
+      { "name": "Gouri Prabha Behera" },
+      { "name": "Himika Roy" },
+      { "name": "Kumari Anshu Chaudhary" },
+      { "name": "Lakshmi Kumari" },
+      { "name": "Lovely Lal" },
+      { "name": "Mahual Sanyal" },
+      { "name": "Parul Kacker" },
+      { "name": "Puja Kumari" },
+      { "name": "Sananda Mukherjee" },
+      { "name": "Shatarupa Chowdhury Paul" },
+      { "name": "Sonal Kumari" },
+      { "name": "Surabhi Kumari" },
+      { "name": "Swati Singh" },
+      { "name": "Vandana Upadhyay" },
+      { "name": "Sneha" },
+      { "name": "Sandhya Kumari" }
+    ]
+  },
+
+  "male_14_plus": {
+    "title": "Cricket – Male (14+)",
+    "participants": [
+      { "name": "Akash Chakraborty" },
+      { "name": "Anirban Mukherjee" },
+      { "name": "Ayushman Sharma" },
+      { "name": "Chaitanya" },
+      { "name": "Dhimanta Chakraborty" },
+      { "name": "Divyanshu Sekhar" },
+      { "name": "Gouravjit Mahakul" },
+      { "name": "Jagdeep Saini" },
+      { "name": "Joydeep Mukherjee" },
+      { "name": "Jyoti Prakash Pattanayak" },
+      { "name": "Kabir Shrey" },
+      { "name": "Kaustav Das" },
+      { "name": "Keshav Tiwari" },
+      { "name": "Manish Kumar" },
+      { "name": "Prem Alok" },
+      { "name": "Rakesh Prasad" },
+      { "name": "Ranjeet Tiwari" },
+      { "name": "Rounak Sahu" },
+      { "name": "Samik Bhattacharya" },
+      { "name": "Sanjay Singh" },
+      { "name": "Souravan Roy" },
+      { "name": "Susant Patro" },
+      { "name": "Tirthankar Kanjilal" },
+      { "name": "Vishal Kumar" },
+      { "name": "Vivek Upadhyay" },
+      { "name": "Deepankar Kumar" }
+    ]
+  }
+}

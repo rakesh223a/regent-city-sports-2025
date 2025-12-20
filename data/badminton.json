@@ -1,0 +1,149 @@
+{
+  "single_upto_9": {
+    "title": "Badminton Singles – Up to 9 Years",
+    "participants": [
+      { "name": "Disha Mohanty" },
+      { "name": "Aadrik Ranjan" },
+      { "name": "Prakhar Choudhary" },
+      { "name": "Ishani Sanyal" },
+      { "name": "Ashray Singh" }
+    ]
+  },
+
+  "single_9_11": {
+    "title": "Badminton Singles – 9 to 11 Years",
+    "participants": [
+      { "name": "Sanskar Ojha" },
+      { "name": "Avyay (Sweet)" },
+      { "name": "Varenyam" },
+      { "name": "Avaneesh Patro" },
+      { "name": "Saqib Saikh" },
+      { "name": "Prakhar Upadhyay" }
+    ]
+  },
+
+  "single_11_13_male": {
+    "title": "Badminton Singles – Male (11–13)",
+    "participants": [
+      { "name": "Mainak Roy" },
+      { "name": "Omkant Ojha" },
+      { "name": "Vaibhav Shaw" },
+      { "name": "Daksh Upadhyay" },
+      { "name": "Arja Bhattacharya" }
+    ]
+  },
+
+  "single_11_13_female": {
+    "title": "Badminton Singles – Female (11–13)",
+    "participants": [
+      { "name": "Isha Das" },
+      { "name": "Shreya Tiwari" },
+      { "name": "Sanjeevani Singh" },
+      { "name": "Haripriya" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Pragya Choudhary" },
+      { "name": "Aidya Pattnayak" },
+      { "name": "Shaanvi Dubey" }
+    ]
+  },
+
+  "single_14_25_male": {
+    "title": "Badminton Singles – Male (14–25)",
+    "participants": [
+      { "name": "Ayushman Sharma" },
+      { "name": "Kabir" },
+      { "name": "Dhimanta Chakraborty" },
+      { "name": "Kaustav Das" }
+    ]
+  },
+
+  "single_25_40_male": {
+    "title": "Badminton Singles – Male (25–40)",
+    "participants": [
+      { "name": "Raj Paul" },
+      { "name": "Jagdeep Saini" },
+      { "name": "Gouravjeet Mahakul" },
+      { "name": "Souravan Roy" },
+      { "name": "Suraj Biswas" }
+    ]
+  },
+
+  "single_40_plus_male": {
+    "title": "Badminton Singles – Male (40+)",
+    "participants": [
+      { "name": "Manish Kumar" },
+      { "name": "Ranjeet Tiwari" },
+      { "name": "Rakesh Prasad" },
+      { "name": "Samik Bhattacharya" },
+      { "name": "Vivek Upadhyay" },
+      { "name": "Anirban Mukherjee" },
+      { "name": "Prem Alok" },
+      { "name": "Jyoti Prakash Pattanayak" },
+      { "name": "Sushant Patro" },
+      { "name": "Deepak Mohanty" },
+      { "name": "Sanjay Singh" },
+      { "name": "Jyoti Kumar" }
+    ]
+  },
+
+  "single_14_40_female": {
+    "title": "Badminton Singles – Female (14–40)",
+    "participants": [
+      { "name": "Sonal Kumari" },
+      { "name": "Lakshmi Kumari" },
+      { "name": "Lovely Lal" },
+      { "name": "Dipa Kumari" },
+      { "name": "Swati Singh" },
+      { "name": "Puja Kumari" },
+      { "name": "Jyoti Kumari" },
+      { "name": "Anita Thakur" },
+      { "name": "Prachi Ganguly" },
+      { "name": "Ashita Ojha" },
+      { "name": "Sneha" }
+    ]
+  },
+
+  "double_female_14_plus": {
+    "title": "Badminton Doubles – Female (14+)",
+    "participants": [
+      { "name": "Ashita Ojha" },
+      { "name": "Sarita Roy" },
+      { "name": "Surabhi Kumari" },
+      { "name": "Lovely Lal" },
+      { "name": "Dipa Kumari" },
+      { "name": "Lakshmi Kumari" },
+      { "name": "Bidisha Bhattacharya" },
+      { "name": "Puja Kumari" },
+      { "name": "Jyoti Kumari" },
+      { "name": "Parul Kacker" },
+      { "name": "Anita Thakur" },
+      { "name": "Prachi Ganguly" },
+      { "name": "Gitanjali Patra" }
+    ]
+  },
+
+  "mixed_14_plus": {
+    "title": "Badminton Mixed Doubles (14+)",
+    "participants": [
+      { "name": "Souravan Roy" },
+      { "name": "Ashita Ojha" },
+      { "name": "Lovely Lal" },
+      { "name": "Ranjeet Tiwari" },
+      { "name": "Daksh Upadhyay" },
+      { "name": "Arja Bhattacharya" },
+      { "name": "Isha Das" },
+      { "name": "Pragya Choudhary" },
+      { "name": "Kabir" },
+      { "name": "Prem Alok" },
+      { "name": "Parul Kacker" },
+      { "name": "Sushant Patro" },
+      { "name": "Jyoti Prakash" },
+      { "name": "Haripriya" },
+      { "name": "Shaanvi Dubey" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Aidya Pattnayak" },
+      { "name": "Omkant Ojha" },
+      { "name": "Ayushman Sharma" }
+    ]
+  }
+}
