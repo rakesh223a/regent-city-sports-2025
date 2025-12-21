@@ -93,7 +93,10 @@ function loadFixtures(game, btn) {
   setActive(btn, ".game-btn");
 
   fetch(`fixtures/${game}.json`)
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error("Fixture not found");
+      return res.json();
+    })
     .then(data => {
       currentFixtures = data.rounds;
       renderRounds(data.rounds);
@@ -157,6 +160,9 @@ function setActive(button, groupSelector) {
   document.querySelectorAll(groupSelector).forEach(btn =>
     btn.classList.remove("active")
   );
-  button.classList.add("active");
+
+  if (button) {
+    button.classList.add("active");
+  }
 }
 

@@ -49,12 +49,14 @@
 
     <!-- FIXTURE GAME TABS -->
     <div class="game-menu">
-      <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
-      <button onclick="loadFixtures('cricket')">🏏 Cricket</button>
-      <button onclick="loadFixtures('chess')">♟️ Chess</button>
-      <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
-      <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
-      <button onclick="loadFixtures('tt')"> Table Tennis</button>
+      <button class="game-btn" onclick="loadFixtures('badminton', this)">🏸Badminton</button>
+<button class="game-btn" onclick="loadFixtures('cricket', this)">🏏Cricket</button>
+<button class="game-btn" onclick="loadFixtures('chess', this)">♟️Chess</button>
+<button class="game-btn" onclick="loadFixtures('carrom', this)">🎯Carrom</button>
+<button class="game-btn" onclick="loadFixtures('ludo', this)">🎲Ludo</button>
+<button class="game-btn" onclick="loadFixtures('table-tennis', this)">Table Tennis</button>
+
+      
     </div>
 
     <!-- ROUND TABS -->
