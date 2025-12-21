@@ -23,10 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
    HELPERS
 ============================== */
 function hideAllSections() {
-  if (participantsSection) participantsSection.classList.add("hidden");
-  if (fixturesSection) fixturesSection.classList.add("hidden");
-  if (rulesSection) rulesSection.classList.add("hidden");
-  if (gameMenu) gameMenu.classList.add("hidden");
+  participantsSection?.classList.add("hidden");
+  fixturesSection?.classList.add("hidden");
+  rulesSection?.classList.add("hidden");
+  gameMenu?.classList.add("hidden");
 }
 
 /* ==============================
@@ -34,17 +34,15 @@ function hideAllSections() {
 ============================== */
 function showParticipants() {
   hideAllSections();
-
-  if (participantsSection) participantsSection.classList.remove("hidden");
-  if (gameMenu) gameMenu.classList.remove("hidden");
+  participantsSection.classList.remove("hidden");
+  gameMenu.classList.remove("hidden");
 
   content.innerHTML = `<p class="hint">Select a game to view participants.</p>`;
 }
 
 function showFixtures() {
   hideAllSections();
-
-  if (fixturesSection) fixturesSection.classList.remove("hidden");
+  fixturesSection.classList.remove("hidden");
 
   roundTabs.innerHTML = "";
   fixturesContent.innerHTML = `<p class="hint">Select a game to view fixtures.</p>`;
@@ -52,8 +50,7 @@ function showFixtures() {
 
 function showRules() {
   hideAllSections();
-
-  if (rulesSection) rulesSection.classList.remove("hidden");
+  rulesSection.classList.remove("hidden");
 
   rulesSection.innerHTML = `
     <h2>Rules & Regulations</h2>
@@ -138,11 +135,19 @@ function showRound(round) {
     return;
   }
 
-  let html = `<h3>${round.title}</h3><ol>`;
-  round.matches.forEach(match => {
-    html += `<li>${match}</li>`;
-  });
-  html += `</ol>`;
+  let html = `<h3>${round.title}</h3><ol class="fixture-list">`;
 
+  round.matches.forEach(match => {
+    const p1 = match.player1 || "TBD";
+    const p2 = match.player2 || "TBD";
+
+    if (p2 === "BYE") {
+      html += `<li><strong>${p1}</strong> — BYE</li>`;
+    } else {
+      html += `<li>${p1} <strong>vs</strong> ${p2}</li>`;
+    }
+  });
+
+  html += `</ol>`;
   fixturesContent.innerHTML = html;
 }
