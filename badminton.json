@@ -162,5 +162,16 @@
       { "name": "Deepak 🌹 Puja" },
       { "name": "Rahul 🌹 Sneha" }
     ]
+  },
+  "double_male_9_11": {
+    "title": "Badminton Doubles – Male (9-11)",
+    "participants": [
+      { "name": "Sanskar Ojha" },
+      { "name": "Varenyam" },
+      { "name": "Avyay (Sweet)" },
+      { "name": "Avaneesh Patro" },
+      { "name": "Prakhar Upadhyay" },
+      { "name": "Saqib Saikh" }
+    ]
   }
 }
