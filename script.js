@@ -104,3 +104,19 @@ function showRound(round) {
 
   container.innerHTML = html;
 }
+
+function showFixtures() {
+    // hide others
+    document.getElementById("participantsSection").classList.add("hidden");
+    document.getElementById("rulesSection").classList.add("hidden");
+  
+    // show fixtures
+    const fixtures = document.getElementById("fixturesSection");
+    fixtures.classList.remove("hidden");
+  
+    // optional: clear old content
+    document.getElementById("roundTabs").innerHTML = "";
+    document.getElementById("fixturesContent").innerHTML =
+      "<p>Select a game to view fixtures.</p>";
+  }
+  
