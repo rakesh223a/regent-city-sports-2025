@@ -1,41 +1,77 @@
 {
-    "below_14": {
-      "title": "Ludo – Below 14 Years",
-      "participants": [
-        { "name": "Advik Ranjan" },
-        { "name": "Ashray Singh" },
-        { "name": "Ishani Sanyal" },
-        { "name": "Shaanvi Dubey" },
-        { "name": "Aidya Pattnayak" },
-        { "name": "Prakhar Choudhary" },
-        { "name": "Sanskar Ojha" },
-        { "name": "Avaneesh Patro" }
-      ]
-    },
-  
-    "above_14": {
-      "title": "Ludo – 14+ Years",
-      "participants": [
-        { "name": "Rakesh Prasad" },
-        { "name": "Sanjay Singh" },
-        { "name": "Souravan Roy" },
-        { "name": "Jyoti Prakash" },
-        { "name": "Sushant Patro" },
-        { "name": "Samik Bhattacharya" },
-        { "name": "Sneha" },
-        { "name": "Ashita Ojha" },
-        { "name": "Gitanjali Patra" },
-        { "name": "Gouri Prabha Behera" }
-      ]
-    },
-  
-    "bye_list": {
-      "title": "Ludo – Bye List (Promoted to Round 2)",
-      "participants": [
-        { "name": "Advik Ranjan" },
-        { "name": "Souravan Roy" },
-        { "name": "Jyoti Prakash" }
-      ]
-    }
+  "below_14": {
+    "title": "Ludo – Below 14 Years",
+    "participants": [
+      { "name": "Mainak Roy" },
+      { "name": "Akshay Singh" },
+      { "name": "Isha Das" },
+      { "name": "Cheeku" },
+      { "name": "Ayushman Ghosh" },
+      { "name": "Shlok Bansal" },
+      { "name": "Rajveer Singh" },
+      { "name": "Sanjeevani Singh" },
+      { "name": "Shaanvi Dubey" },
+      { "name": "Arja Bhattacharya" },
+      { "name": "Priya Pradhan" },
+      { "name": "Haripriya" },
+      { "name": "Anhita Anvi" },
+      { "name": "Prakhar Upadhyay" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Rayan Dan" },
+      { "name": "Swarnabindu" },
+      { "name": "Saanvi Sanyal" },
+      { "name": "Ishani Sanyal" },
+      { "name": "Ashray Singh" },
+      { "name": "Advik Ranjan" },
+      { "name": "Pragya Choudhary" },
+      { "name": "Arik Choudhary" },
+      { "name": "Utkarsh Upadhyay" },
+      { "name": "Avaneesh Patro" },
+      { "name": "Samujjal Mukherjee" },
+      { "name": "Arav Raj" },
+      { "name": "Disha Mohanty" },
+      { "name": "Varenyam" },
+      { "name": "Aidya Pattnayak" },
+      { "name": "Prakhar Choudhary" },
+      { "name": "Debasish Panda" },
+      { "name": "Reyanshi" },
+      { "name": "Avyay (Sweet)" }
+    ]
+  },
+
+  "above_14": {
+    "title": "Ludo – 14+ Years",
+    "participants": [
+      { "name": "Indu Bala" },
+      { "name": "Sananda Mukherjee" },
+      { "name": "Swati Singh" },
+      { "name": "Puja Kumari" },
+      { "name": "Shatrupa Choudhary Paul" },
+      { "name": "Vandana Upadhyay" },
+      { "name": "Jyoti Kumari" },
+      { "name": "Parul Kacker" },
+      { "name": "Gitanjali Patro" },
+      { "name": "Anita Thakur" },
+      { "name": "Mahua Sanyal" },
+      { "name": "Prachi Ganguly" },
+      { "name": "Jyoti Prakash Pattanayak" },
+      { "name": "Jagdeep Saini" },
+      { "name": "Paramjeet Kaur" },
+      { "name": "Sangeeta Singh" },
+      { "name": "Sarita Roy" },
+      { "name": "Sonal Kumari" },
+      { "name": "Dipa Kumari" },
+      { "name": "Kumari Anshu Choudhary" },
+      { "name": "Urmila Devi" },
+      { "name": "Himika Roy" },
+      { "name": "Manish Kumar" },
+      { "name": "Lovely Lal" },
+      { "name": "Surabhi Kumari" },
+      { "name": "Prachi Ganguly" },
+      { "name": "Chaitanya" },
+      { "name": "Prabha Behera" },
+      {"name": "Sneha"}
+
+    ]
   }
-  
+}
