@@ -89,26 +89,42 @@ function renderParticipants(data) {
 /* ==============================
    FIXTURES
 ============================== */
-function loadFixtures(game, btn) {
-  setActive(btn, ".game-btn");
-
+function loadFixtures(game) {
   fetch(`fixtures/${game}.json`)
     .then(res => {
       if (!res.ok) throw new Error("Fixture not found");
       return res.json();
     })
     .then(data => {
-      // TEMP: auto-pick first category
-      const firstCategory = Object.values(data.categories)[0];
-      currentFixtures = firstCategory.rounds;
-      renderRounds(firstCategory.rounds);
+      renderFixtureCategories(data.categories);
     })
-    
     .catch(() => {
       fixturesContent.innerHTML =
         `<p>Fixtures for this game are not uploaded yet.</p>`;
     });
 }
+
+function renderFixtureCategories(categories) {
+  const categoryDiv = document.getElementById("fixtureCategories");
+  categoryDiv.innerHTML = "";
+  roundTabs.innerHTML = "";
+  fixturesContent.innerHTML = "";
+
+  Object.entries(categories).forEach(([key, category], index) => {
+    const btn = document.createElement("button");
+    btn.textContent = category.title;
+    btn.className = "sub-tab";
+    btn.onclick = () => {
+      setActive(categoryDiv, btn);
+      renderRounds(category.rounds);
+    };
+    categoryDiv.appendChild(btn);
+
+    // Auto-open first category
+    if (index === 0) btn.click();
+  });
+}
+
 
 
 function renderRounds(rounds) {
@@ -159,13 +175,10 @@ function showRound(round) {
   fixturesContent.innerHTML = html;
 }
 
-function setActive(button, groupSelector) {
-  document.querySelectorAll(groupSelector).forEach(btn =>
-    btn.classList.remove("active")
-  );
-
-  if (button) {
-    button.classList.add("active");
-  }
+function setActive(container, activeBtn) {
+  if (!container) return;
+  [...container.children].forEach(btn => btn.classList.remove("active"));
+  activeBtn.classList.add("active");
 }
+
 
