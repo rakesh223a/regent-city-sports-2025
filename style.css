@@ -112,4 +112,21 @@
       margin: auto;
     }
   }
+
+  .round-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+    background: #ffffff;
+  }
+  
+  .round-tabs button {
+    font-size: 12px;
+    padding: 8px 12px;
+    background: #90caf9;
+    border: none;
+    border-radius: 4px;
+  }
+  
   
