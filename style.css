@@ -129,4 +129,28 @@
     border-radius: 4px;
   }
   
-  
+  /* ==============================
+   CONTENT SPACING FIX
+============================== */
+
+#content {
+  padding: 16px 18px;
+}
+
+/* Headings spacing */
+#content h2 {
+  margin: 24px 0 12px;
+  padding-left: 6px;
+}
+
+/* Ordered list spacing */
+#content ol {
+  padding-left: 26px;   /* key fix: prevents touching left */
+  margin-bottom: 24px;
+}
+
+/* List item spacing */
+#content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
