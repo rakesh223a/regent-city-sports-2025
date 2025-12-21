@@ -20,9 +20,9 @@
 
   <!-- TOP MENU -->
   <nav class="main-menu">
-    <button onclick="showParticipants()">Participants</button>
-    <button onclick="showFixtures()">Fixtures</button>
-    <button onclick="showRules()">Rules</button>
+    <button onclick="showParticipants(this)">Participants</button>
+    <button onclick="showFixtures(this)">Fixtures</button>
+    <button onclick="showRules(this)">Rules</button>    
   </nav>
 
   <!-- PARTICIPANTS SECTION -->
@@ -30,12 +30,12 @@
 
     <!-- GAME MENU -->
     <div id="gameMenu" class="game-menu hidden">
-      <button onclick="loadGame('badminton')">🏸 Badminton</button>
-      <button onclick="loadGame('cricket')">🏏 Cricket</button>
-      <button onclick="loadGame('chess')">♟️ Chess</button>
-      <button onclick="loadGame('carrom')">🎯 Carrom</button>
-      <button onclick="loadGame('ludo')">🎲 Ludo</button>
-      <button onclick="loadGame('tt')">Table Tennis</button>
+      <button class="game-btn" onclick="loadGame('badminton', this)">🏸 Badminton</button>
+<button class="game-btn" onclick="loadGame('cricket', this)">🏏 Cricket</button>
+<button class="game-btn" onclick="loadGame('chess', this)">♟️ Chess</button>
+<button class="game-btn" onclick="loadGame('carrom', this)">🎯 Carrom</button>
+<button class="game-btn" onclick="loadGame('ludo', this)">🎲 Ludo</button>
+<button class="game-btn" onclick="loadGame('tt', this)">Table Tennis</button>
     </div>
 
     <!-- PARTICIPANTS CONTENT -->

@@ -32,46 +32,40 @@ function hideAllSections() {
 /* ==============================
    TOP MENU ACTIONS
 ============================== */
-function showParticipants() {
+function showParticipants(btn) {
   hideAllSections();
+  setActive(btn, ".top-menu button");
+
   participantsSection.classList.remove("hidden");
   gameMenu.classList.remove("hidden");
 
   content.innerHTML = `<p class="hint">Select a game to view participants.</p>`;
 }
 
-function showFixtures() {
+function showFixtures(btn) {
   hideAllSections();
-  fixturesSection.classList.remove("hidden");
+  setActive(btn, ".top-menu button");
 
-  roundTabs.innerHTML = "";
+  fixturesSection.classList.remove("hidden");
   fixturesContent.innerHTML = `<p class="hint">Select a game to view fixtures.</p>`;
 }
 
-function showRules() {
+function showRules(btn) {
   hideAllSections();
-  rulesSection.classList.remove("hidden");
+  setActive(btn, ".top-menu button");
 
-  rulesSection.innerHTML = `
-    <h2>Rules & Regulations</h2>
-    <ul>
-      <li>Participants must report on time.</li>
-      <li>Match schedule will be announced in advance.</li>
-      <li>Organizers’ decision is final.</li>
-      <li>Fair play is mandatory.</li>
-    </ul>
-  `;
+  rulesSection.classList.remove("hidden");
 }
+
 
 /* ==============================
    PARTICIPANTS
 ============================== */
-function loadGame(game) {
+function loadGame(game, btn) {
+  setActive(btn, ".game-btn");
+
   fetch(`${game}.json`)
-    .then(res => {
-      if (!res.ok) throw new Error("File not found");
-      return res.json();
-    })
+    .then(res => res.json())
     .then(data => renderParticipants(data))
     .catch(() => {
       content.innerHTML = `<p>Participant list not available.</p>`;
@@ -95,12 +89,11 @@ function renderParticipants(data) {
 /* ==============================
    FIXTURES
 ============================== */
-function loadFixtures(game) {
+function loadFixtures(game, btn) {
+  setActive(btn, ".game-btn");
+
   fetch(`fixtures/${game}.json`)
-    .then(res => {
-      if (!res.ok) throw new Error("Fixture not found");
-      return res.json();
-    })
+    .then(res => res.json())
     .then(data => {
       currentFixtures = data.rounds;
       renderRounds(data.rounds);
@@ -111,19 +104,27 @@ function loadFixtures(game) {
     });
 }
 
+
 function renderRounds(rounds) {
   roundTabs.innerHTML = "";
 
-  Object.keys(rounds).forEach(key => {
+  Object.values(rounds).forEach((round, index) => {
     const btn = document.createElement("button");
-    btn.textContent = rounds[key].title;
-    btn.onclick = () => showRound(rounds[key]);
-    roundTabs.appendChild(btn);
-  });
+    btn.textContent = round.title;
+    btn.className = "round-btn";
+    btn.onclick = () => {
+      setActive(btn, ".round-btn");
+      showRound(round);
+    };
 
-  // Auto open first round
-  const firstRound = Object.values(rounds)[0];
-  if (firstRound) showRound(firstRound);
+    roundTabs.appendChild(btn);
+
+    // Auto-select first round
+    if (index === 0) {
+      btn.classList.add("active");
+      showRound(round);
+    }
+  });
 }
 
 function showRound(round) {
@@ -151,3 +152,11 @@ function showRound(round) {
   html += `</ol>`;
   fixturesContent.innerHTML = html;
 }
+
+function setActive(button, groupSelector) {
+  document.querySelectorAll(groupSelector).forEach(btn =>
+    btn.classList.remove("active")
+  );
+  button.classList.add("active");
+}
+

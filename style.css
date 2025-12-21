@@ -154,3 +154,34 @@
   margin-bottom: 8px;
   line-height: 1.6;
 }
+
+/* ==============================
+   ACTIVE / SELECTED STATES
+============================== */
+
+/* Default buttons */
+button {
+  transition: all 0.2s ease;
+}
+
+/* Active button */
+button.active {
+  background-color: #0d47a1 !important;
+  color: #fff !important;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Game buttons (slightly different) */
+.game-btn.active {
+  background-color: #1565c0 !important;
+  color: #fff !important;
+  border: 2px solid #0d47a1;
+}
+
+/* Round buttons */
+.round-btn.active {
+  background-color: #2e7d32 !important;
+  color: #fff !important;
+}
+
