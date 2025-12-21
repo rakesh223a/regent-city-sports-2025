@@ -1,0 +1,28 @@
+{
+  "game": "Badminton",
+  "rounds": {
+    "round1": {
+      "title": "Round 1",
+      "matches": [
+        "Disha Mohanty vs Prakhar Choudhary",
+        "Mainak Roy vs Daksh Upadhyay"
+      ]
+    },
+    "round2": {
+      "title": "Round 2",
+      "matches": []
+    },
+    "quarterfinal": {
+      "title": "Quarter Final",
+      "matches": []
+    },
+    "semifinal": {
+      "title": "Semi Final",
+      "matches": []
+    },
+    "final": {
+      "title": "Final",
+      "matches": []
+    }
+  }
+}

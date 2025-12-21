@@ -56,3 +56,51 @@ function renderGame(data) {
   });
   content.innerHTML = html;
 }
+
+let currentFixtures = null;
+
+function loadFixtures(game) {
+  fetch(`fixtures/${game}.json`)
+    .then(res => res.json())
+    .then(data => {
+      currentFixtures = data.rounds;
+      renderRounds(data.rounds);
+    })
+    .catch(() => {
+      document.getElementById("fixturesContent").innerHTML =
+        "<p>Fixtures not uploaded yet.</p>";
+    });
+}
+
+function renderRounds(rounds) {
+  const roundTabs = document.getElementById("roundTabs");
+  roundTabs.innerHTML = "";
+
+  Object.keys(rounds).forEach(key => {
+    const btn = document.createElement("button");
+    btn.innerText = rounds[key].title;
+    btn.onclick = () => showRound(rounds[key]);
+    roundTabs.appendChild(btn);
+  });
+
+  // auto-open Round 1
+  const firstRound = Object.values(rounds)[0];
+  if (firstRound) showRound(firstRound);
+}
+
+function showRound(round) {
+  const container = document.getElementById("fixturesContent");
+
+  if (!round.matches || round.matches.length === 0) {
+    container.innerHTML = `<h3>${round.title}</h3><p>Fixtures will be updated soon.</p>`;
+    return;
+  }
+
+  let html = `<h3>${round.title}</h3><ol>`;
+  round.matches.forEach(m => {
+    html += `<li>${m}</li>`;
+  });
+  html += "</ol>";
+
+  container.innerHTML = html;
+}

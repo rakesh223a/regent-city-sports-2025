@@ -35,6 +35,25 @@
     <p class="hint">Select a menu to view details.</p>
   </main>
 
+  <div id="fixturesSection" class="hidden">
+
+    <!-- Game Tabs -->
+    <div class="game-tabs">
+      <button onclick="loadFixtures('badminton')">Badminton</button>
+      <button onclick="loadFixtures('cricket')">Cricket</button>
+      <button onclick="loadFixtures('chess')">Chess</button>
+      <button onclick="loadFixtures('carrom')">Carrom</button>
+      <button onclick="loadFixtures('ludo')">Ludo</button>
+    </div>
+  
+    <!-- Round Tabs -->
+    <div id="roundTabs" class="round-tabs"></div>
+  
+    <!-- Fixtures Content -->
+    <div id="fixturesContent" class="content-card"></div>
+  
+  </div>
+  
   <!-- FOOTER -->
   <footer>
     © Regent City Annual Sports 2025–26
