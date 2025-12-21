@@ -98,9 +98,12 @@ function loadFixtures(game, btn) {
       return res.json();
     })
     .then(data => {
-      currentFixtures = data.rounds;
-      renderRounds(data.rounds);
+      // TEMP: auto-pick first category
+      const firstCategory = Object.values(data.categories)[0];
+      currentFixtures = firstCategory.rounds;
+      renderRounds(firstCategory.rounds);
     })
+    
     .catch(() => {
       fixturesContent.innerHTML =
         `<p>Fixtures for this game are not uploaded yet.</p>`;
