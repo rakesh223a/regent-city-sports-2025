@@ -198,5 +198,34 @@
       { "name": "Pragya Choudhary" },
       { "name": "Aidya Pattnayak" }
     ]
+  },
+  "double_male_14_+": {
+    "title": "Badminton Doubles – Male (14+)",
+    "participants": [
+      { "name": "Souravan Roy" },
+      { "name": "Gouravjeet Mahakul" },
+      { "name": "Kaustav Das" },
+      { "name": "Sanjay Singh" },
+      { "name": "Vishal Kumar" },
+      { "name": "Ayushman Sharma" },
+      { "name": "Manish Kumar" },
+      { "name": "Tirthankar Kanjilal" },
+      { "name": "Ranjeet Tiwari" },
+      { "name": "Samik Bhattacharya" },
+      { "name": "Vivek Upadhyay" },
+      { "name": "Anirban Mukherjee" },
+      { "name": "Keshav Tiwari" },
+      { "name": "Kabir Shrey" },
+      { "name": "Prem Alok" },
+      { "name": "Raj Paul" },
+      { "name": "Sushant Patro" },
+      { "name": "Dhimanta Chakraborty" },
+      { "name": "Jyoti Prakash Pattanayak" },
+      { "name": "Jagdeep Saini" },
+      { "name": "Deepak Mohanty" },
+      { "name": "Rakesh Prasad" },
+      { "name": "Suraj Biswas" },
+      { "name": "Deepak Kumar" }
+    ]
   }
 }
