@@ -8,8 +8,7 @@ const participantsSection = document.getElementById("participantsSection");
 const rulesSection = document.getElementById("rulesSection");
 const roundTabs = document.getElementById("roundTabs");
 const fixturesContent = document.getElementById("fixturesContent");
-
-let currentFixtures = null;
+const fixtureCategories = document.getElementById("fixtureCategories");
 
 /* ==============================
    INITIAL LOAD
@@ -29,41 +28,56 @@ function hideAllSections() {
   gameMenu?.classList.add("hidden");
 }
 
-/* ==============================
-   TOP MENU ACTIONS
-============================== */
-function showParticipants(btn) {
-  hideAllSections();
-  setActive(btn, ".top-menu button");
+function setActive(container, activeBtn) {
+  if (!container || !activeBtn) return;
 
+  Array.from(container.children).forEach(btn => {
+    btn.classList.remove("active");
+  });
+
+  activeBtn.classList.add("active");
+}
+
+/* ==============================
+   TOP MENU
+============================== */
+function showParticipants() {
+  hideAllSections();
   participantsSection.classList.remove("hidden");
   gameMenu.classList.remove("hidden");
 
   content.innerHTML = `<p class="hint">Select a game to view participants.</p>`;
 }
 
-function showFixtures(btn) {
+function showFixtures() {
   hideAllSections();
-  setActive(btn, ".top-menu button");
-
   fixturesSection.classList.remove("hidden");
-  fixturesContent.innerHTML = `<p class="hint">Select a game to view fixtures.</p>`;
+
+  fixtureCategories.innerHTML = "";
+  roundTabs.innerHTML = "";
+  fixturesContent.innerHTML =
+    `<p class="hint">Select a game to view fixtures.</p>`;
 }
 
-function showRules(btn) {
+function showRules() {
   hideAllSections();
-  setActive(btn, ".top-menu button");
-
   rulesSection.classList.remove("hidden");
-}
 
+  rulesSection.innerHTML = `
+    <h2>📜 Rules & Regulations</h2>
+    <ul>
+      <li>Participants must report on time.</li>
+      <li>Fixtures are subject to change.</li>
+      <li>Fair play is mandatory.</li>
+      <li>Organizers’ decision is final.</li>
+    </ul>
+  `;
+}
 
 /* ==============================
    PARTICIPANTS
 ============================== */
-function loadGame(game, btn) {
-  setActive(btn, ".game-btn");
-
+function loadGame(game) {
   fetch(`${game}.json`)
     .then(res => res.json())
     .then(data => renderParticipants(data))
@@ -76,11 +90,13 @@ function renderParticipants(data) {
   let html = "";
 
   Object.values(data).forEach(category => {
-    html += `<h2>${category.title}</h2><ol>`;
+    html += `<div class="card">
+      <h3>${category.title}</h3>
+      <ol>`;
     category.participants.forEach(p => {
       html += `<li>${p.name}</li>`;
     });
-    html += `</ol>`;
+    html += `</ol></div>`;
   });
 
   content.innerHTML = html;
@@ -91,13 +107,8 @@ function renderParticipants(data) {
 ============================== */
 function loadFixtures(game) {
   fetch(`fixtures/${game}.json`)
-    .then(res => {
-      if (!res.ok) throw new Error("Fixture not found");
-      return res.json();
-    })
-    .then(data => {
-      renderFixtureCategories(data.categories);
-    })
+    .then(res => res.json())
+    .then(data => renderFixtureCategories(data.categories))
     .catch(() => {
       fixturesContent.innerHTML =
         `<p>Fixtures for this game are not uploaded yet.</p>`;
@@ -105,80 +116,59 @@ function loadFixtures(game) {
 }
 
 function renderFixtureCategories(categories) {
-  const categoryDiv = document.getElementById("fixtureCategories");
-  categoryDiv.innerHTML = "";
+  fixtureCategories.innerHTML = "";
   roundTabs.innerHTML = "";
   fixturesContent.innerHTML = "";
 
-  Object.entries(categories).forEach(([key, category], index) => {
+  Object.values(categories).forEach(category => {
     const btn = document.createElement("button");
     btn.textContent = category.title;
-    btn.className = "sub-tab";
+
     btn.onclick = () => {
-      setActive(categoryDiv, btn);
+      setActive(fixtureCategories, btn);
       renderRounds(category.rounds);
     };
-    categoryDiv.appendChild(btn);
 
-    // Auto-open first category
-    if (index === 0) btn.click();
+    fixtureCategories.appendChild(btn);
   });
+
+  // Auto open first category
+  const firstBtn = fixtureCategories.children[0];
+  if (firstBtn) firstBtn.click();
 }
-
-
 
 function renderRounds(rounds) {
   roundTabs.innerHTML = "";
+  fixturesContent.innerHTML = "";
 
-  Object.values(rounds).forEach((round, index) => {
+  Object.values(rounds).forEach(round => {
     const btn = document.createElement("button");
     btn.textContent = round.title;
-    btn.className = "round-btn";
+
     btn.onclick = () => {
-      setActive(btn, ".round-btn");
+      setActive(roundTabs, btn);
       showRound(round);
     };
 
     roundTabs.appendChild(btn);
-
-    // Auto-select first round
-    if (index === 0) {
-      btn.classList.add("active");
-      showRound(round);
-    }
   });
+
+  // Auto open first round
+  const firstBtn = roundTabs.children[0];
+  if (firstBtn) firstBtn.click();
 }
 
 function showRound(round) {
-  if (!round.matches || round.matches.length === 0) {
-    fixturesContent.innerHTML = `
-      <h3>${round.title}</h3>
-      <p>Fixtures will be updated soon.</p>
-    `;
-    return;
-  }
-
-  let html = `<h3>${round.title}</h3><ol class="fixture-list">`;
+  let html = `<h3>${round.title}</h3><ol>`;
 
   round.matches.forEach(match => {
-    const p1 = match.player1 || "TBD";
-    const p2 = match.player2 || "TBD";
-
-    if (p2 === "BYE") {
-      html += `<li><strong>${p1}</strong> — BYE</li>`;
+    if (match.bye) {
+      html += `<li><strong>${match.player}</strong> — BYE</li>`;
     } else {
-      html += `<li>${p1} <strong>vs</strong> ${p2}</li>`;
+      html += `<li>${match.player1} vs ${match.player2}</li>`;
     }
   });
 
   html += `</ol>`;
   fixturesContent.innerHTML = html;
 }
-
-function setActive(container, activeBtn) {
-  if (!container) return;
-  [...container.children].forEach(btn => btn.classList.remove("active"));
-  activeBtn.classList.add("active");
-}
-
-

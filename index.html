@@ -4,80 +4,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Regent City Annual Sports 2025–26</title>
-
-  <!-- Prevent favicon 404 -->
-  <link rel="icon" href="data:," />
-
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
   <!-- HEADER -->
-  <header>
-    <h1>🏆 Regent City Annual Sports 2025–26</h1>
+  <header class="header">
+    🏆 Regent City Annual Sports 2025–26
   </header>
 
   <!-- TOP MENU -->
-  <nav class="main-menu">
-    <button onclick="showParticipants(this)">Participants</button>
-    <button onclick="showFixtures(this)">Fixtures</button>
-    <button onclick="showRules(this)">Rules</button>    
+  <nav class="top-menu">
+    <button onclick="showParticipants()">Participants</button>
+    <button onclick="showFixtures()">Fixtures</button>
+    <button onclick="showRules()">Rules</button>
   </nav>
 
-  <!-- PARTICIPANTS SECTION -->
-  <div id="participantsSection" class="hidden">
-
-    <!-- GAME MENU -->
-    <div id="gameMenu" class="game-menu hidden">
-      <button class="game-btn" onclick="loadGame('badminton', this)">🏸 Badminton</button>
-<button class="game-btn" onclick="loadGame('cricket', this)">🏏 Cricket</button>
-<button class="game-btn" onclick="loadGame('chess', this)">♟️ Chess</button>
-<button class="game-btn" onclick="loadGame('carrom', this)">🎯 Carrom</button>
-<button class="game-btn" onclick="loadGame('ludo', this)">🎲 Ludo</button>
-<button class="game-btn" onclick="loadGame('tt', this)">Table Tennis</button>
-    </div>
-
-    <!-- PARTICIPANTS CONTENT -->
-    <div id="content"></div>
+  <!-- GAME MENU (Participants & Fixtures) -->
+  <div id="gameMenu" class="game-menu hidden">
+    <button onclick="loadGame('badminton')">🏸 Badminton</button>
+    <button onclick="loadGame('cricket')">🏏 Cricket</button>
+    <button onclick="loadGame('chess')">♟ Chess</button>
+    <button onclick="loadGame('carrom')">🎯 Carrom</button>
+    <button onclick="loadGame('ludo')">🎲 Ludo</button>
+    <button onclick="loadGame('table-tennis')">🏓 Table Tennis</button>
   </div>
+
+  <!-- PARTICIPANTS SECTION -->
+  <section id="participantsSection" class="hidden">
+    <div id="content"></div>
+  </section>
 
   <!-- FIXTURES SECTION -->
-  <div id="fixturesSection" class="hidden">
-
+  <section id="fixturesSection" class="hidden">
     <h2>📋 Fixtures</h2>
 
-    <!-- FIXTURE GAME TABS -->
+    <!-- Game selection for fixtures -->
     <div class="game-menu">
-      <button class="game-btn" onclick="loadFixtures('badminton', this)">🏸Badminton</button>
-<button class="game-btn" onclick="loadFixtures('cricket', this)">🏏Cricket</button>
-<button class="game-btn" onclick="loadFixtures('chess', this)">♟️Chess</button>
-<button class="game-btn" onclick="loadFixtures('carrom', this)">🎯Carrom</button>
-<button class="game-btn" onclick="loadFixtures('ludo', this)">🎲Ludo</button>
-<button class="game-btn" onclick="loadFixtures('tt', this)">Table Tennis</button>
-
-      
+      <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
+      <button onclick="loadFixtures('cricket')">🏏 Cricket</button>
+      <button onclick="loadFixtures('chess')">♟ Chess</button>
+      <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
+      <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
+      <button onclick="loadFixtures('table-tennis')">🏓 Table Tennis</button>
     </div>
 
-  
+    <!-- Category Tabs -->
+    <div id="fixtureCategories" class="tabs"></div>
 
-    
-    <div id="fixtureCategories" class="tab-row"></div>
-<div id="roundTabs" class="tab-row"></div>
-<div id="fixturesContent"></div>
+    <!-- Round Tabs -->
+    <div id="roundTabs" class="tabs"></div>
 
-  </div>
+    <!-- Fixture Content -->
+    <div id="fixturesContent"></div>
+  </section>
 
   <!-- RULES SECTION -->
-  <div id="rulesSection" class="hidden"></div>
+  <section id="rulesSection" class="hidden"></section>
 
   <!-- FOOTER -->
-  <footer>
+  <footer class="footer">
     © Regent City Annual Sports 2025–26
   </footer>
 
-  <!-- SCRIPT -->
   <script src="script.js"></script>
-
 </body>
 </html>
