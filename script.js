@@ -1,52 +1,89 @@
+/* ==============================
+   GLOBAL REFERENCES
+============================== */
 const content = document.getElementById("content");
 const gameMenu = document.getElementById("gameMenu");
+const fixturesSection = document.getElementById("fixturesSection");
+const participantsSection = document.getElementById("participantsSection");
+const rulesSection = document.getElementById("rulesSection");
+const roundTabs = document.getElementById("roundTabs");
+const fixturesContent = document.getElementById("fixturesContent");
 
+let currentFixtures = null;
+
+/* ==============================
+   INITIAL LOAD
+============================== */
+document.addEventListener("DOMContentLoaded", () => {
+  hideAllSections();
+  content.innerHTML = `<p class="hint">Select a menu to continue.</p>`;
+});
+
+/* ==============================
+   HELPERS
+============================== */
+function hideAllSections() {
+  if (participantsSection) participantsSection.classList.add("hidden");
+  if (fixturesSection) fixturesSection.classList.add("hidden");
+  if (rulesSection) rulesSection.classList.add("hidden");
+  if (gameMenu) gameMenu.classList.add("hidden");
+}
+
+/* ==============================
+   TOP MENU ACTIONS
+============================== */
 function showParticipants() {
-  gameMenu.classList.remove("hidden");
+  hideAllSections();
+
+  if (participantsSection) participantsSection.classList.remove("hidden");
+  if (gameMenu) gameMenu.classList.remove("hidden");
+
   content.innerHTML = `<p class="hint">Select a game to view participants.</p>`;
 }
 
 function showFixtures() {
-  gameMenu.classList.add("hidden");
-  content.innerHTML = `
-    <h2>Fixtures</h2>
-    <p>Fixtures will be updated during the tournament.</p>
-  `;
+  hideAllSections();
+
+  if (fixturesSection) fixturesSection.classList.remove("hidden");
+
+  roundTabs.innerHTML = "";
+  fixturesContent.innerHTML = `<p class="hint">Select a game to view fixtures.</p>`;
 }
 
 function showRules() {
-  gameMenu.classList.add("hidden");
-  content.innerHTML = `
+  hideAllSections();
+
+  if (rulesSection) rulesSection.classList.remove("hidden");
+
+  rulesSection.innerHTML = `
     <h2>Rules & Regulations</h2>
     <ul>
-      <li>Matches follow standard rules</li>
-      <li>Organizers' decision is final</li>
-      <li>Be on time for matches</li>
+      <li>Participants must report on time.</li>
+      <li>Match schedule will be announced in advance.</li>
+      <li>Organizers’ decision is final.</li>
+      <li>Fair play is mandatory.</li>
     </ul>
   `;
 }
 
+/* ==============================
+   PARTICIPANTS
+============================== */
 function loadGame(game) {
-    fetch(`${game}.json`)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`File not found: ${game}.json`);
-        }
-        return response.json();
-      })
-      .then(data => renderGame(data))
-      .catch(err => {
-        content.innerHTML = `
-          <h2>Error</h2>
-          <p>${err.message}</p>
-          <p>Please check if the JSON file exists and is committed.</p>
-        `;
-      });
-  }
-  
+  fetch(`${game}.json`)
+    .then(res => {
+      if (!res.ok) throw new Error("File not found");
+      return res.json();
+    })
+    .then(data => renderParticipants(data))
+    .catch(() => {
+      content.innerHTML = `<p>Participant list not available.</p>`;
+    });
+}
 
-function renderGame(data) {
+function renderParticipants(data) {
   let html = "";
+
   Object.values(data).forEach(category => {
     html += `<h2>${category.title}</h2><ol>`;
     category.participants.forEach(p => {
@@ -54,69 +91,58 @@ function renderGame(data) {
     });
     html += `</ol>`;
   });
+
   content.innerHTML = html;
 }
 
-let currentFixtures = null;
-
+/* ==============================
+   FIXTURES
+============================== */
 function loadFixtures(game) {
   fetch(`fixtures/${game}.json`)
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error("Fixture not found");
+      return res.json();
+    })
     .then(data => {
       currentFixtures = data.rounds;
       renderRounds(data.rounds);
     })
     .catch(() => {
-      document.getElementById("fixturesContent").innerHTML =
-        "<p>Fixtures not uploaded yet.</p>";
+      fixturesContent.innerHTML =
+        `<p>Fixtures for this game are not uploaded yet.</p>`;
     });
 }
 
 function renderRounds(rounds) {
-  const roundTabs = document.getElementById("roundTabs");
   roundTabs.innerHTML = "";
 
   Object.keys(rounds).forEach(key => {
     const btn = document.createElement("button");
-    btn.innerText = rounds[key].title;
+    btn.textContent = rounds[key].title;
     btn.onclick = () => showRound(rounds[key]);
     roundTabs.appendChild(btn);
   });
 
-  // auto-open Round 1
+  // Auto open first round
   const firstRound = Object.values(rounds)[0];
   if (firstRound) showRound(firstRound);
 }
 
 function showRound(round) {
-  const container = document.getElementById("fixturesContent");
-
   if (!round.matches || round.matches.length === 0) {
-    container.innerHTML = `<h3>${round.title}</h3><p>Fixtures will be updated soon.</p>`;
+    fixturesContent.innerHTML = `
+      <h3>${round.title}</h3>
+      <p>Fixtures will be updated soon.</p>
+    `;
     return;
   }
 
   let html = `<h3>${round.title}</h3><ol>`;
-  round.matches.forEach(m => {
-    html += `<li>${m}</li>`;
+  round.matches.forEach(match => {
+    html += `<li>${match}</li>`;
   });
-  html += "</ol>";
+  html += `</ol>`;
 
-  container.innerHTML = html;
+  fixturesContent.innerHTML = html;
 }
-
-function showFixtures() {
-    // hide others
-    document.getElementById("participantsSection").classList.add("hidden");
-    document.getElementById("rulesSection").classList.add("hidden");
-  
-    // show fixtures
-    const fixtures = document.getElementById("fixturesSection");
-    fixtures.classList.remove("hidden");
-  
-    // optional: clear old content
-    document.getElementById("roundTabs").innerHTML = "";
-    document.getElementById("fixturesContent").innerHTML =
-      "<p>Select a game to view fixtures.</p>";
-  }
-  

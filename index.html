@@ -4,62 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Regent City Annual Sports 2025–26</title>
+
+  <!-- Prevent favicon 404 -->
+  <link rel="icon" href="data:," />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- HEADER -->
   <header>
-    🏆 Regent City Annual Sports 2025–26
+    <h1>🏆 Regent City Annual Sports 2025–26</h1>
   </header>
 
-  <!-- MAIN MENU -->
-  <nav class="main-menu">
+  <!-- TOP MENU -->
+  <nav class="top-menu">
     <button onclick="showParticipants()">Participants</button>
     <button onclick="showFixtures()">Fixtures</button>
     <button onclick="showRules()">Rules</button>
   </nav>
 
-  <!-- GAME MENU -->
-  <div id="gameMenu" class="game-menu hidden">
-    <button onclick="loadGame('badminton')">Badminton</button>
-    <button onclick="loadGame('cricket')">Cricket</button>
-    <button onclick="loadGame('tt')">Table Tennis</button>
-    <button onclick="loadGame('chess')">Chess</button>
-    <button onclick="loadGame('carrom')">Carrom</button>
-    <button onclick="loadGame('ludo')">Ludo</button>
+  <!-- PARTICIPANTS SECTION -->
+  <div id="participantsSection" class="hidden">
+
+    <!-- GAME MENU -->
+    <div id="gameMenu" class="game-menu hidden">
+      <button onclick="loadGame('badminton')">🏸 Badminton</button>
+      <button onclick="loadGame('cricket')">🏏 Cricket</button>
+      <button onclick="loadGame('chess')">♟️ Chess</button>
+      <button onclick="loadGame('carrom')">🎯 Carrom</button>
+      <button onclick="loadGame('ludo')">🎲 Ludo</button>
+    </div>
+
+    <!-- PARTICIPANTS CONTENT -->
+    <div id="content"></div>
   </div>
 
-  <!-- CONTENT -->
-  <main id="content">
-    <p class="hint">Select a menu to view details.</p>
-  </main>
-
+  <!-- FIXTURES SECTION -->
   <div id="fixturesSection" class="hidden">
 
-    <!-- Game Tabs -->
+    <h2>📋 Fixtures</h2>
+
+    <!-- FIXTURE GAME TABS -->
     <div class="game-tabs">
-      <button onclick="loadFixtures('badminton')">Badminton</button>
-      <button onclick="loadFixtures('cricket')">Cricket</button>
-      <button onclick="loadFixtures('chess')">Chess</button>
-      <button onclick="loadFixtures('carrom')">Carrom</button>
-      <button onclick="loadFixtures('ludo')">Ludo</button>
+      <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
+      <button onclick="loadFixtures('cricket')">🏏 Cricket</button>
+      <button onclick="loadFixtures('chess')">♟️ Chess</button>
+      <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
+      <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
     </div>
-  
-    <!-- Round Tabs -->
+
+    <!-- ROUND TABS -->
     <div id="roundTabs" class="round-tabs"></div>
-  
-    <!-- Fixtures Content -->
-    <div id="fixturesContent" class="content-card"></div>
-  
+
+    <!-- FIXTURE CONTENT -->
+    <div id="fixturesContent"></div>
   </div>
-  
-  
+
+  <!-- RULES SECTION -->
+  <div id="rulesSection" class="hidden"></div>
+
   <!-- FOOTER -->
   <footer>
     © Regent City Annual Sports 2025–26
   </footer>
 
+  <!-- SCRIPT -->
   <script src="script.js"></script>
+
 </body>
 </html>
