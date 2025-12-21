@@ -1,0 +1,36 @@
+{
+  "game": "Table Tennis",
+  "rounds": {
+    "round_1": {
+      "title": "Round 1",
+      "matches": [
+        {
+          "player1": "Ayushman Sharma",
+          "player2": "Dhimanta Chakraborty"
+        },
+        {
+          "player1": "Samik Bhattacharya",
+          "player2": "Souravan Roy"
+        },
+        {
+          "player1": "Arja Bhattacharya",
+          "player2": "Anirban Mukherjee"
+        },
+        {
+          "player1": "Akash Chakraborty",
+          "player2": "BYE"
+        }
+      ]
+    },
+    "round_2": {
+  "title": "Round 2",
+  "matches": [
+    {
+      "player1": "Winner Match 1",
+      "player2": "Winner Match 2"
+    }
+  ]
+}
+
+  }
+}
