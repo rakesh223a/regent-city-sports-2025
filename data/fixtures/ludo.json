@@ -1,0 +1,66 @@
+{
+  "game": "Ludo",
+  "categories": {
+
+    "ludo_below_14": {
+      "title": "Singles Below 14",
+      "rounds": {
+        "round1": {
+          "title": "Round 1",
+          "matches": [
+            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
+            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" },
+            { "player1": "Ashray Singh", "player2": "BYE" }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+          ]
+        }
+      }
+    },
+
+    "ludo_14_plus": {
+      "title": "Singles 14+",
+      "rounds": {
+        "round1": {
+          "title": "Round 1",
+          "matches": [
+            { "player1": "Sanskar Ojha", "player2": "Avyay (Sweet)" },
+            { "player1": "Varenyam", "player2": "Avaneesh Patro" },
+            { "player1": "Saqib Saikh", "player2": "Prakhar Upadhyay" }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+          ]
+        }
+      }
+    },
+
+    "double_14_plus": {
+      "title": "Doubles 14 Plus",
+      "rounds": {
+        "round1": {
+          "title": "Round 1",
+          "matches": [
+            { "player1": "Mainak Roy", "player2": "Daksh Upadhyay" },
+            { "player1": "Omkant Ojha", "player2": "Arja Bhattacharya" },
+            { "player1": "Vaibhav Shaw", "player2": "BYE" }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+          ]
+        }
+      }
+    }
+
+  }
+}
