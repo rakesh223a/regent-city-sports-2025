@@ -1,177 +1,238 @@
+/* ==============================
+   GLOBAL STATE
+============================== */
 const content = document.getElementById("content");
 const gameMenu = document.getElementById("gameMenu");
-const fixturesSection = document.getElementById("fixturesSection");
-const rulesSection = document.getElementById("rulesSection");
 
-const categoryTabs = document.getElementById("categoryTabs");
-const roundTabs = document.getElementById("roundTabs");
-const fixturesContent = document.getElementById("fixturesContent");
+let currentPage = null; // "participants" | "fixtures"
 
-let appMode = "participants"; // participants | fixtures
-let currentFixtureData = null;
-
-/* ===============================
-   INIT
-=============================== */
-document.addEventListener("DOMContentLoaded", () => {
-  bindMenus();
-  bindGames();
-  showParticipants();
-});
-
-/* ===============================
-   MENU BINDING
-=============================== */
-function bindMenus() {
-  document.getElementById("menuParticipants").onclick = showParticipants;
-  document.getElementById("menuFixtures").onclick = showFixtures;
-  document.getElementById("menuRules").onclick = showRules;
-}
-
-function bindGames() {
-  document.querySelectorAll(".game-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      setActive(btn, ".game-btn");
-      const game = btn.dataset.game;
-
-      if (appMode === "participants") {
-        loadParticipants(game);
-      } else {
-        loadFixtures(game);
-      }
-    });
-  });
-}
-
-/* ===============================
-   VIEW SWITCH
-=============================== */
-function hideAll() {
+/* ==============================
+   PAGE NAVIGATION
+============================== */
+function showPage(page) {
+  currentPage = page;
+  gameMenu.classList.add("hidden");
   content.innerHTML = "";
-  fixturesSection.classList.add("hidden");
-  rulesSection.classList.add("hidden");
+
+  if (page === "participants") {
+    gameMenu.classList.remove("hidden");
+    content.innerHTML =
+      "<p class='hint'>Select a game to view participants.</p>";
+  }
+
+  if (page === "fixtures") {
+    gameMenu.classList.remove("hidden");
+    content.innerHTML =
+      "<p class='hint'>Select a game to view fixtures.</p>";
+  }
+
+  if (page === "rules") {
+    content.innerHTML = `
+      <h2>Rules & Regulations</h2>
+      <ul>
+        <li>Participants must report on time.</li>
+        <li>Fixtures may change during the tournament.</li>
+        <li>Organizers’ decision is final.</li>
+        <li>Fair play is mandatory.</li>
+      </ul>
+    `;
+  }
 }
 
-function showParticipants() {
-  appMode = "participants";
-  hideAll();
-  gameMenu.classList.remove("hidden");
-  content.innerHTML = `<p>Select a game to view participants.</p>`;
-  setActive(document.getElementById("menuParticipants"), ".menu-btn");
+/* ==============================
+   GAME CLICK ROUTER
+============================== */
+function onGameClick(game) {
+  if (currentPage === "participants") {
+    loadParticipants(game);
+  } else if (currentPage === "fixtures") {
+    loadFixtures(game);
+  }
 }
 
-function showFixtures() {
-  appMode = "fixtures";
-  hideAll();
-  gameMenu.classList.remove("hidden");
-  fixturesSection.classList.remove("hidden");
-
-  categoryTabs.innerHTML = "";
-  roundTabs.innerHTML = "";
-  fixturesContent.innerHTML = `<p>Select a game to view fixtures.</p>`;
-
-  setActive(document.getElementById("menuFixtures"), ".menu-btn");
+function clearContent() {
+  content.innerHTML = "";
 }
 
-function showRules() {
-  appMode = "rules";
-  hideAll();
-  rulesSection.classList.remove("hidden");
-  setActive(document.getElementById("menuRules"), ".menu-btn");
-}
 
-/* ===============================
+/* ==============================
    PARTICIPANTS
-=============================== */
+============================== */
 function loadParticipants(game) {
   fetch(`data/participants/${game}.json`)
-    .then(r => r.json())
-    .then(data => {
-      let html = "";
-      Object.values(data).forEach(cat => {
-        html += `<h3>${cat.title}</h3><ol>`;
-        cat.participants.forEach(p => {
-          html += `<li>${p.name}</li>`;
-        });
-        html += `</ol>`;
-      });
-      content.innerHTML = html;
+    .then(res => {
+      if (!res.ok) throw new Error("Participants not found");
+      return res.json();
     })
+    .then(data => renderParticipants(data))
     .catch(() => {
-      content.innerHTML = `<p>Participants not available.</p>`;
+      content.innerHTML = "<p>Participant data not available.</p>";
     });
 }
 
-/* ===============================
-   FIXTURES (MULTI CATEGORY)
-=============================== */
+function renderParticipants(data) {
+  let html = "";
+
+  Object.values(data).forEach(category => {
+    html += `<h2>${category.title}</h2><ol>`;
+    category.participants.forEach(p => {
+      html += `<li>${p.name}</li>`;
+    });
+    html += `</ol>`;
+  });
+
+  content.innerHTML = html;
+}
+
+/* ==============================
+   FIXTURES
+============================== */
 function loadFixtures(game) {
   fetch(`data/fixtures/${game}.json`)
-    .then(r => r.json())
+    .then(res => {
+      if (!res.ok) throw new Error("Fixtures not found");
+      return res.json();
+    })
     .then(data => {
-      currentFixtureData = data.categories;
-      renderCategories(data.categories);
+      if (data.categories) {
+        renderFixtureCategories(data.game, data.categories);
+      } else if (data.rounds) {
+        renderRoundsView(data.game, data.rounds);
+      } else {
+        content.innerHTML = "<p>No fixtures available.</p>";
+      }
     })
     .catch(() => {
-      fixturesContent.innerHTML = `<p>Fixtures not uploaded.</p>`;
+      content.innerHTML = "<p>Fixtures not available.</p>";
     });
 }
 
-function renderCategories(categories) {
-  categoryTabs.innerHTML = "";
-  roundTabs.innerHTML = "";
-  fixturesContent.innerHTML = "";
 
-  Object.entries(categories).forEach(([key, cat], index) => {
+function renderFixtureCategories(gameName, categories) {
+  clearContent();
+
+  let html = `<h2>${gameName} Fixtures</h2>`;
+  html += `<div class="category-menu">`;
+
+  Object.entries(categories).forEach(([key, category]) => {
+    html += `
+      <button onclick="renderRoundsView('${category.title}', ${encodeURIComponent(JSON.stringify(category.rounds))})">
+        ${category.title}
+      </button>
+    `;
+  });
+
+  html += `</div>`;
+  content.innerHTML = html;
+}
+
+function renderRoundsView(title, roundsData) {
+  // Handle encoded JSON when coming from category click
+  if (typeof roundsData === "string") {
+    roundsData = JSON.parse(decodeURIComponent(roundsData));
+  }
+
+  let html = `<h2>${title}</h2>`;
+
+  Object.values(roundsData).forEach(round => {
+    html += `<h3>${round.title}</h3><ol>`;
+    round.matches.forEach(match => {
+      html += `<li>${match.player1} vs ${match.player2}</li>`;
+    });
+    html += `</ol>`;
+  });
+
+  content.innerHTML = html;
+}
+
+function renderFixtures(data) {
+  let html = `<h2>${data.game} Fixtures</h2>`;
+
+  if (!data.rounds) {
+    content.innerHTML = "<p>No fixture rounds found.</p>";
+    return;
+  }
+
+  Object.values(data.rounds).forEach(round => {
+    html += `<h3>${round.title}</h3><ol>`;
+    round.matches.forEach(match => {
+      html += `<li>${match.player1} vs ${match.player2}</li>`;
+    });
+    html += `</ol>`;
+  });
+
+  content.innerHTML = html;
+}
+
+function renderBadmintonCategories(categories) {
+  const container = document.getElementById("categoryTabs");
+  container.innerHTML = "";
+
+  Object.keys(categories).forEach(key => {
     const btn = document.createElement("button");
-    btn.textContent = cat.title;
-    btn.className = "tab-btn";
-    btn.onclick = () => openCategory(key);
-    categoryTabs.appendChild(btn);
+    btn.className = "category-btn";
+    btn.textContent = categories[key].title;
+    btn.dataset.categoryKey = key;
 
-    if (index === 0) {
-      setActive(btn, ".tab-btn");
-      openCategory(key);
-    }
+    btn.addEventListener("click", () => {
+      renderCategoryFixtures(categories[key]);
+      setActive(btn, ".category-btn");
+    });
+
+    container.appendChild(btn);
   });
 }
 
-function openCategory(key) {
-  const category = currentFixtureData[key];
-  roundTabs.innerHTML = "";
-  fixturesContent.innerHTML = "";
+function renderCategoryFixtures(category) {
+  const roundsContainer = document.getElementById("roundTabs");
+  const fixturesContainer = document.getElementById("fixturesContent");
 
-  Object.entries(category.rounds).forEach(([rKey, round], index) => {
-    const btn = document.createElement("button");
-    btn.textContent = round.title;
-    btn.className = "round-btn";
-    btn.onclick = () => renderRound(round);
-    roundTabs.appendChild(btn);
+  roundsContainer.innerHTML = "";
+  fixturesContainer.innerHTML = `<h3>${category.title}</h3>`;
 
-    if (index === 0) {
-      setActive(btn, ".round-btn");
-      renderRound(round);
-    }
+  Object.values(category.rounds).forEach(round => {
+    const roundBtn = document.createElement("button");
+    roundBtn.className = "round-btn";
+    roundBtn.textContent = round.title;
+
+    roundBtn.addEventListener("click", () => {
+      showRound(round);
+      setActive(roundBtn, ".round-btn");
+    });
+
+    roundsContainer.appendChild(roundBtn);
   });
+
+  // Auto-open first round
+  const firstRound = Object.values(category.rounds)[0];
+  if (firstRound) showRound(firstRound);
 }
 
-function renderRound(round) {
+function showRound(round) {
+  const fixturesContainer = document.getElementById("fixturesContent");
+
   let html = `<h3>${round.title}</h3><ol>`;
-  round.matches.forEach(m => {
-    if (m.player2 === "BYE") {
-      html += `<li><strong>${m.player1}</strong> — BYE</li>`;
+
+  round.matches.forEach(match => {
+    if (match.player2 === "BYE") {
+      html += `<li><strong>${match.player1}</strong> — BYE</li>`;
     } else {
-      html += `<li>${m.player1} vs ${m.player2}</li>`;
+      html += `<li>${match.player1} <b>vs</b> ${match.player2}</li>`;
     }
   });
-  html += `</ol>`;
-  fixturesContent.innerHTML = html;
+
+  html += "</ol>";
+  fixturesContainer.innerHTML = html;
 }
 
-/* ===============================
-   ACTIVE STATE
-=============================== */
-function setActive(el, selector) {
-  document.querySelectorAll(selector).forEach(b => b.classList.remove("active"));
-  if (el) el.classList.add("active");
+function setActive(activeBtn, selector) {
+  document.querySelectorAll(selector).forEach(btn =>
+    btn.classList.remove("active")
+  );
+
+  if (activeBtn) {
+    activeBtn.classList.add("active");
+  }
 }
+
+
