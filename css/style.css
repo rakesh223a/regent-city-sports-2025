@@ -1,0 +1,11 @@
+*{box-sizing:border-box;font-family:Arial}
+body{margin:0;background:#f4f6f9}
+header,footer{background:#0d47a1;color:#fff;text-align:center;padding:15px;font-weight:bold}
+.main-menu{display:flex;gap:10px;justify-content:center;padding:15px;background:#e3f2fd}
+.main-menu button{padding:12px 18px;border:none;border-radius:10px;background:#1976d2;color:#fff;font-size:16px}
+#gameMenu{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:15px}
+#gameMenu button{background:#90caf9;border:none;padding:10px 14px;border-radius:8px}
+#content{max-width:900px;margin:auto;padding:20px}
+.hidden{display:none}
+.hint{text-align:center;color:#666}
+@media(max-width:600px){.main-menu{flex-direction:column}}
