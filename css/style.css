@@ -1,11 +1,54 @@
-*{box-sizing:border-box;font-family:Arial}
-body{margin:0;background:#f4f6f9}
-header,footer{background:#0d47a1;color:#fff;text-align:center;padding:15px;font-weight:bold}
-.main-menu{display:flex;gap:10px;justify-content:center;padding:15px;background:#e3f2fd}
-.main-menu button{padding:12px 18px;border:none;border-radius:10px;background:#1976d2;color:#fff;font-size:16px}
-#gameMenu{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:15px}
-#gameMenu button{background:#90caf9;border:none;padding:10px 14px;border-radius:8px}
-#content{max-width:900px;margin:auto;padding:20px}
-.hidden{display:none}
-.hint{text-align:center;color:#666}
-@media(max-width:600px){.main-menu{flex-direction:column}}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.header {
+  background: #0d47a1;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.header nav {
+  margin-top: 10px;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.header nav a.active,
+.header nav a:hover {
+  background: #1565c0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.footer {
+  background: #0d47a1;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 40px;
+}
+
+h2 {
+text-decoration: underline;
+font-size: 18px;
+}
