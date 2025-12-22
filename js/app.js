@@ -163,3 +163,76 @@ function renderFixtures(data) {
 
   content.innerHTML = html;
 }
+
+function renderBadmintonCategories(categories) {
+  const container = document.getElementById("categoryTabs");
+  container.innerHTML = "";
+
+  Object.keys(categories).forEach(key => {
+    const btn = document.createElement("button");
+    btn.className = "category-btn";
+    btn.textContent = categories[key].title;
+    btn.dataset.categoryKey = key;
+
+    btn.addEventListener("click", () => {
+      renderCategoryFixtures(categories[key]);
+      setActive(btn, ".category-btn");
+    });
+
+    container.appendChild(btn);
+  });
+}
+
+function renderCategoryFixtures(category) {
+  const roundsContainer = document.getElementById("roundTabs");
+  const fixturesContainer = document.getElementById("fixturesContent");
+
+  roundsContainer.innerHTML = "";
+  fixturesContainer.innerHTML = `<h3>${category.title}</h3>`;
+
+  Object.values(category.rounds).forEach(round => {
+    const roundBtn = document.createElement("button");
+    roundBtn.className = "round-btn";
+    roundBtn.textContent = round.title;
+
+    roundBtn.addEventListener("click", () => {
+      showRound(round);
+      setActive(roundBtn, ".round-btn");
+    });
+
+    roundsContainer.appendChild(roundBtn);
+  });
+
+  // Auto-open first round
+  const firstRound = Object.values(category.rounds)[0];
+  if (firstRound) showRound(firstRound);
+}
+
+function showRound(round) {
+  const fixturesContainer = document.getElementById("fixturesContent");
+
+  let html = `<h3>${round.title}</h3><ol>`;
+
+  round.matches.forEach(match => {
+    if (match.player2 === "BYE") {
+      html += `<li><strong>${match.player1}</strong> — BYE</li>`;
+    } else {
+      html += `<li>${match.player1} <b>vs</b> ${match.player2}</li>`;
+    }
+  });
+
+  html += "</ol>";
+  fixturesContainer.innerHTML = html;
+}
+
+function setActive(activeBtn, selector) {
+  document.querySelectorAll(selector).forEach(btn =>
+    btn.classList.remove("active")
+  );
+
+  if (activeBtn) {
+    activeBtn.classList.add("active");
+  }
+}
+
+
