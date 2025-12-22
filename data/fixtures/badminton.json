@@ -3,7 +3,7 @@
   "categories": {
 
     "single_upto_9": {
-      "title": "Badminton Singles – Up to 9 Years",
+      "title": "Badminton Singles Up to 9 Years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -23,7 +23,7 @@
     },
 
     "single_9_11": {
-      "title": "Badminton Singles – 9 to 11 Years",
+      "title": "Badminton Singles 9 to 11 Years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -43,7 +43,7 @@
     },
 
     "single_11_13_male": {
-      "title": "Badminton Singles – Male (11–13)",
+      "title": "Badminton Singles Male 11 to 13 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -63,7 +63,7 @@
     },
 
     "single_11_13_female": {
-      "title": "Badminton Singles – Female (11–13)",
+      "title": "Badminton Singles Female 11 to 13 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -83,7 +83,7 @@
     },
 
     "single_14_25_male": {
-      "title": "Badminton Singles – Male (14–25)",
+      "title": "Badminton Singles Male 14 to 25 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -103,7 +103,7 @@
     },
 
     "single_25_40_male": {
-      "title": "Badminton Singles – Male (25–40)",
+      "title": "Badminton Singles Male 25 to 40 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -123,7 +123,7 @@
     },
 
     "single_40_plus_male": {
-      "title": "Badminton Singles – Male (40+)",
+      "title": "Badminton Singles Male 40 plus years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -151,7 +151,7 @@
     },
 
     "single_14_40_female": {
-      "title": "Badminton Singles – Female (14–40)",
+      "title": "Badminton Singles Female 14 to 40 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -173,7 +173,7 @@
     },
 
     "double_female_14_plus": {
-      "title": "Badminton Doubles – Female (14+)",
+      "title": "Badminton Doubles Female 14 plus years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -194,7 +194,7 @@
     },
 
     "mixed_14_plus": {
-      "title": "Badminton Mixed Doubles (14+)",
+      "title": "Badminton Mixed Doubles 14 plus years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -215,7 +215,7 @@
     },
 
     "couple": {
-      "title": "Badminton Couple (Married)",
+      "title": "Badminton Couple Married",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -237,7 +237,7 @@
     },
 
     "double_male_9_11": {
-      "title": "Badminton Doubles – Male (9–11)",
+      "title": "Badminton Doubles Male 9 to 11 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -256,7 +256,7 @@
     },
 
     "double_male_11_14": {
-      "title": "Badminton Doubles – Male (11–14)",
+      "title": "Badminton Doubles Male 11 to 14 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -275,7 +275,7 @@
     },
 
     "double_female_11_14": {
-      "title": "Badminton Doubles – Female (11–14)",
+      "title": "Badminton Doubles Female 11 to 14 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -294,7 +294,7 @@
     },
 
     "double_male_14_plus": {
-      "title": "Badminton Doubles – Male (14+)",
+      "title": "Badminton Doubles Male 14 years",
       "rounds": {
         "round1": {
           "title": "Round 1",
