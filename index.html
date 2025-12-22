@@ -22,12 +22,12 @@
 
   <!-- GAME MENU (Participants & Fixtures) -->
   <div id="gameMenu" class="game-menu hidden">
-    <button onclick="loadGame('badminton')">🏸 Badminton</button>
-    <button onclick="loadGame('cricket')">🏏 Cricket</button>
-    <button onclick="loadGame('chess')">♟ Chess</button>
-    <button onclick="loadGame('carrom')">🎯 Carrom</button>
-    <button onclick="loadGame('ludo')">🎲 Ludo</button>
-    <button onclick="loadGame('table-tennis')">🏓 Table Tennis</button>
+    <button onclick="onGameClick('badminton')">🏸 Badminton</button>
+    <button onclick="onGameClick('cricket')">🏏 Cricket</button>
+    <button onclick="onGameClick('chess')">♟ Chess</button>
+    <button onclick="onGameClick('carrom')">🎯 Carrom</button>
+    <button onclick="onGameClick('ludo')">🎲 Ludo</button>
+    <button onclick="onGameClick('table-tennis')">🏓 Table Tennis</button>
   </div>
 
   <!-- PARTICIPANTS SECTION -->
@@ -40,14 +40,14 @@
     <h2>📋 Fixtures</h2>
 
     <!-- Game selection for fixtures -->
-    <div class="game-menu">
+    <!-- <div class="game-menu">
       <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
       <button onclick="loadFixtures('cricket')">🏏 Cricket</button>
       <button onclick="loadFixtures('chess')">♟ Chess</button>
       <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
       <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
-      <button onclick="loadFixtures('table-tennis')">🏓 Table Tennis</button>
-    </div>
+      <button onclick="loadFixtures('tt')">🏓 Table Tennis</button>
+    </div> -->
 
     <!-- Category Tabs -->
     <div id="fixtureCategories" class="tabs"></div>

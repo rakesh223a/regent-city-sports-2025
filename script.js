@@ -10,6 +10,8 @@ const roundTabs = document.getElementById("roundTabs");
 const fixturesContent = document.getElementById("fixturesContent");
 const fixtureCategories = document.getElementById("fixtureCategories");
 
+let currentMode = null;
+
 /* ==============================
    INITIAL LOAD
 ============================== */
@@ -43,6 +45,7 @@ function setActive(container, activeBtn) {
 ============================== */
 function showParticipants() {
   hideAllSections();
+  currentMode = "participants";
   participantsSection.classList.remove("hidden");
   gameMenu.classList.remove("hidden");
 
@@ -51,8 +54,9 @@ function showParticipants() {
 
 function showFixtures() {
   hideAllSections();
+  currentMode = "fixtures";
   fixturesSection.classList.remove("hidden");
-
+  gameMenu.classList.remove("hidden");
   fixtureCategories.innerHTML = "";
   roundTabs.innerHTML = "";
   fixturesContent.innerHTML =
@@ -172,3 +176,12 @@ function showRound(round) {
   html += `</ol>`;
   fixturesContent.innerHTML = html;
 }
+
+function onGameClick(game) {
+  if (currentMode === "participants") {
+    loadGame(game);
+  } else if (currentMode === "fixtures") {
+    loadFixtures(game);
+  }
+}
+
