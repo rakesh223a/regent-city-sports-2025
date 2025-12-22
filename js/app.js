@@ -50,6 +50,11 @@ function onGameClick(game) {
   }
 }
 
+function clearContent() {
+  content.innerHTML = "";
+}
+
+
 /* ==============================
    PARTICIPANTS
 ============================== */
@@ -88,10 +93,56 @@ function loadFixtures(game) {
       if (!res.ok) throw new Error("Fixtures not found");
       return res.json();
     })
-    .then(data => renderFixtures(data))
+    .then(data => {
+      if (data.categories) {
+        renderFixtureCategories(data.game, data.categories);
+      } else if (data.rounds) {
+        renderRoundsView(data.game, data.rounds);
+      } else {
+        content.innerHTML = "<p>No fixtures available.</p>";
+      }
+    })
     .catch(() => {
       content.innerHTML = "<p>Fixtures not available.</p>";
     });
+}
+
+
+function renderFixtureCategories(gameName, categories) {
+  clearContent();
+
+  let html = `<h2>${gameName} Fixtures</h2>`;
+  html += `<div class="category-menu">`;
+
+  Object.entries(categories).forEach(([key, category]) => {
+    html += `
+      <button onclick="renderRoundsView('${category.title}', ${encodeURIComponent(JSON.stringify(category.rounds))})">
+        ${category.title}
+      </button>
+    `;
+  });
+
+  html += `</div>`;
+  content.innerHTML = html;
+}
+
+function renderRoundsView(title, roundsData) {
+  // Handle encoded JSON when coming from category click
+  if (typeof roundsData === "string") {
+    roundsData = JSON.parse(decodeURIComponent(roundsData));
+  }
+
+  let html = `<h2>${title}</h2>`;
+
+  Object.values(roundsData).forEach(round => {
+    html += `<h3>${round.title}</h3><ol>`;
+    round.matches.forEach(match => {
+      html += `<li>${match.player1} vs ${match.player2}</li>`;
+    });
+    html += `</ol>`;
+  });
+
+  content.innerHTML = html;
 }
 
 function renderFixtures(data) {
