@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Regent City Annual Sports 2025–26</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<header>🏆 Regent City Annual Sports 2025–26</header>
 
-<nav class="main-menu">
-  <button onclick="showPage('participants')">Participants</button>
-  <button onclick="showPage('fixtures')">Fixtures</button>
-  <button onclick="showPage('rules')">Rules</button>
-</nav>
+  <!-- HEADER -->
+  <header>
+    🏆 Regent City Annual Sports 2025–26
+  </header>
 
-<main>
-  <div id="gameMenu" class="hidden">
-    <button onclick="loadParticipants('badminton')">🏸 Badminton</button>
-    <button onclick="loadParticipants('cricket')">🏏 Cricket</button>
-    <button onclick="loadParticipants('chess')">♟ Chess</button>
-    <button onclick="loadParticipants('carrom')">🎯 Carrom</button>
-    <button onclick="loadParticipants('ludo')">🎲 Ludo</button>
-    <button onclick="loadParticipants('table-tennis')">🏓 Table Tennis</button>
-  </div>
-  <div id="content"><p class="hint">Select a menu to continue.</p></div>
-</main>
+  <!-- MAIN MENU -->
+  <nav class="main-menu">
+    <button onclick="showPage('participants')">Participants</button>
+    <button onclick="showPage('fixtures')">Fixtures</button>
+    <button onclick="showPage('rules')">Rules</button>
+  </nav>
 
-<footer>© Regent City Annual Sports 2025–26</footer>
-<script src="js/app.js"></script>
+  <!-- CONTENT -->
+  <main>
+    <!-- GAME MENU (shared) -->
+    <div id="gameMenu" class="hidden">
+      <button onclick="onGameClick('badminton')">🏸 Badminton</button>
+      <button onclick="onGameClick('cricket')">🏏 Cricket</button>
+      <button onclick="onGameClick('chess')">♟ Chess</button>
+      <button onclick="onGameClick('carrom')">🎯 Carrom</button>
+      <button onclick="onGameClick('ludo')">🎲 Ludo</button>
+      <button onclick="onGameClick('table-tennis')">🏓 Table Tennis</button>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <div id="content">
+      <p class="hint">Select a menu to continue.</p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © Regent City Annual Sports 2025–26
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
