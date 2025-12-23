@@ -10,16 +10,45 @@
             { "player1": "Avaneesh Patro", "player2": "Ashray Singh" },
             { "player1": "Rayan Dan", "player2": "Aadvik Ranjan" },
             { "player1": "Jiyansh Rath", "player2": "Arja Bhattacharya" },
-            { "player1": "Utkarsh Upadhyay", "player2": "Anahita Anvi" },
-            { "player1": "Varenyam", "player2": "Bye" },
-            { "player1": "Aadvik Behera", "player2": "Bye" },
-            { "player1": "Prakhar Upadhyay", "player2": "Bye" },
-            { "player1": "Padmaja Upadhyay", "player2": "Bye" }
+            { "player1": "Utkarsh Upadhyay", "player2": "Anahita Anvi" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2",
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            {
+              "player1": "Winner of Round 1 Match 3",
+              "player2": "Winner of Round 1 Match 4"
+            },
+            { "player1": "BYE1", "player2": "BYE2" },
+            { "player1": "BYE3", "player2": "BYE4" }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 3 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
-          "matches": [{ "player1": "Winner R1-1", "player2": "Winner R1-2" }]
+          "matches": [
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
+          ]
         }
       }
     },
@@ -36,20 +65,45 @@
               "player1": "Ayushman Sharma",
               "player2": "Jyoti Prakash Pattnayak"
             },
-            { "player1": "Urmila Devi", "player2": "Rounak Sahu" },
-            { "player1": "Surabhi Kumari", "player2": "Bye" },
-            { "player1": "Lovely Lal", "player2": "Bye" },
-            { "player1": "Anirabn Mukherjee", "player2": "Bye" },
-            { "player1": "Chotti Kumari", "player2": "Bye" }
+            { "player1": "Urmila Devi", "player2": "Rounak Sahu" }
           ]
         },
-        "round2": {
+       "round2": {
           "title": "Round 2",
-          "matches": []
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            {
+              "player1": "Winner of Round 1 Match 3",
+              "player2": "Winner of Round 1 Match 4"
+            },
+            { "player1": "BYE1", "player2": "BYE2" },
+            { "player1": "BYE3", "player2": "BYE4" }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 3 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
+          ]
         },
         "final": {
           "title": "Final",
-          "matches": [{ "player1": "Winner R1-1", "player2": "Winner R1-2" }]
+          "matches": [
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
+          ]
         }
       }
     }
