@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Fixtures</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fixture | Regent City Annual Sports 2025–26</title>
+  <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      🏆 Regent City Annual Sports 2025–26
+      <nav>
+        <a href="index.html">Participants</a>
+        <a class="active" href="fixtures.html">Fixtures</a>
+        <a href="rules.html">Rules</a>
+      </nav>
+    </header>
 
-  <header class="header">
-  🏆 Regent City Annual Sports 2025–26
-  <nav>
-    <a href="index.html">Participants</a>
-    <a class="active" href="fixtures.html">Fixtures</a>
-    <a href="rules.html">Rules</a>
-  </nav>
-</header>
+    <main class="container">
+      <h2>Fixtures</h2>
+      <div class="tabs">
+        <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
+        <button onclick="loadFixtures('table-tennis')">🏓 Table Tennis</button>
+        <button onclick="loadFixtures('chess')">♟ Chess</button>
+        <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
+        <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
+        <button onclick="loadFixtures('cricket')">Cricket</button>
+      </div>
 
-<main class="container">
-  <h2>Fixtures</h2>
-  <div class="tabs">
-    <button onclick="loadFixtures('badminton')">🏸 Badminton</button>
-    <button onclick="loadFixtures('table-tennis')">🏓 Table Tennis</button>
-    <button onclick="loadFixtures('chess')">♟ Chess</button>
-      <button onclick="loadFixtures('carrom')">🎯 Carrom</button>
-      <button onclick="loadFixtures('ludo')">🎲 Ludo</button>
-      <button onclick="loadFixtures('cricket')"> Cricket</button>
-  </div>
+      <!-- 🔴 THIS ID IS MANDATORY -->
+      <div id="content"></div>
+    </main>
 
-  <!-- 🔴 THIS ID IS MANDATORY -->
-  <div id="content"></div>
-</main>
+    <footer class="footer">© Regent City Annual Sports 2025–26</footer>
 
-<footer class="footer">
-  © Regent City Annual Sports 2025–26
-</footer>
-
-<!-- 🔴 JS MUST BE LOADED AT END -->
-<script src="js/fixtures.js"></script>
-</body>
+    <!-- 🔴 JS MUST BE LOADED AT END -->
+    <script src="js/fixtures.js"></script>
+  </body>
 </html>
