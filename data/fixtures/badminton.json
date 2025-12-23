@@ -1,22 +1,28 @@
 {
   "game": "Badminton",
   "categories": {
-
     "single_upto_9": {
       "title": " Singles Up to 9 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
+          "matches": [{ "player1": "Ashray Singh", "player2": "Aadvik Ranjan" }]
+        },
+
+        "round2": {
+          "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
-            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" },
-            { "player1": "Ashray Singh", "player2": "BYE" }
+            { "player1": "Winner of Round 1 Match 1", "player2": "BYE1" },
+            { "player1": "BYE2", "player2": "BYE3" }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -28,15 +34,27 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanskar Ojha", "player2": "Avyay (Sweet)" },
-            { "player1": "Varenyam", "player2": "Avaneesh Patro" },
+            { "player1": "Sanskar Ojha", "player2": "Varenyam" },
+            { "player1": "Avyay (Sweet)", "player2": "Avaneesh Patro" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2 | Semifinal",
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
             { "player1": "Saqib Saikh", "player2": "Prakhar Upadhyay" }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -47,16 +65,22 @@
       "rounds": {
         "round1": {
           "title": "Round 1",
+          "matches": [{ "player1": "Omkant Ojha", "player2": "Vaibhav Shaw" }]
+        },
+        "round2": {
+          "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Mainak Roy", "player2": "Daksh Upadhyay" },
-            { "player1": "Omkant Ojha", "player2": "Arja Bhattacharya" },
-            { "player1": "Vaibhav Shaw", "player2": "BYE" }
+            { "player1": "Winner of Round 1 Match 1", "player2": "BYE1" },
+            { "player1": "BYE2", "player2": "BYE3" }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -68,15 +92,32 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Isha Das", "player2": "Shreya Tiwari" },
-            { "player1": "Sanjeevani Singh", "player2": "Haripriya" },
-            { "player1": "Padmaja Upadhyay", "player2": "Shaanvi Dubey" }
+            { "player1": "Pragya Chowdhury", "player2": "Padmaja Upadhyay" },
+            { "player1": "Sanjeevani Singh", "player2": "Aidya Pattnayak" },
+            { "player1": "Haripriya", "player2": "Shaanvi Dubey" },
+            { "player1": "Shreya Tiwari", "player2": "Isha Das" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2 | Semifinal",
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            {
+              "player1": "Winner of Round 1 Match 3",
+              "player2": "Winner of Round 1 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -88,15 +129,23 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Ayushman Sharma", "player2": "Kabir Shrey" },
-            { "player1": "Dhimanta Chakraborty", "player2": "Kaustav Das" },
-            { "player1": "Ashita Ojha", "player2": "BYE" }
+            { "player1": "Kaustav Das", "player2": "Ayushman Sharma" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2 | Semifinal",
+          "matches": [
+            { "player1": "Winner of Round 1 Match 1", "player2": "BYE1" },
+            { "player1": "BYE2", "player2": "BYE3" }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -108,15 +157,23 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Raj Paul", "player2": "Jagdeep Saini" },
-            { "player1": "Gouravjeet Mahakul", "player2": "Souravan Roy" },
-            { "player1": "Suraj Biswas", "player2": "BYE" }
+            { "player1": "Raj Paul", "player2": "Gouravjeet Mahakul" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2 | Semifinal",
+          "matches": [
+            { "player1": "Winner of Round 1 Match 1", "player2": "BYE1" },
+            { "player1": "BYE2", "player2": "BYE3" }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -128,23 +185,47 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Manish Kumar", "player2": "Ranjeet Tiwari" },
-            { "player1": "Rakesh Prasad", "player2": "Samik Bhattacharya" },
-            { "player1": "Vivek Upadhyay", "player2": "Anirban Mukherjee" },
-            { "player1": "Prem Alok", "player2": "BYE" }
+            { "player1": "Manish Kumar", "player2": "Sushant Patro" },
+            { "player1": "Rakesh Prasad", "player2": "Prem Alok" },
+            { "player1": "Ranjeet Tiwari", "player2": "Samik Bhattacharya" },
+            { "player1": "Dipak Mohanty", "player2": "Vivek Upadhyay" }
           ]
         },
-        "semifinal": {
-          "title": "Semi Final",
+        "round2": {
+          "title": "Round 2",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" },
-            { "player1": "Winner R1-3", "player2": "Prem Alok" }
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            {
+              "player1": "Winner of Round 1 Match 3",
+              "player2": "Winner of Round 1 Match 4"
+            },
+            { "player1": "BYE1", "player2": "BYE2" },
+            { "player1": "BYE3", "player2": "BYE4" }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 3 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner SF-1", "player2": "Winner SF-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
@@ -156,59 +237,140 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sonal Kumari", "player2": "Lakshmi Kumari" },
-            { "player1": "Lovely Lal", "player2": "Dipa Kumari" },
-            { "player1": "Swati Singh", "player2": "Puja Kumari" },
-            { "player1": "Jyoti Kumari", "player2": "Anita Thakur" },
-            { "player1": "Prachi Ganguly", "player2": "Sneha" }
+            { "player1": "Jyoti Kumari", "player2": "Sneha" },
+            { "player1": "Dipa Kumari", "player2": "Prachi Ganguly" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2",
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            { "player1": "BYE1", "player2": "BYE2" },
+            { "player1": "BYE3", "player2": "BYE4" },
+            { "player1": "BYE5", "player2": "BYE6" }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 3 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
     },
 
     "double_female_14_plus": {
-      "title": "Doubles Female 14 plus Yrs",
+      "title": "Doubles Female 14 plus Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Ashita Ojha / Sarita Roy", "player2": "Surabhi Kumari / Lovely Lal" },
-            { "player1": "Dipa Kumari / Lakshmi Kumari", "player2": "Bidisha Bhattacharya / Puja Kumari" },
-            { "player1": "Jyoti Kumari / Parul Kacker", "player2": "Anita Thakur / Prachi Ganguly" },
-            { "player1": "Gitanjali Patra", "player2": "BYE" }
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            },
+            {
+              "player1": "Pair 5",
+              "player2": "Pair 6"
+            },
+            {
+              "player1": "Pair 5",
+              "player2": "Pair 6"
+            }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 2 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
     },
 
     "mixed_14_plus": {
-      "title": "Mixed Doubles 14 plus Yrs",
+      "title": "Mixed Doubles 14 plus Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Souravan Roy / Ashita Ojha", "player2": "Lovely Lal / Ranjeet Tiwari" },
-            { "player1": "Daksh Upadhyay / Arja Bhattacharya", "player2": "Isha Das / Pragya Choudhary" },
-            { "player1": "Kabir Shrey / Prem Alok", "player2": "Parul Kacker / Sushant Patro" },
-            { "player1": "Jyoti Prakash / Haripriya", "player2": "Shaanvi Dubey / Padmaja Upadhyay" }
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            },
+            {
+              "player1": "Pair 5",
+              "player2": "Pair 6"
+            },
+            {
+              "player1": "Pair 5",
+              "player2": "Pair 6"
+            }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 2 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
@@ -220,101 +382,146 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanjay 🌹 Sonal", "player2": "Vishal 🌹 Surabhi" },
-            { "player1": "Manish 🌹 Lovely", "player2": "Rakesh 🌹 Dipa" },
-            { "player1": "Samik 🌹 Bidisha", "player2": "Prem 🌹 Alok" },
-            { "player1": "Sushant 🌹 Gitanjali", "player2": "Jyoti Prakash 🌹 Lakshmi" },
-            { "player1": "Deepak 🌹 Puja", "player2": "Rahul 🌹 Sneha" }
+            {
+              "player1": "Jyoti Prakash 🌹 Himika",
+              "player2": "Prem Alok🌹 Sangeeta"
+            },
+            { "player1": "Manish 🌹 Lovely", "player2": "Vishal 🌹 Surabhi" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2",
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            { "player1": "Pair BYE1", "player2": "Pair BYE2" },
+            { "player1": "Pair BYE3", "player2": "Pair BYE4" },
+            { "player1": "Pair BYE5", "player2": "Pair BYE6" }
+          ]
+        },
+        "rounds3": {
+          "title": "Round 3 | Semi Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
     },
 
     "double_male_9_11": {
-      "title": "Doubles Male 9 to 11 Yrs",
+      "title": "Doubles Male 9 to 11 Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanskar Ojha / Varenyam", "player2": "Avyay (Sweet) / Avaneesh Patro" },
-            { "player1": "Prakhar Upadhyay / Saqib Saikh", "player2": "BYE" }
+            {
+              "player1": "Sanskar Ojha / Prakhar Upadhyay",
+              "player2": "Avyay (Sweet) / Varenyam"
+            },
+            {
+              "player1": "Avyay (Sweet) / Varenyamh",
+              "player2": "Avaneesh Patro / Saqib Saikh"
+            },
+            {
+              "player1": "Sanskar Ojha / Prakhar Upadhyay",
+              "player2": "Avaneesh Patro / Saqib Saikh"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            { "player1": "League Topper 1", "player2": "League Topper 2" }
           ]
         }
       }
     },
 
     "double_male_11_14": {
-      "title": "Doubles Male 11 to 14 Yrs",
+      "title": "Doubles Male 11 to 14 Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Mainak Roy / Vaibhav Shaw", "player2": "Omkant Ojha / Ayushman Sharma" },
-            { "player1": "Daksh Upadhyay / Arja Bhattacharya", "player2": "Arannya Ghosh", "note": "BYE" }
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
-          "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
-          ]
+          "matches": [{ "player1": "Winner R1-1", "player2": "Winner R1-2" }]
         }
       }
     },
 
     "double_female_11_14": {
-      "title": "Doubles Female 11 to 14 Yrs",
+      "title": "Doubles Female 11 to 14 Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Isha Das / Shreya Tiwari", "player2": "Sanjeevani Singh / Shaanvi Dubey" },
-            { "player1": "Padmaja Upadhyay / Ishani Sanyal", "player2": "Pragya Choudhary / Aidya Pattnayak" }
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
-          "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
-          ]
+          "matches": [{ "player1": "Winner R1-1", "player2": "Winner R1-2" }]
         }
       }
     },
 
     "double_male_14_plus": {
-      "title": "Doubles Male 14 Yrs",
+      "title": "Doubles Male 14 Yrs ( FIXTURES YET TO BE DECIDED)",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Souravan Roy / Gouravjeet Mahakul", "player2": "Kaustav Das / Sanjay Singh" },
-            { "player1": "Vishal Kumar / Ayushman Sharma", "player2": "Manish Kumar / Tirthankar Kanjilal" },
-            { "player1": "Ranjeet Tiwari / Samik Bhattacharya", "player2": "Vivek Upadhyay / Anirban Mukherjee" },
-            { "player1": "Keshav Tiwari / Kabir Shrey", "player2": "Prem Alok / Raj Paul" },
-            { "player1": "Sushant Patro / Dhimanta Chakraborty", "player2": "Jyoti Prakash Pattanayak / Jagdeep Saini" },
-            { "player1": "Deepak Mohanty / Rakesh Prasad", "player2": "Suraj Biswas / Deepak Kumar" }
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
-          "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
-          ]
+          "matches": [{ "player1": "Winner R1-1", "player2": "Winner R1-2" }]
         }
       }
     }
-
   }
 }
