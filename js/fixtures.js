@@ -6,7 +6,8 @@ function setActive(btn) {
   btn.classList.add("active");
 }
 
-function loadFixtures(game) {
+function loadFixtures(game, btn) {
+  setActiveFixtureTab(btn);
   fetch(`data/fixtures/${game}.json`)
     .then(res => res.json())
     .then(data => {
@@ -103,4 +104,15 @@ function toggleRound(id) {
   const el = document.getElementById(id);
   if (!el) return;
   el.style.display = el.style.display === "none" ? "block" : "none";
+}
+
+
+function setActiveFixtureTab(activeBtn) {
+  document.querySelectorAll(".game-btn").forEach(btn => {
+    btn.classList.remove("active");
+  });
+
+  if (activeBtn) {
+    activeBtn.classList.add("active");
+  }
 }
