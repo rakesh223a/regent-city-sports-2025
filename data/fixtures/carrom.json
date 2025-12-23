@@ -13,6 +13,13 @@
             { "player1": "Ashray Singh", "player2": "BYE" }
           ]
         },
+         "round2": {
+          "title": "Round 2",
+          "matches": [
+            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
+            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" }
+          ]
+        },
         "final": {
           "title": "Final",
           "matches": [
