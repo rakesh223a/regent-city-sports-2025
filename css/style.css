@@ -75,9 +75,14 @@ h5{
 }
 
 .card {
-  background: #f9f9f9;
-  margin-bottom: 16px;
-  border-radius: 6px;
+  padding: 16px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #bbb;
+}
+
+/* Optional: remove dotted line for last card */
+.card:last-child {
+  border-bottom: none;
 }
 
 .round-btn {
