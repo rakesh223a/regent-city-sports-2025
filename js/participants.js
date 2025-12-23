@@ -1,7 +1,7 @@
 function setActive(btn) {
   document
     .querySelectorAll(".game-buttons button")
-    .forEach(b => b.classList.remove("active"));
+    .forEach((b) => b.classList.remove("active"));
 
   btn.classList.add("active");
 }
@@ -9,7 +9,6 @@ function setActive(btn) {
 function loadParticipants(game, btn) {
   setActive(btn);
 
-  
   if (game === "cricket") {
     document.getElementById("cricketTabs").classList.remove("hidden");
     loadCricketParticipants(); // default tab
@@ -20,19 +19,19 @@ function loadParticipants(game, btn) {
   document.getElementById("cricketTabs").classList.add("hidden");
 
   fetch(`data/participants/${game}.json`)
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
       const content = document.getElementById("participants");
       let html = "";
 
-      Object.values(data).forEach(cat => {
+      Object.values(data).forEach((cat) => {
         html += `
           <section class="card">
             <h3>${cat.title}</h3>
             <ol>
         `;
 
-        cat.participants.forEach(p => {
+        cat.participants.forEach((p) => {
           html += `<li>${p.name}</li>`;
         });
 
@@ -47,8 +46,6 @@ function loadParticipants(game, btn) {
     });
 }
 
-
-
 function setActiveCricketTab(tab) {
   document.getElementById("cricketParticipantsTab").classList.remove("active");
   document.getElementById("cricketTeamsTab").classList.remove("active");
@@ -56,27 +53,23 @@ function setActiveCricketTab(tab) {
   tab.classList.add("active");
 }
 
-
-
 function loadCricketParticipants() {
-  setActiveCricketTab(
-    document.getElementById("cricketParticipantsTab")
-  );
+  setActiveCricketTab(document.getElementById("cricketParticipantsTab"));
 
   fetch(`data/participants/cricket.json`)
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
       const content = document.getElementById("participants");
       let html = "";
 
-      Object.values(data).forEach(cat => {
+      Object.values(data).forEach((cat) => {
         html += `
           <section class="card">
             <h3>${cat.title}</h3>
             <ol>
         `;
 
-        cat.participants.forEach(p => {
+        cat.participants.forEach((p) => {
           html += `<li>${p.name}</li>`;
         });
 
@@ -85,29 +78,29 @@ function loadCricketParticipants() {
 
       content.innerHTML = html;
     })
-    .catch(err => {
+    .catch((err) => {
       console.error(err);
       document.getElementById("participants").innerHTML =
         "<p>Cricket participants not available.</p>";
     });
 }
 
-function loadCricketTeams() {
+function loadCricketTeamsOld() {
   setActiveCricketTab(document.getElementById("cricketTeamsTab"));
 
   fetch(`data/participants/cricket-teams.json`)
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
       let html = `<h3>Cricket Teams</h3>`;
 
-      data.teams.forEach(team => {
+      data.teams.forEach((team) => {
         html += `
           <section class="card">
             <h4>${team.name}</h4>
             <ul>
         `;
 
-        team.members.forEach(member => {
+        team.members.forEach((member) => {
           html += `<li>${member}</li>`;
         });
 
@@ -122,5 +115,45 @@ function loadCricketTeams() {
     .catch(() => {
       document.getElementById("participants").innerHTML =
         "<p>Team data not available.</p>";
+    });
+}
+
+function loadCricketTeams() {
+  setActiveCricketTab(document.getElementById("cricketTeamsTab"));
+  fetch(`data/participants/cricket-teams.json`)
+    .then((res) => res.json())
+    .then((data) => {
+      console.log({data})
+      const content = document.getElementById("participants");
+      let html = `<h2>${data.game} – Teams</h2>`;
+
+      Object.values(data.categories).forEach((category) => {
+        html += `
+          <section class="card">
+            <h3>${category.title}</h3>
+        `;
+
+        category.teams.forEach((team) => {
+          html += `
+            <div class="team-box">
+              <h4>${team.name}</h4>
+              <ul>`;
+          team.members.forEach((member) => {
+            html += `<li>${member}</li>`;
+          });
+
+          html += `</ul>
+            </div>
+          `;
+        });
+
+        html += `</section><hr class="dotted" />`;
+      });
+
+      content.innerHTML = html;
+    })
+    .catch(() => {
+      document.getElementById("participants").innerHTML =
+        "<p>Teams data not available.</p>";
     });
 }

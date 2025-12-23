@@ -1,16 +1,70 @@
 {
-  "teams": [
-    {
-      "name": "Team 1",
-      "members": ["Aaradhya", "Ayushman", "Mainak Roy"]
+  "game": "Cricket",
+  "categories": {
+    "junior": {
+      "title": "Junior (Below 14) | Mixed",
+      "teams": [
+        {
+          "name": "Junior Team 1",
+           "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7", "Player 8"]
+        },
+        {
+          "name": "Junior Team 2",
+          "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7", "Player 8"]
+        },
+        {
+          "name": "Junior Team 3",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7", "Player 8"]
+        }
+      ]
     },
-    {
-      "name": "Team 2",
-      "members": ["Avyay Sweet", "Arja Bhattacharya", "Daksh Upadhyay"]
+
+    "female": {
+      "title": "Female 14+",
+      "teams": [
+        {
+          "name": "Women Team 1",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7"]
+        },
+        {
+          "name": "Women Team 2",
+          "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7"]
+        },
+        {
+          "name": "Women Team 3",
+          "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6", "Player 7"]
+        }
+      ]
     },
-     {
-      "name": "Team 3",
-      "members": ["Avyay Sweet", "Arja Bhattacharya", "Daksh Upadhyay"]
+
+    "mens": {
+      "title": "Men's 14+",
+      "teams": [
+        {
+          "name": "Men Team 1",
+          "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        },
+        {
+          "name": "Men Team 2",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        },
+        {
+          "name": "Men Team 3",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        },
+        {
+          "name": "Men Team 4",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        },
+        {
+          "name": "Men Team 5",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        },
+        {
+          "name": "Men Team 6",
+         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+        }
+      ]
     }
-  ]
+  }
 }
