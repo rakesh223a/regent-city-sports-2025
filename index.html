@@ -31,6 +31,18 @@
       <button onclick="loadParticipants('cricket', this)"> Cricket</button>
     </div>
 
+    <!-- Cricket sub tabs (hidden by default) -->
+<div id="cricketTabs" class="sub-tabs hidden">
+  <button id="cricketParticipantsTab" class="sub-tab active"
+          onclick="loadCricketParticipants()">
+    List
+  </button>
+  <button id="cricketTeamsTab" class="sub-tab"
+          onclick="loadCricketTeams()">
+    Teams
+  </button>
+</div>
+
     <div id="participants"></div>
   </main>
 

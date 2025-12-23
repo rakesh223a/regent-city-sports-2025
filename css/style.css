@@ -75,7 +75,7 @@ h5{
 }
 
 .card {
-  padding: 16px 0;
+ 
   margin-bottom: 20px;
   border-bottom: 2px dotted #bbb;
 }
@@ -122,4 +122,27 @@ h5{
 
 .round-content.active {
   display: block;
+}
+
+.sub-tabs {
+  margin: 15px 0;
+}
+
+.sub-tab {
+  padding: 6px 14px;
+  margin-right: 6px;
+  border: 1px solid #aaa;
+  background: #f7f7f7;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sub-tab.active {
+  background: #1e5fd8;
+  color: #fff;
+  border-color: #1e5fd8;
+}
+
+.hidden {
+  display: none;
 }
