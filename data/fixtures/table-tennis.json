@@ -15,22 +15,18 @@
         {
           "player1": "Arja Bhattacharya",
           "player2": "Anirban Mukherjee"
-        },
-        {
-          "player1": "Akash Chakraborty",
-          "player2": "BYE"
         }
       ]
     },
     "round_2": {
-      "title": "Round 2",
+      "title": "Round 2 | Semifinal",
       "matches": [
         {
-          "player1": "Winner Match 1",
-          "player2": "Winner Match 2"
+          "player1": "Winner of Round 1 Match 1",
+          "player2": "Winner of Round 1 Match 2"
         },
         {
-          "player1": "Winner Match 3",
+          "player1": "Winner of Round 1 Match 3",
           "player2": "Akash Chakraborty"
         }
       ]
@@ -38,7 +34,7 @@
      "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R2-1", "player2": "Winner R2-2" }
+            { "player1": "Winner of Round 2 Match 1", "player2": "Winner of Round 2 Match 2" }
           ]
         }
   }
