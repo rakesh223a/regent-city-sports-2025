@@ -1,29 +1,38 @@
 {
   "game": "Carrom",
   "categories": {
-
     "carrom_below_14": {
       "title": "Singles Below 14",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
-            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" },
-            { "player1": "Ashray Singh", "player2": "BYE" }
+            { "player1": "Varenyam", "player2": "Akshay Singh" },
+            { "player1": "Rayan Dan", "player2": "Arja Bhattacharya" },
+            { "player1": "Prakhar Upadhyay", "player2": "Utkarsh Upadhyay" },
+            { "player1": "Padmaja Upadhyay", "player2": "Ishani Sanyal" }
           ]
         },
-         "round2": {
-          "title": "Round 2",
+        "round2": {
+          "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
-            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" }
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            },
+            {
+              "player1": "Winner of Round 1 Match 3",
+              "player2": "Winner of Round 1 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
           ]
         }
       }
@@ -35,15 +44,91 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanskar Ojha", "player2": "Avyay (Sweet)" },
-            { "player1": "Varenyam", "player2": "Avaneesh Patro" },
-            { "player1": "Saqib Saikh", "player2": "Prakhar Upadhyay" }
+            { "player1": "Kaustav Das", "player2": "Tirthankar Kanjilal" },
+            { "player1": "Parul Kacker", "player2": "Prabha Behera" },
+            { "player1": "Dipa Kumari", "player2": "Jyoti Prakash Pattnayak" },
+            { "player1": "Chhoti Kumari", "player2": "Sarita Roy" },
+            { "player1": "Kajal Paul", "player2": "Ayushman Sharma" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            },
+            {
+              "player1": "Winner of Round 2 Match 5",
+              "player2": "BYE1"
+            },
+            {
+              "player1": "BYE2",
+              "player2": "BYE3"
+            },
+            {
+              "player1": "BYE4",
+              "player2": "BYE5"
+            },
+            {
+              "player1": "BYE6",
+              "player2": "BYE7"
+            },
+            {
+              "player1": "BYE8",
+              "player2": "BYE9"
+            },
+            {
+              "player1": "BYE10",
+              "player2": "BYE11"
+            }
+          ]
+        },
+        "round3": {
+          "title": "Round 3 | QuarterFinal",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            },
+            {
+              "player1": "Winner of Round 2 Match 5",
+              "player2": "Winner of Round 2 Match 6"
+            },
+            {
+              "player1": "Winner of Round 2 Match 7",
+              "player2": "Winner of Round 2 Match 8"
+            }
+          ]
+        },
+        "round4": {
+          "title": "Round 4 | Semifinal",
+          "matches": [
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            },
+            {
+              "player1": "Winner of Round 3 Match 3",
+              "player2": "Winner of Round 3 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 4 Match 1",
+              "player2": "Winner of Round 4 Match 2"
+            }
           ]
         }
       }
@@ -55,19 +140,42 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Mainak Roy", "player2": "Daksh Upadhyay" },
-            { "player1": "Omkant Ojha", "player2": "Arja Bhattacharya" },
-            { "player1": "Vaibhav Shaw", "player2": "BYE" }
+            { "player1": "Pair 1", "player2": "Pair 2" },
+            { "player1": "Pair 3", "player2": "Pair 4" }
+          ]
+        },
+        "round2": {
+          "title": "Round 2 | QuarterFinal",
+          "matches": [
+            { "player1": "Winner of Round 1 Match 1", "player2": "Winner of Round 1 Match 2" },
+            { "player1": "BYE1", "player2": "BYE2" },
+            { "player1": "BYE3", "player2": "BYE4" },
+            { "player1": "BYE5", "player2": "BYE6" }
+          ]
+        },
+        "round3": {
+          "title": "Round 3 | Semifinal",
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            },
+            {
+              "player1": "Winner of Round 2 Match 3",
+              "player2": "Winner of Round 2 Match 4"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
           ]
         }
       }
     }
-
   }
 }
