@@ -8,9 +8,15 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Disha Mohanty", "player2": "Aadvik Ranjan" },
-            { "player1": "Prakhar Choudhary", "player2": "Ishani Sanyal" },
-            { "player1": "Ashray Singh", "player2": "BYE" }
+            { "player1": "Avaneesh Patro", "player2": "Ashray Singh" },
+            { "player1": "Rayan Dan", "player2": "Aadvik Ranjan" },
+            { "player1": "Jiyansh Rath", "player2": "Arja Bhattacharya" },
+             { "player1": "Utkarsh Upadhyay", "player2": "Anahita Anvi" },
+              { "player1": "Varenyam", "player2": "Bye" },
+               { "player1": "Aadvik Behera", "player2": "Bye" },
+                { "player1": "Prakhar Upadhyay", "player2": "Bye" },
+                 { "player1": "Padmaja Upadhyay", "player2": "Bye" }
+
           ]
         },
         "final": {
@@ -28,29 +34,20 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanskar Ojha", "player2": "Avyay (Sweet)" },
-            { "player1": "Varenyam", "player2": "Avaneesh Patro" },
-            { "player1": "Saqib Saikh", "player2": "Prakhar Upadhyay" }
+            { "player1": "Sushant Patro", "player2": "Sneha" },
+            { "player1": "Souravan Roy", "player2": "Parul Kacker" },
+            { "player1": "Ayushman Sharma", "player2": "Jyoti Prakash Pattnayak" },
+            { "player1": "Urmila Devi", "player2": "Rounak Sahu" },
+                { "player1": "Surabhi Kumari", "player2": "Bye" },
+               { "player1": "Lovely Lal", "player2": "Bye" },
+                { "player1": "Anirabn Mukherjee", "player2": "Bye" },
+                 { "player1": "Chotti Kumari", "player2": "Bye" }
           ]
         },
-        "final": {
-          "title": "Final",
+         "round2": {
+          "title": "Round 2",
           "matches": [
-            { "player1": "Winner R1-1", "player2": "Winner R1-2" }
-          ]
-        }
-      }
-    },
-
-    "double_14_plus": {
-      "title": "Doubles 14 Plus",
-      "rounds": {
-        "round1": {
-          "title": "Round 1",
-          "matches": [
-            { "player1": "Mainak Roy", "player2": "Daksh Upadhyay" },
-            { "player1": "Omkant Ojha", "player2": "Arja Bhattacharya" },
-            { "player1": "Vaibhav Shaw", "player2": "BYE" }
+           
           ]
         },
         "final": {

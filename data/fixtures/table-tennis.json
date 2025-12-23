@@ -34,6 +34,12 @@
           "player2": "Akash Chakraborty"
         }
       ]
-    }
+    },
+     "final": {
+          "title": "Final",
+          "matches": [
+            { "player1": "Winner R2-1", "player2": "Winner R2-2" }
+          ]
+        }
   }
 }

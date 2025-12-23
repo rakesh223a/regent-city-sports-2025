@@ -45,26 +45,17 @@
   "double_14_plus": {
     "title": "Carrom Doubles – 14+",
     "participants": [
-      { "name": "Ashim Das" },
-      { "name": "Ayushman Sharma" },
-      { "name": "Chhoti Kumari" },
-      { "name": "Dipa Kumari" },
-      { "name": "Gitanjali Patra" },
-      { "name": "Gouri Prabha Behera" },
-      { "name": "Gouravjit Mahakul" },
-      { "name": "Himika Roy" },
-      { "name": "Lovely Lal" },
-      { "name": "Manish Kumar" },
-      { "name": "Parul Kacker" },
-      { "name": "Ranjeet Tiwari" },
-      { "name": "Sarita Roy" },
-      { "name": "Souravan Roy" },
-      { "name": "Surabhi Kumari" },
-      { "name": "Susant Patro" },
-      { "name": "Tirthankar Kanjilal" },
-      { "name": "Vishal Kumar" },
-      { "name": "Sneha" },
-      { "name": "Prachi Ganguly" }
+      { "name": "🧑‍🤝‍🧑 Gouri Prabha Behera & Tirthankar Kanjilal" },
+      { "name": "🧑‍🤝‍🧑 Lovely Lal & Ranjeet Tiwari" },
+      { "name": "🧑‍🤝‍🧑 Chhoti Kumari & Prachi Ganguly" },
+      { "name": "🧑‍🤝‍🧑 Gouravjit Mahakul & Sneha" },
+      { "name": "🧑‍🤝‍🧑 Manish Kumar & Ashim Das" },
+      { "name": "🧑‍🤝‍🧑 Dipa Kumari & Parul Kacker" },
+      { "name": "🧑‍🤝‍🧑 Sarita Roy & Sushant Patro" },
+      { "name": "🧑‍🤝‍🧑 Himika Roy" },
+      { "name": "🧑‍🤝‍🧑 Souravan Roy & Himika Roy" },
+      { "name": "🧑‍🤝‍🧑 Gitanjali Patra & Ayushman Sharma" },
+      { "name": "🧑‍🤝‍🧑 Vishal Kumar & Surabhi Kumari" }
     ]
   }
 }

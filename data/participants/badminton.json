@@ -126,53 +126,51 @@
   "mixed_14_plus": {
     "title": "Badminton Mixed Doubles (14+)",
     "participants": [
-      { "name": "Souravan Roy" },
-      { "name": "Ashita Ojha" },
-      { "name": "Lovely Lal" },
-      { "name": "Ranjeet Tiwari" },
-      { "name": "Daksh Upadhyay" },
-      { "name": "Arja Bhattacharya" },
-      { "name": "Isha Das" },
-      { "name": "Pragya Choudhary" },
-      { "name": "Kabir Shrey" },
-      { "name": "Prem Alok" },
-      { "name": "Parul Kacker" },
-      { "name": "Sushant Patro" },
-      { "name": "Jyoti Prakash" },
-      { "name": "Haripriya" },
-      { "name": "Shaanvi Dubey" },
-      { "name": "Padmaja Upadhyay" },
-      { "name": "Aidya Pattnayak" },
-      { "name": "Omkant Ojha" },
-      { "name": "Ayushman Sharma" },
-      { "name": "Vishal Kumar" }
+      { "name": "Souravan Roy (M)" },
+      { "name": "Ashita Ojha (F)" },
+      { "name": "Lovely Lal (F)" },
+      { "name": "Ranjeet Tiwari (M)" },
+      { "name": "Daksh Upadhyay (M)" },
+      { "name": "Arja Bhattacharya (M)" },
+      { "name": "Isha Das (F)" },
+      { "name": "Pragya Choudhary (F)" },
+      { "name": "Kabir Shrey (M)" },
+      { "name": "Prem Alok (M)" },
+      { "name": "Parul Kacker (F)" },
+      { "name": "Sushant Patro(M)" },
+      { "name": "Jyoti Prakash (M)" },
+      { "name": "Haripriya (F)" },
+      { "name": "Shaanvi Dubey (F)" },
+      { "name": "Padmaja Upadhyay (F)" },
+      { "name": "Aidya Pattnayak (F)" },
+      { "name": "Omkant Ojha (M)" },
+      { "name": "Ayushman Sharma (M)" },
+      { "name": "Vishal Kumar (M)" },
+      {"name" : "Rakesh Prasad (M)"}
     ]
   },
 
   "couple": {
     "title": "Badminton Couple (Married)",
     "participants": [
-      { "name": "Sanjay 🌹 Sonal" },
-      { "name": "Vishal 🌹 Surabhi" },
-      { "name": "Manish 🌹 Lovely" },
-      { "name": "Rakesh 🌹 Dipa" },
-      { "name": "Samik 🌹 Bidisha" },
-      { "name": "Prem 🌹 Alok" },
-      { "name": "Sushant 🌹 Gitanjali" },
-      { "name": "Jyoti Prakash 🌹 Lakshmi" },
-      { "name": "Deepak 🌹 Puja" },
-      { "name": "Rahul 🌹 Sneha" }
+      { "name": "Sanjay 💑 Sonal" },
+      { "name": "Vishal 💑 Surabhi" },
+      { "name": "Manish 💑 Lovely" },
+      { "name": "Rakesh 💑 Dipa" },
+      { "name": "Samik 💑 Bidisha" },
+      { "name": "Prem 💑 Alok" },
+      { "name": "Sushant 💑 Gitanjali" },
+      { "name": "Jyoti Prakash 💑 Lakshmi" },
+      { "name": "Deepak 💑 Puja" },
+      { "name": "Rahul 💑 Sneha" }
     ]
   },
   "double_male_9_11": {
     "title": "Badminton Doubles – Male (9-11)",
     "participants": [
-      { "name": "Sanskar Ojha" },
-      { "name": "Varenyam" },
-      { "name": "Avyay (Sweet)" },
-      { "name": "Avaneesh Patro" },
-      { "name": "Prakhar Upadhyay" },
-      { "name": "Saqib Saikh" }
+      { "name": "Varenyam 👬 Avyay (Sweet)" },
+      { "name": "Prakhar Upadhyay 👬 Sanskar Ojha" },
+      { "name": "Saqib Saikh 👬 Avaneesh Patro" }
     ]
   },
   "double_male_11_14": {
@@ -203,30 +201,18 @@
   "double_male_14_plus": {
     "title": "Badminton Doubles – Male (14+)",
     "participants": [
-      { "name": "Souravan Roy" },
-      { "name": "Gouravjeet Mahakul" },
-      { "name": "Kaustav Das" },
-      { "name": "Sanjay Singh" },
-      { "name": "Vishal Kumar" },
-      { "name": "Ayushman Sharma" },
-      { "name": "Manish Kumar" },
-      { "name": "Tirthankar Kanjilal" },
-      { "name": "Ranjeet Tiwari" },
-      { "name": "Samik Bhattacharya" },
-      { "name": "Vivek Upadhyay" },
-      { "name": "Anirban Mukherjee" },
-      { "name": "Keshav Tiwari" },
-      { "name": "Kabir Shrey" },
-      { "name": "Prem Alok" },
-      { "name": "Raj Paul" },
-      { "name": "Sushant Patro" },
-      { "name": "Dhimanta Chakraborty" },
-      { "name": "Jyoti Prakash Pattanayak" },
-      { "name": "Jagdeep Saini" },
-      { "name": "Deepak Mohanty" },
-      { "name": "Rakesh Prasad" },
-      { "name": "Suraj Biswas" },
-      { "name": "Deepak Kumar" }
+      { "name": "Manish Kumar 👬 Jyoti Prakash Pattnayak" },
+      { "name": "Raj Paul 👬 Dipak Mohanty" },
+      { "name": "Sanjay Singh 👬 Anirban Mukherjee"},
+      { "name": "Jagdeep Saini 👬 Dhimanto Chakraborty " },
+      { "name": "Samik Bhattacharya 👬 Deepak Kumar" },
+      { "name": "Sushant Patro 👬 Kabir Shrey" },
+      { "name": "Gouravjeet Mahakul 👬 Suraj Biswas" },
+      { "name": "Tirthankar Kanjilal 👬 Keshav Tiwari" },
+      { "name": "Ayushman Sharma 👬 Prem Alok" },
+      { "name": "Kaustav Das 👬 Ranjeet Tiwari" },
+      { "name": "Rakesh Prasad 👬 Vivek Upadhyay" },
+      { "name": "Vishal Kumar 👬 Souravan Roy" }
     ]
   }
 }

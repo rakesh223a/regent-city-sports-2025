@@ -40,7 +40,7 @@ function loadFixtures(game) {
             `;
 
             round.matches.forEach(match => {
-              html += `<li>${match.player1} vs ${match.player2}</li>`;
+              html += `<li>${match.player1} 🆚 ${match.player2}</li>`;
             });
 
             html += `

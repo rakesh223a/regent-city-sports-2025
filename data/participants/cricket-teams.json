@@ -1,11 +1,15 @@
 {
   "teams": [
     {
-      "name": "Regent Warriors",
+      "name": "Team 1",
       "members": ["Aaradhya", "Ayushman", "Mainak Roy"]
     },
     {
-      "name": "City Strikers",
+      "name": "Team 2",
+      "members": ["Avyay Sweet", "Arja Bhattacharya", "Daksh Upadhyay"]
+    },
+     {
+      "name": "Team 3",
       "members": ["Avyay Sweet", "Arja Bhattacharya", "Daksh Upadhyay"]
     }
   ]
