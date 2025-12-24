@@ -1,16 +1,18 @@
 function setActive(btn) {
   document
     .querySelectorAll(".game-buttons button")
-    .forEach(b => b.classList.remove("active"));
+    .forEach((b) => b.classList.remove("active"));
 
   btn.classList.add("active");
 }
 
-function loadFixtures(game, btn) {
+function loadFixtures_old(game, btn) {
   setActiveFixtureTab(btn);
   fetch(`data/fixtures/${game}.json`)
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
+     
+
       const content = document.getElementById("content");
       if (!content) return;
 
@@ -21,9 +23,11 @@ function loadFixtures(game, btn) {
       ===================================================== */
       if (data.categories) {
         Object.values(data.categories).forEach((category, cIdx) => {
+           
           html += `
             <section class="card">
               <h5>${category.title}</h5>
+             
           `;
 
           Object.values(category.rounds).forEach((round, rIdx) => {
@@ -60,7 +64,7 @@ function loadFixtures(game, btn) {
       ===================================================== */
       else if (data.rounds) {
         html += `<section class="card">`;
-
+       
         Object.values(data.rounds).forEach((round, idx) => {
           const roundId = `round-${idx}`;
           const isOpen = idx === 0 ? "block" : "none"; // 👈 Round 1 open
@@ -76,7 +80,7 @@ function loadFixtures(game, btn) {
           `;
 
           round.matches.forEach(match => {
-            html += `<li>${match.player1} vs ${match.player2}</li>`;
+            html += `<li>${match.player1} 🆚 ${match.player2}</li>`;
           });
 
           html += `
@@ -93,6 +97,47 @@ function loadFixtures(game, btn) {
       ===================================================== */
       content.innerHTML = html;
     })
+    .catch((err) => {
+      console.error(err);
+      document.getElementById("content").innerHTML =
+        "<p>Fixtures not available.</p>";
+    });
+}
+
+function loadFixtures(game, btn) {
+  setActiveFixtureTab(btn);
+
+  fetch(`data/fixtures/${game}.json`)
+    .then(res => res.json())
+    .then(data => {
+      const content = document.getElementById("content");
+      if (!content) return;
+
+      let html = `<h2>${data.game} Fixtures</h2>`;
+
+      // Games with categories (Badminton)
+      if (data.categories) {
+        Object.values(data.categories).forEach(category => {
+          html += `
+            <section class="card">
+              <h5>${category.title}</h5>
+              ${renderBracketHTML(category.rounds)}
+            </section>
+          `;
+        });
+      }
+
+      // Games without categories (TT, Chess, etc.)
+      else if (data.rounds) {
+        html += `
+          <section class="card">
+            ${renderBracketHTML(data.rounds)}
+          </section>
+        `;
+      }
+
+      content.innerHTML = html;
+    })
     .catch(err => {
       console.error(err);
       document.getElementById("content").innerHTML =
@@ -100,15 +145,15 @@ function loadFixtures(game, btn) {
     });
 }
 
+
 function toggleRound(id) {
   const el = document.getElementById(id);
   if (!el) return;
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 
-
 function setActiveFixtureTab(activeBtn) {
-  document.querySelectorAll(".game-btn").forEach(btn => {
+  document.querySelectorAll(".game-btn").forEach((btn) => {
     btn.classList.remove("active");
   });
 
@@ -116,3 +161,30 @@ function setActiveFixtureTab(activeBtn) {
     activeBtn.classList.add("active");
   }
 }
+
+function renderBracketHTML(rounds) {
+  let html = `<div class="bracket">`;
+
+  Object.values(rounds).forEach(round => {
+    html += `
+      <div class="round-column">
+        <h6>${round.title}</h6>
+    `;
+
+    round.matches.forEach(match => {
+      html += `
+        <div class="match">
+          <div class="player">${match.player1}</div>
+         <div class="vs">🆚</div>
+          <div class="player">${match.player2}</div>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+

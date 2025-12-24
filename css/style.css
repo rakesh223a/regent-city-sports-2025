@@ -268,3 +268,124 @@ hr.dotted {
   border-color: #0b4dbb;
   font-weight: 600;
 }
+
+/* ===== BRACKET ===== */
+.bracket {
+  display: flex;
+  
+  gap: 16px;
+  padding: 12px 4px;
+  overflow-x: auto;
+  margin-top: 12px;
+  scrollbar-width: thin;
+}
+
+.bracket::-webkit-scrollbar {
+  height: 6px;
+}
+
+.bracket::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+.round {
+  min-width: 220px;
+}
+
+.round h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.match {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.player {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.player.vs {
+  text-align: center;
+  font-weight: bold;
+  color: #777;
+}
+
+.round-column {
+  min-width: 200px;
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  flex-shrink: 0;
+}
+
+.round-column h4 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1e3a8a;
+}
+
+.match {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 8px 6px;
+  margin-bottom: 10px;
+}
+
+.player {
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.vs {
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.vs::before {
+  content: "⚔️";
+}
+
+
+.player:contains("BYE") {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.card {
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.vs {
+  width: 28px;
+  height: 28px;
+  margin: 6px auto;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+
+
+
