@@ -257,8 +257,9 @@ hr.dotted {
   border: 1px solid #ccc;
   background: #f8f8f8;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
+  margin:2px;
 }
 
 .game-btn.active {
