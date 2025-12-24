@@ -386,6 +386,77 @@ hr.dotted {
   font-size: 14px;
 }
 
+.match-card {
+  list-style: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.match-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a24c0b;
+  margin-bottom: 6px;
+}
+
+.player {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.vs {
+  text-align: center;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.bracket {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* Base column */
+.round-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Progressive vertical shift */
+.round-1 {
+  margin-top: 0;
+}
+
+.round-2 {
+  margin-top: 40px;
+}
+
+.round-3 {
+  margin-top: 80px;
+}
+
+.round-4 {
+  margin-top: 140px;
+}
+
+.round-5 {
+  margin-top: 220px;
+}
+
+.round-6 {
+  margin-top: 300px
+}
+
+/* Final – force center */
+.final-round {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
