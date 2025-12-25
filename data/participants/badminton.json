@@ -107,46 +107,30 @@
   "double_female_14_plus": {
     "title": "Badminton Doubles – Female (14+)",
     "participants": [
-      { "name": "Ashita Ojha" },
-      { "name": "Sarita Roy" },
-      { "name": "Surabhi Kumari" },
-      { "name": "Lovely Lal" },
-      { "name": "Dipa Kumari" },
-      { "name": "Lakshmi Kumari" },
-      { "name": "Bidisha Bhattacharya" },
-      { "name": "Puja Kumari" },
-      { "name": "Jyoti Kumari" },
-      { "name": "Parul Kacker" },
-      { "name": "Anita Thakur" },
-      { "name": "Prachi Ganguly" },
-      { "name": "Gitanjali Patra" }
+      { "name": "Ashita Ojha 👭 Bidisha Bhattacharya" },
+      { "name": "Surabhi Kumari 👭 Puja Kumari" },
+      { "name": "Dipa Kumari 👭 Gitanjali Patra" },
+       { "name": "Parul Kacker  👭 Lovely Lal" },
+      { "name": "Sonal Kumari 👭 Lakshmi Kumari" },
+      { "name": "Sarita Roy 👭 Jtoti Kumari" },
+      { "name": "Anita Thakur 👭 Prachi Ganguly" }
     ]
   },
 
   "mixed_14_plus": {
     "title": "Badminton Mixed Doubles (14+)",
     "participants": [
-      { "name": "Souravan Roy (M)" },
-      { "name": "Ashita Ojha (F)" },
-      { "name": "Lovely Lal (F)" },
-      { "name": "Ranjeet Tiwari (M)" },
-      { "name": "Daksh Upadhyay (M)" },
-      { "name": "Arja Bhattacharya (M)" },
-      { "name": "Isha Das (F)" },
-      { "name": "Pragya Choudhary (F)" },
-      { "name": "Kabir Shrey (M)" },
-      { "name": "Prem Alok (M)" },
-      { "name": "Parul Kacker (F)" },
-      { "name": "Sushant Patro(M)" },
-      { "name": "Jyoti Prakash (M)" },
-      { "name": "Haripriya (F)" },
-      { "name": "Shaanvi Dubey (F)" },
-      { "name": "Padmaja Upadhyay (F)" },
-      { "name": "Aidya Pattnayak (F)" },
-      { "name": "Omkant Ojha (M)" },
-      { "name": "Ayushman Sharma (M)" },
-      { "name": "Vishal Kumar (M)" },
-      {"name" : "Rakesh Prasad (M)"}
+      { "name": "Prem Alok 👭 Pragya Choudhary" },
+      { "name": "Kabir Shrey 👭 Padmaja Upadhyay" },
+      { "name": "Ranjeet Tiwari 👭 Ishani Sanyal" },
+      { "name": "Aidya Pattnayak 👭 Daksh Upadhyay" },
+      { "name": "Parul Kacker 👭 Arja Bhattacharya" },
+      { "name": "Ayushman Sharma 👭 Shaanvi Dubey" },
+      { "name": "Ashita Ojha 👭 Omkant Ojha" },
+      { "name": "Shreya Tiwari 👭 Souravan Roy" },
+      { "name": "Vishal Kumar 👬 Isha Das" },
+      { "name": "Lovely Lal 👭 Sushant Patro" },
+      { "name": "Jyoti Prakash 👭 Haripriya " }
     ]
   },
 
@@ -176,26 +160,20 @@
   "double_male_11_14": {
     "title": "Badminton Doubles – Male (11-14)",
     "participants": [
-      { "name": "Mainak Roy" },
-      { "name": "Vaibhav Shaw" },
-      { "name": "Omkant Ojha" },
-      { "name": "Ayushman Sharma" },
-      { "name": "Daksh Upadhyay" },
-      { "name": "Arja Bhattacharya" },
-      { "name": "Arannya Ghosh" }
+      { "name": "Mainak Roy 👭 ❓" },
+      { "name": "Arja Bhattacharya 👭 Arannya Ghosh (Jim)" },
+      { "name": "Omkant Ojha 👭 Vaibhav Shaw" },
+      { "name": "Daksh Upadhyay 👭 Ayushman Sharma" }
     ]
   },
   "double_female_11_14": {
     "title": "Badminton Doubles – Female (11-14)",
     "participants": [
-      { "name": "Isha Das" },
-      { "name": "Shreya Tiwari" },
-      { "name": "Sanjeevani Singh" },
-      { "name": "Shaanvi Dubey" },
-      { "name": "Padmaja Upadhyay" },
-      { "name": "Ishani Sanyal" },
-      { "name": "Pragya Choudhary" },
-      { "name": "Aidya Pattnayak" }
+      { "name": "Pragya Choudhary 👭 Haripriya" },
+      { "name": "Sanjeevani Singh 👭 Isha" },
+      { "name": "Padmaja Upadhyay 👭 Shaanvi Dubey" },
+      { "name": "Shreya Tiwari 👭 Ishani Sanyal" },
+      { "name": "Aidya Pattnayak 👭 ❓" }
     ]
   },
   "double_male_14_plus": {
@@ -204,7 +182,7 @@
       { "name": "Manish Kumar 👬 Jyoti Prakash Pattnayak" },
       { "name": "Raj Paul 👬 Dipak Mohanty" },
       { "name": "Sanjay Singh 👬 Anirban Mukherjee"},
-      { "name": "Jagdeep Saini 👬 Dhimanto Chakraborty " },
+      { "name": "Jagdeep Saini 👬 Dhimanto Chakraborty" },
       { "name": "Samik Bhattacharya 👬 Deepak Kumar" },
       { "name": "Sushant Patro 👬 Kabir Shrey" },
       { "name": "Gouravjeet Mahakul 👬 Suraj Biswas" },

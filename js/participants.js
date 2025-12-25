@@ -11,7 +11,7 @@ function loadParticipants(game, btn) {
 
   if (game === "cricket") {
     document.getElementById("cricketTabs").classList.remove("hidden");
-    loadCricketParticipants(); // default tab
+    loadCricketTeams() // default tab
     return;
   }
 
