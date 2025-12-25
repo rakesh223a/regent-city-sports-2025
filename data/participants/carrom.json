@@ -42,6 +42,19 @@
     ]
   },
 
+  "double_below_14": {
+    "title": "Carrom Doubles - 14+",
+    "participants": [
+      { "name": "Arja Bhattacharya" },
+      { "name": "Avneesh Patro" },
+      { "name": "Akshay Singh" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Prakhar Upadhyay" },
+      { "name": "Rayan Dan" },
+      { "name": "Utkarsh Upadhyay" },
+      { "name": "Ishani Sanyal" }
+    ]
+  },
   "double_14_plus": {
     "title": "Carrom Doubles – 14+",
     "participants": [

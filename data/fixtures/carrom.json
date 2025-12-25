@@ -145,6 +145,33 @@
       }
     },
 
+    "double_below_14": {
+      "title": "Doubles below 14",
+      "rounds": {
+        "round1": {
+          "title": "Round 1",
+           "matches": [
+            {
+              "player1": "Pair 1",
+              "player2": "Pair 2"
+            },
+            {
+              "player1": "Pair 3",
+              "player2": "Pair 4"
+            }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "Winner of Round 3 Match 1",
+              "player2": "Winner of Round 3 Match 2"
+            }
+          ]
+        }
+      }
+    },
     "double_14_plus": {
       "title": "Doubles 14 Plus",
       "rounds": {
@@ -194,5 +221,6 @@
         }
       }
     }
+
   }
 }
