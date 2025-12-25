@@ -85,7 +85,10 @@
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Omkant Ojah Vs Vaibhav Shaw", "player2": "Mainak Roy" },
+            {
+              "player1": "Omkant Ojah Vs Vaibhav Shaw",
+              "player2": "Mainak Roy"
+            },
             { "player1": "Arja Bhattacharya", "player2": "Daksh Upadhyay" }
           ]
         },
@@ -145,7 +148,7 @@
           "title": "Round 1",
           "matches": [
             { "player1": "Kaustav Das", "player2": "Ayushman Sharma" },
-             { "player1": "Dhimanto Chakraborty", "player2": "BYE3" },
+            { "player1": "Dhimanto Chakraborty", "player2": "BYE3" },
             { "player1": "Kabir Shrey", "player2": "BYE4" },
             { "player1": "Aashita Ojha", "player2": "BYE5" }
           ]
@@ -153,7 +156,10 @@
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Kaustav Das vs Ayushman Sharma", "player2": "Dhimanto Chakraborty" },
+            {
+              "player1": "Kaustav Das vs Ayushman Sharma",
+              "player2": "Dhimanto Chakraborty"
+            },
             { "player1": "Kabir Shrey", "player2": "Aashita Ojha" }
           ]
         },
@@ -176,7 +182,7 @@
           "title": "Round 1",
           "matches": [
             { "player1": "Raj Paul", "player2": "Gouravjeet Mahakul" },
-             { "player1": "Souravan Roy", "player2": "BYE3" },
+            { "player1": "Souravan Roy", "player2": "BYE3" },
             { "player1": "Suraj Biswas", "player2": "BYE4" },
             { "player1": "Jagdeep Saini", "player2": "BYE5" }
           ]
@@ -184,7 +190,10 @@
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
-            { "player1": "Raj Paul vs Gouravjeet mahakul", "player2": "Souravan Roy" },
+            {
+              "player1": "Raj Paul vs Gouravjeet mahakul",
+              "player2": "Souravan Roy"
+            },
             { "player1": "Suraj Biswas", "player2": "Jagdeep Saini" }
           ]
         },
@@ -213,8 +222,7 @@
             { "player1": "Anirban Mukherjee", "player2": "BYE9" },
             { "player1": "Sanjay Singh", "player2": "BYE10" },
             { "player1": "Jyoti Praksh Pattnayak", "player2": "BYE11" },
-             { "player1": "Jyoti Kumar", "player2": "BYE12" }
-            
+            { "player1": "Jyoti Kumar", "player2": "BYE12" }
           ]
         },
         "round2": {
@@ -318,22 +326,21 @@
             { "player1": "Parul Kacker", "player2": "Bidisha Bhattacharya" },
             { "player1": "Sarita Roy", "player2": "Himika Roy" },
             { "player1": "Surabhi Kumari", "player2": "Sangeeta Singh" }
-            
           ]
         },
         "round2": {
           "title": "Round 2 ( League format )",
           "matches": [
             {
-              "player1": "M1", 
+              "player1": "M1",
               "player2": "M2"
             },
-             {
-              "player1": "M2", 
+            {
+              "player1": "M2",
               "player2": "M3"
             },
-             {
-              "player1": "M3", 
+            {
+              "player1": "M3",
               "player2": "M1"
             }
           ]
@@ -418,28 +425,28 @@
               "player2": "Jyoti Prakash Pattnayak 🧑‍🤝‍🧑 Haripriya"
             },
             {
-              "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha" ,
+              "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
               "player2": "BYE1"
             },
-             {
-              "player1": "Aidya Pattnayak 🧑‍🤝‍🧑 Daksh Upadhyay" ,
+            {
+              "player1": "Aidya Pattnayak 🧑‍🤝‍🧑 Daksh Upadhyay",
               "player2": "BYE2"
             },
-             {
-              "player1": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey" ,
+            {
+              "player1": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey",
               "player2": "BYE3"
             },
-             {
-              "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro" ,
+            {
+              "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
               "player2": "BYE4"
             },
             {
-              "player1": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy" ,
+              "player1": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "BYE4"
             }
           ]
         },
-                "round2": {
+        "round2": {
           "title": "Round 2",
           "matches": [
             {
@@ -455,7 +462,7 @@
               "player2": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey"
             },
             {
-              "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro" ,
+              "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
               "player2": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy"
             }
           ]
@@ -495,7 +502,13 @@
               "player1": "Jyoti Prakash 🌹 Himika",
               "player2": "Prem Alok🌹 Sangeeta"
             },
-            { "player1": "Manish 🌹 Lovely", "player2": "Vishal 🌹 Surabhi" }
+            { "player1": "Manish 🌹 Lovely", "player2": "Vishal 🌹 Surabhi" },
+            { "player1": "Sanjay 🌹 Sonal", "player2": "BYE1" },
+            { "player1": "Sushant 🌹 Gitanjali", "player2": "BYE2" },
+            { "player1": "Samik 🌹 Bidisha", "player2": "BYE3" },
+            { "player1": "Rakesh 🌹 Dipa", "player2": "BYE4" },
+            { "player1": "Deepak 🌹 Puja", "player2": "BYE5" },
+            { "player1": "Jyoti 🌹 Lakshmi", "player2": "BYE6" }
           ]
         },
         "round2": {
@@ -505,9 +518,9 @@
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             },
-            { "player1": "Pair BYE1", "player2": "Pair BYE2" },
-            { "player1": "Pair BYE3", "player2": "Pair BYE4" },
-            { "player1": "Pair BYE5", "player2": "Pair BYE6" }
+            { "player1": "Sanjay 🌹 Sonal", "player2": "Sushant 🌹 Gitanjali" },
+            { "player1": "Rakesh 🌹 Dipa", "player2": "Samik 🌹 Bidisha" },
+            { "player1": "Jyoti 🌹 Lakshmi", "player2": "Deepak 🌹 Puja" }
           ]
         },
         "rounds3": {
@@ -582,7 +595,12 @@
         },
         "final": {
           "title": "Final",
-          "matches": [{ "player1": "Winner of Round 1 Match 1", "player2": "Winner of Round 1 Match 2" }]
+          "matches": [
+            {
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
+            }
+          ]
         }
       }
     },
@@ -601,18 +619,17 @@
               "player1": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
               "player2": "BYE1"
             },
-             {
+            {
               "player1": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das",
               "player2": "BYE1"
             },
-             {
+            {
               "player1": "Padmaja Upadhyay 🧑‍🤝‍🧑 Shaanvi Dubey",
               "player2": "BYE1"
-            } 
-
+            }
           ]
         },
-         "round2": {
+        "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
@@ -627,7 +644,12 @@
         },
         "final": {
           "title": "Final",
-          "matches": [{ "player1": "Winner of Round 2 Match 1", "player2": "Winner of Round 2 Match 2" }]
+          "matches": [
+            {
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
+            }
+          ]
         }
       }
     },
@@ -635,7 +657,7 @@
     "double_male_14_plus": {
       "title": "Doubles Male 14 Yrs",
       "rounds": {
-         "round1": {
+        "round1": {
           "title": "Round 1",
           "matches": [
             {
@@ -651,28 +673,28 @@
               "player2": "Ranjeet Tiwari 🧑‍🤝‍🧑 Kaustav Das"
             },
             {
-              "player1": "Tirthankar Kanjilal 🧑‍🤝‍🧑 Keshave Tiwari" ,
+              "player1": "Tirthankar Kanjilal 🧑‍🤝‍🧑 Keshave Tiwari",
               "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
-             {
-              "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay" ,
+            {
+              "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay",
               "player2": "BYE1"
             },
-             {
-              "player1": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee" ,
+            {
+              "player1": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee",
               "player2": "BYE2"
             },
-             {
-              "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy" ,
+            {
+              "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "BYE3"
             },
             {
-              "player1": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty" ,
+              "player1": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty",
               "player2": "BYE4"
             }
           ]
         },
-                "round2": {
+        "round2": {
           "title": "Round 2",
           "matches": [
             {
@@ -688,7 +710,7 @@
               "player2": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee"
             },
             {
-              "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy" ,
+              "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty"
             }
           ]
