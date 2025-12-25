@@ -111,7 +111,7 @@
           "title": "Round 1",
           "matches": [
             { "player1": "Pragya Chowdhury", "player2": "Padmaja Upadhyay" },
-            { "player1": "Sanjeevani Singh", "player2": "Aidya Pattnayak" },
+            { "player1": "Sanjeevani Singh", "player2": "Aidya Pattanayak" },
             { "player1": "Haripriya", "player2": "Shaanvi Dubey" },
             { "player1": "Shreya Tiwari", "player2": "Isha Das" }
           ]
@@ -121,7 +121,7 @@
           "matches": [
             {
               "player1": "Pragya Chowdhury vs Padmaja Upadhyay",
-              "player2": "Sanjeevani Singh vs  Aidya Pattnayak"
+              "player2": "Sanjeevani Singh vs  Aidya Pattanayak"
             },
             {
               "player1": "Haripriya vs Shaanvi Dubey",
@@ -221,7 +221,7 @@
             { "player1": "Dipak Mohanty", "player2": "Vivek Upadhyay" },
             { "player1": "Anirban Mukherjee", "player2": "BYE9" },
             { "player1": "Sanjay Singh", "player2": "BYE10" },
-            { "player1": "Jyoti Praksh Pattnayak", "player2": "BYE11" },
+            { "player1": "Jyoti Praksh Pattanayak", "player2": "BYE11" },
             { "player1": "Jyoti Kumar", "player2": "BYE12" }
           ]
         },
@@ -237,7 +237,7 @@
               "player2": "Dipak Mohanty vs Vivek Upadhyay"
             },
             { "player1": "Anirban Mukherjee", "player2": "Sanjay Singh" },
-            { "player1": "Jyoti Praksh Pattnayak", "player2": "Jyoti Kumar" }
+            { "player1": "Jyoti Praksh Pattanayak", "player2": "Jyoti Kumar" }
           ]
         },
         "rounds3": {
@@ -249,7 +249,7 @@
             },
             {
               "player1": "Anirban Mukherjee vs Sanjay Singh",
-              "player2": "Jyoti Prakash  Pattnayak vs Jyoti Kumar"
+              "player2": "Jyoti Prakash  Pattanayak vs Jyoti Kumar"
             }
           ]
         },
@@ -422,14 +422,14 @@
             },
             {
               "player1": "Prem Alok 🧑‍🤝‍🧑 Pragya Chowdhary",
-              "player2": "Jyoti Prakash Pattnayak 🧑‍🤝‍🧑 Haripriya"
+              "player2": "Jyoti Prakash Pattanayak 🧑‍🤝‍🧑 Haripriya"
             },
             {
               "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
               "player2": "BYE1"
             },
             {
-              "player1": "Aidya Pattnayak 🧑‍🤝‍🧑 Daksh Upadhyay",
+              "player1": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
               "player2": "BYE2"
             },
             {
@@ -458,7 +458,7 @@
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha"
             },
             {
-              "player1": "Aidya Pattnayak 🧑‍🤝‍🧑 Daksh Upadhyay",
+              "player1": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
               "player2": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey"
             },
             {
@@ -613,7 +613,7 @@
           "matches": [
             {
               "player1": "Shreya Tiwari 🧑‍🤝‍🧑 Ishani Sanyal",
-              "player2": "Aidya Pattnayak 🧑‍🤝‍🧑 Priya Pradhan"
+              "player2": "Aidya Pattanayak 🧑‍🤝‍🧑 Priya Pradhan"
             },
             {
               "player1": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
@@ -666,7 +666,7 @@
             },
             {
               "player1": "Jagdeep Saini 🧑‍🤝‍🧑 Dhimanto Chakrabort",
-              "player2": "Manish Kumar 🧑‍🤝‍🧑 Jyoti Prakash Pattnayak"
+              "player2": "Manish Kumar 🧑‍🤝‍🧑 Jyoti Prakash Pattanayak"
             },
             {
               "player1": "Samik Bhattacharya 🧑‍🤝‍🧑 Deepak Kumar",
