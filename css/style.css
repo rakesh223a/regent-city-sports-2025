@@ -432,23 +432,22 @@ hr.dotted {
 }
 
 .round-2 {
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .round-3 {
-  margin-top: 80px;
+  margin-top: 200px;
 }
-
 .round-4 {
-  margin-top: 140px;
+  margin-top: 300px;
 }
 
 .round-5 {
-  margin-top: 220px;
+  margin-top: 400px;
 }
 
 .round-6 {
-  margin-top: 300px
+  margin-top: 500px
 }
 
 /* Final – force center */
