@@ -316,27 +316,34 @@
           "title": "Round 1",
           "matches": [
             { "player1": "Parul Kacker", "player2": "Bidisha Bhattacharya" },
-            { "player1": "Sarita Roy", "player2": "BYE3" },
-            { "player1": "Surabhi Kumari", "player2": "BYE4" },
-            { "player1": "Sangeeta Singh", "player2": "BYE5" }
+            { "player1": "Sarita Roy", "player2": "Himika Roy" },
+            { "player1": "Surabhi Kumari", "player2": "Sangeeta Singh" }
+            
           ]
         },
         "round2": {
-          "title": "Round 2",
+          "title": "Round 2 ( League format )",
           "matches": [
             {
-              "player1": "Parul Kacker vs Bidisha Bhattacharya",
-              "player2": "Sarita Roy"
+              "player1": "M1", 
+              "player2": "M2"
             },
-            { "player1": "Surabhi", "player2": "Sangeeta Singh" }
+             {
+              "player1": "M2", 
+              "player2": "M3"
+            },
+             {
+              "player1": "M3", 
+              "player2": "M1"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "League Topper 1",
+              "player2": "League Topper 2"
             }
           ]
         }
@@ -371,11 +378,11 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "Winner of Round 1 Match 1",
+              "player2": "Winner of Round 1 Match 2"
             },
             {
-              "player1": "Winner of Round 2 Match 3",
+              "player1": "Winner of Round 1 Match 3",
               "player2": "Sarita Roy 🧑‍🤝‍🧑 Jyoti Kumari"
             }
           ]
@@ -384,8 +391,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player1": "Winner of Round 2 Match 1",
+              "player2": "Winner of Round 2 Match 2"
             }
           ]
         }
