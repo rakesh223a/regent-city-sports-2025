@@ -335,7 +335,7 @@ hr.dotted {
 
 .match {
   background: #ffffff;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #afbad0;
   border-radius: 8px;
   padding: 8px 6px;
   margin-bottom: 10px;
@@ -376,7 +376,7 @@ hr.dotted {
 
 .vs {
   width: 28px;
-  height: 28px;
+  
   margin: 6px auto;
   border-radius: 50%;
   background: #eef2ff;
@@ -388,7 +388,7 @@ hr.dotted {
 
 .match-card {
   list-style: none;
-  border: 1px solid #e5e7eb;
+  
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 10px;
