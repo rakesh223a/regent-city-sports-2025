@@ -1,0 +1,631 @@
+{
+  "week_1": {
+    "label": "Week 1",
+    "days": {
+      "2026-01-02": {
+        "label": "2 Jan",
+        "matches": [
+          {
+            "game": "Badminton",
+            "category": "Upto 9 Yrs",
+            "round": "Round 1",
+            "time": "05:00 PM - 05:30 PM",
+            "venue": "Badminton Court",
+            "match": "Ashray Singh 🆚 Aadvik Ranjan"
+          },
+          {
+            "game": "Badminton",
+            "category": "Upto 9 Yrs",
+            "round": "Round 2",
+            "time": "05:30 PM - 06:00 PM",
+            "venue": "Badminton Court",
+            "match": "Prakhar Choudhary 🆚 Saanvi Sanyal"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 9 to 11 Yrs",
+            "round": "Round 1",
+            "time": "06:00 PM - 06:30 PM",
+            "venue": "Badminton Court",
+            "match": "Sanskar Ojha 🆚 Varenyam"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 9 to 11 Yrs",
+            "round": "Round 2",
+            "time": "06:30 PM - 07:00 PM",
+            "venue": "Badminton Court",
+            "match": "Prakhar Upadhyay 🆚 Saqib Saikh"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Male 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "07:00 PM - 07:30 PM",
+            "venue": "Badminton Court",
+            "match": "Omkant Ojha 🆚 Vaibhav Shaw"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Male 11 to 13 Yrs",
+            "round": "Round 2",
+            "time": "07:30 PM - 08:00 PM",
+            "venue": "Badminton Court",
+            "match": "Arja Bhattacharya 🆚 Daksh Upadhyay"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "08:00 PM - 08:30 PM",
+            "venue": "Badminton Court",
+            "match": "Pragya Chowdhury 🆚 Padmaja Upadhyay"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "08:30 PM - 09:00 PM",
+            "venue": "Badminton Court",
+            "match": "Sanjeevani Singh 🆚 Aidya Pattanayak"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "09:00 PM - 09:30 PM",
+            "venue": "Badminton Court",
+            "match": "Haripriya 🆚 Shaanvi Dubey"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "09:30 PM - 10:00 PM",
+            "venue": "Badminton Court",
+            "match": "Shreya Tiwari 🆚 Isha Das"
+          }
+        ]
+      },
+
+      "2026-01-03": {
+        "label": "3 Jan",
+        "matches": [
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:00 AM - 9:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Advik Behera 🆚 Debasish Panda"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:00 AM - 9:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Avyay (Sweet) 🆚 Pragya Chowdhary"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:15 AM - 9:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Mainak Roy 🆚 Arik Choudhary"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "9:15 AM - 9:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sanjeevani 🆚 Ashray"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "9:30 AM - 9:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Akshya Singh 🆚 Shaanvi Dubey"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "9:30 AM - 9:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Varenyam 🆚 Cheeku"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "9:45 AM - 10:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Rayan Dan 🆚 Shlok Bansal"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "9:45 AM - 10:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Ayushman Ghosh 🆚 Isha Das"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:00 AM - 10:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Arja Bhattacharya 🆚 Anhita Anvi"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:00 AM - 10:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Rajveer Singh 🆚 Utkarsh Upadhyay"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:15 AM - 10:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Prakhar Upadhyay 🆚 Reyanshi"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:15 AM - 10:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Aidya Pattanayak 🆚 Saanvi Sanyal"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:30 AM - 10:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Disha Mohanty 🆚 Priya Pradhan"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:45 AM - 11:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Swarnabindu Mukherjee 🆚 Advik Ranjan"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:45 AM - 11:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Samujjal Mukherjee 🆚 Haripriya"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "11:00 AM - 11:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Avaneesh Patro 🆚 Arav Raj"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "11:00 AM - 11:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Ishani Sanyal 🆚 Padmaja Upadhyay"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "11:15 AM - 11:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Prachi Ganguly 🆚 Parul Kacker"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "11:30 AM - 11:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Dipa Kumari 🆚 Puja Kumari"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "11:30 AM - 11:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Bindu Kumari 🆚 Lovely Lal"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "11:45 AM - 12:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sangeeta Singh 🆚 Jyoti Kumari"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "11:45 AM - 12:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Indu Bala 🆚 Gitanjali Patra"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:00 AM - 12:15 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Chaitanya 🆚 Vandana Upadhyay"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:00 AM - 12:15 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Swati Singh 🆚 Prabha Behera"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:15 AM - 12:30 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Paramjeet Kaur 🆚 Manish Kumar"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:15 AM - 12:30 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sarita Roy 🆚 Urmila Devi"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:30 PM - 12:45 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sananda Mukherjee 🆚 Jyoti Prakash Pattanayak"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:30 PM - 12:45 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Shatarupa Choudhary 🆚 Jagdeep Saini"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:45 PM - 01:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Anita Thakur 🆚 Himika Roy"
+          },
+
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 1",
+            "time": "12:45 PM - 01:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Surabhi Kumari 🆚 Sneha"
+          },
+          {
+            "game": "Ludo",
+            "category": "14 Plus",
+            "round": "Round 2",
+            "time": "01:00 PM - 01:15 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sonal Kumari 🆚 Mahua Sanyal"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:00 AM - 9:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Avaneesh Patro 🆚 Ashray Singh"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:15 AM - 9:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Rayan Dan 🆚 Aadvik Ranjan"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:30 AM - 9:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Jiyansh Rath 🆚 Arja Bhattacharya"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 1",
+            "time": "9:45 AM - 10:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Utkarsh Upadhyay 🆚 Anahita Anvi"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:00 AM - 10:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Varenyam 🆚 Prakhar Upadhyay"
+          },
+          {
+            "game": "Chess",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "10:15 AM - 10:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Advik Behera 🆚 Padmaja Upadhyay"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "10:30 AM - 10:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sushant Patro 🆚 Sneha"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "10:45 AM - 11:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Souravan Roy 🆚 Parul Kacker"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "11:00 AM - 11:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Ayushman Sharma 🆚 Jyoti Prakash Pattanayak"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "11:15 AM - 11:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Urmila Devi 🆚 Rounak Sahu"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "11:30 AM - 11:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Surabhi Kumari 🆚 Anirban Mukherjee"
+          },
+          {
+            "game": "Chess",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "11:45 AM - 12:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Lovely Lal 🆚 Chhoti Kumari"
+          },
+          {
+            "game": "Carrom",
+            "category": "Below 14-Single",
+            "round": "Round 1",
+            "time": "09:00 AM - 09:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Varenyam 🆚 Akshay Singh"
+          },
+          {
+            "game": "Carrom",
+            "category": "Below 14-Single",
+            "round": "Round 1",
+            "time": "09:15 AM - 09:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Rayan Dan 🆚 Arja Bhattacharya"
+          },
+          {
+            "game": "Carrom",
+            "category": "Below 14-Single",
+            "round": "Round 1",
+            "time": "09:30 AM - 09:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Prakhar Upadhyay 🆚 Utkarsh Upadhyay"
+          },
+          {
+            "game": "Carrom",
+            "category": "Below 14-Single",
+            "round": "Round 1",
+            "time": "09:45 AM - 10:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Padmaja Upadhyay 🆚 Ishani Sanyal"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 1",
+            "time": "10:00 AM - 10:15 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Kaustav Das 🆚 Tirthankar Kanjilal"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 1",
+            "time": "10:15 AM - 10:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Parul Kacker 🆚 Prabha Behera"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 1",
+            "time": "10:30 AM - 10:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Dipa Kumari 🆚 Jyoti Prakash Pattanayak"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 1",
+            "time": "10:45 AM - 11:00 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Chhoti Kumari 🆚 Sarita Roy"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 1",
+            "time": "11:00 AM - 11:15 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Kajal Paul 🆚 Ayushman Sharma"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 2",
+            "time": "11:15 AM - 11:30 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Surabhi Kumari 🆚 Chetan"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 2",
+            "time": "11:30 AM - 11:45 AM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Souravan Roy 🆚 Prachi Ganguly"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 2",
+            "time": "11:45 AM - 12:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Vishal Kumar 🆚 Ranjeet Tiwari"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 2",
+            "time": "12:00 PM - 12:15 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Sneha 🆚 Himika Roy"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14-Single",
+            "round": "Round 2",
+            "time": "12:15 PM - 12:30 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Ashim Das 🆚 Goravjeet Mahakul"
+          },
+           {
+            "game": "Badminton",
+            "category": "Single 9 to 11 Yrs",
+            "round": "Round 2",
+            "time": "07:30 PM - 08:00 PM",
+            "venue": "Badminton Court",
+            "match": "Winner of (Sanskar Ojha vs Varenyam) 🆚 Winner of (Avyay-sweet vs Avaneesh Patro)"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 14 to 25 yrs",
+            "round": "Round 1",
+            "time": "08:00 PM - 08:30 PM",
+            "venue": "Badminton Court",
+            "match": "Kaustav Das 🆚 Ayushman Sharma"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 14 to 25 yrs",
+            "round": "Round 2",
+            "time": "08:30 PM - 09:00 PM",
+            "venue": "Badminton Court",
+            "match": "Kabir Shrey 🆚 Aashita Ojha"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 14 to 25 yrs",
+            "round": "Round 2",
+            "time": "09:00 PM - 09:30 PM",
+            "venue": "Badminton Court",
+            "match": "Winner of (Kaustav Das vs Ayushman Sharma) 🆚 Dhimanto Chakraborty"
+          },
+          
+          {
+            "game": "Badminton",
+            "category": "Single 25 to 40 yrs",
+            "round": "Round 1",
+            "time": "09:30 PM - 10:00 PM",
+            "venue": "Badminton Court",
+            "match": "Raj Paul 🆚 Gouravjeet Mahakul"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single 25 to 40 yrs",
+            "round": "Round 2",
+            "time": "10:30 PM - 10:30 PM",
+            "venue": "Badminton Court",
+            "match": "Suraj Biswas 🆚 Jagdeep Saini"
+          }
+        ]
+      },
+      "2026-01-04": {
+        "label": "4 Jan",
+         "matches": []
+      }
+    }
+  },
+
+  "week_2": {
+    "label": "Week 2",
+    "days": {}
+  },
+
+  "week_3": {
+    "label": "Week 3",
+    "days": {}
+  }
+}

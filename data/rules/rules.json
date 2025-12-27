@@ -1,0 +1,62 @@
+{
+  "Chess": {
+    "title": "Chess Rules",
+    "rules": [
+      "Board Set Up: Arrange pieces on the first row from left to right: rook, knight, bishop, queen (on matching color square), king, bishop, knight, rook; pawns fill the second row. ",
+      "Piece movement: *Pawns move forward one square (two on first move), capture diagonally, and promote on reaching the opposite side. *Rooks move any squares horizontally or vertically. *Knights move in an L-shape (two squares one way, one perpendicular) and jump over pieces. *Bishops move any squares diagonally. *Queens move any squares in straight or diagonal lines.*Kings move one square any direction but cannot enter checkEach player will get limited time per game",
+      "Special Move: Castling lets the king move two squares toward a rook ",
+      "Checks and wins: *Say 'check' when attacking the king; opponent must escape. *Checkmate ends the game when the king is in check with no escape. *Draws occur via stalemate",
+      "Rules at RC: *White begins with the clock running after setup. *Each side starts with 15 minutes total on their clock. *No increments time unless specified in begining *After each move, the player presses their clock to switch time to the opponent. *The player who runs out of time first loses, unless they have checkmated the opponent earlier."
+    ]
+  },
+
+  "Carrom": {
+    "title": "Carrom Rules",
+    "rules": [
+      "Matches will be knockout based",
+      "Board rules as per standard carrom regulations"
+    ]
+  },
+  "Badminton": {
+    "title": "Badminton Rules",
+    "rules": [
+      "Matches will be played as knockout format",
+      "Each match will be best of 3 games",
+      "Participants must report on time"
+    ]
+  },
+
+  "Table Tennis": {
+    "title": "Table Tennis Rules",
+    "rules": [
+      "For TT Rules- Please mention we will follow ITTF rules and referees decisions are final.",
+      "Each match will be best of 3 sets",
+      "Matches will be played in knockout format",
+      "Service changes after every 2 points",
+      "Organizers' decision will be final"
+    ]
+  },
+  "Ludo": {
+    "title": "Ludo Rules",
+    "rules": [
+      "Matches will be played in knockout format",
+      "Each match duration will be decided by organizers",
+      "Organizers' decision is final"
+    ]
+  },
+  "Cricket": {
+    "title": "Cricket Rules",
+    "rules": [
+      "Each match will be of limited overs as decided by the organizers",
+      "Each team must report at least 15 minutes before match time",
+      "Fair play and sportsmanship are expected at all times",
+      "Organizers' decision will be final"
+    ]
+  },
+  "Fun Game": {
+    "title": "Fun Game Rules",
+    "rules": [
+      "Games are conducted purely for fun and engagement"
+    ]
+  }
+}

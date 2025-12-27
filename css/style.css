@@ -32,6 +32,7 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 20px;
+  min-height: calc(100vh - 160px); /* header + footer space */
 }
 
 .card {
@@ -181,7 +182,7 @@ h5{
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 12px;
   background: rgba(255, 255, 255, 0.15);
   transition: background 0.2s ease;
 }
@@ -268,13 +269,12 @@ hr.dotted {
 /* ===== BRACKET ===== */
 .bracket {
   display: flex;
-  
   gap: 16px;
   padding: 6px 4px;
   overflow-x: auto;
- 
-  scrollbar-width: thin;
+  overflow-y: visible;   /* ✅ ADD THIS */
 }
+
 
 .bracket::-webkit-scrollbar {
   height: 6px;
@@ -455,6 +455,184 @@ hr.dotted {
 .category-btn:active {
   background: #e6ebff;
 }
+
+
+.tab-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.day-btn {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.day-btn.active {
+  background: #4a6cf7;
+  color: #fff;
+  border-color: #4a6cf7;
+}
+
+.schedule-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.schedule-title {
+  font-weight: 600;
+}
+
+.schedule-meta {
+  font-size: 13px;
+  color: #666;
+  margin: 4px 0;
+}
+
+
+/* ===============================
+   WEEK TABS
+================================ */
+
+#weekTabs {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0 16px;
+  overflow-x: auto;              /* mobile scroll */
+  padding-bottom: 6px;
+}
+
+.week-btn {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 999px;          /* pill shape */
+  border: 1.5px solid #1f4fd8;
+  background: #fff;
+  color: #1f4fd8;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+/* Active Week */
+.week-btn.active {
+  background: linear-gradient(135deg, #1f4fd8, #2f6bff);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 4px 10px rgba(31, 79, 216, 0.3);
+}
+
+/* Hover (desktop only feel) */
+.week-btn:hover:not(.active) {
+  background: rgba(31, 79, 216, 0.08);
+}
+
+#dayTabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.day-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.day-btn.active {
+  background: #1f4fd8;
+  color: #fff;
+  border-color: #1f4fd8;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.round-label {
+  background: #eef3ff;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-y: auto !important;
+  }
+
+  .container,
+  .bracket,
+  .schedule-card {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .bracket {
+    padding-bottom: 16px; /* space for scroll thumb */
+  }
+}
+
+#gameTabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.game-tab {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.game-tab.active {
+  background: #0b4dbb;
+  color: #fff;
+  border-color: #0b4dbb;
+}
+
+.line-separator {
+  width:100%;
+  height:1px;
+  background: linear-gradient(to right, transparent, #9cb7df, transparent);
+  margin: 14px 0 18px;
+}
+
+#rulesContent ul {
+  padding-left: 18px;
+}
+
+#rulesContent li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+
 
 
 

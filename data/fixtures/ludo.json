@@ -2,7 +2,7 @@
   "game": "Ludo",
   "categories": {
     "ludo_below_14": {
-      "title": "Singles Below 14",
+      "title": "Below 14",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -154,7 +154,7 @@
     },
 
     "ludo_14_plus": {
-      "title": "Singles 14+",
+      "title": "Above 14",
       "rounds": {
         "round1": {
           "title": "Round 1",
