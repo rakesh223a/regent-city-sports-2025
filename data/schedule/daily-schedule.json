@@ -619,6 +619,30 @@
             "time": "09:30 PM - 10:00 PM",
             "venue": "Badminton Court",
             "match": "Suraj Biswas 🆚 Jagdeep Saini"
+          },
+          {
+            "game": "Table Tennis",
+            "category": "Single 14+",
+            "round": "Round 1",
+            "time": "05:30 PM - 06:00 PM",
+            "venue": "Community Hall 2nd Floor - TT court",
+            "match": "Ayushman Sharma 🆚 Dhimanto Chakraborty"
+          },
+           {
+            "game": "Table Tennis",
+            "category": "Single 14+",
+            "round": "Round 1",
+            "time": "06:00 PM - 06:30 PM",
+            "venue": "Community Hall 2nd Floor - TT court",
+            "match": "Arja Bhattacharya 🆚 Anirban Mukherjee"
+          },
+           {
+            "game": "Table Tennis",
+            "category": "Single 14+",
+            "round": "Round 1",
+            "time": "06:30 PM - 07:00 PM",
+            "venue": "Community Hall 2nd Floor - TT court",
+            "match": "Samik Bhattacharya 🆚 Souravan Roy"
           }
         ]
       },
@@ -702,7 +726,7 @@
             "game": "Badminton",
             "category": "Single Female 40+ yrs",
             "round": "Round 1",
-            "time": "07:30 PM - 08:00 PM",
+            "time": "08:00 PM - 08:30 PM",
             "venue": "Badminton Court",
             "match": "Surabhi Kumari 🆚 Sangeeta Singh"
           },
@@ -710,7 +734,7 @@
             "game": "Badminton",
             "category": "Mixed Doubles 14 plus Yrs",
             "round": "Round 1",
-            "time": "08:00 PM - 08:30 PM",
+            "time": "08:30 PM - 09:00 PM",
             "venue": "Badminton Court",
             "match": "Parul Kacker 🧑‍🤝‍🧑 Arja Bhattacharya 🆚 Vishal Kumar 🧑‍🤝‍🧑 Isha Das"
           },
@@ -718,7 +742,7 @@
             "game": "Badminton",
             "category": "Mixed Doubles 14 plus Yrs",
             "round": "Round 1",
-            "time": "08:30 PM - 09:00 PM",
+            "time": "09:00 PM - 09:30 PM",
             "venue": "Badminton Court",
             "match": "Prem Alok 🧑‍🤝‍🧑 Pragya Chowdhary 🆚 Jyoti Prakash Pattanayak 🧑‍🤝‍🧑 Haripriya"
           },
@@ -726,18 +750,11 @@
             "game": "Badminton",
             "category": "Mixed Doubles 14 plus Yrs",
             "round": "Round 2",
-            "time": "09:00 PM - 09:30 PM",
+            "time": "09:30 PM - 10:00 PM",
             "venue": "Badminton Court",
             "match": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay 🆚 Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey"
           },
-          {
-            "game": "Badminton",
-            "category": "Single Male 40+ yrs",
-            "round": "Round 1",
-            "time": "09:30 PM - 10:00 PM",
-            "venue": "Badminton Court",
-            "match": "Manish Kumar 🆚 Sushant Patro"
-          },
+         
           {
             "game": "Ludo",
             "category": "Below 14 & Above 14",
@@ -753,6 +770,22 @@
             "time": "10:00 AM - 5:00 PM",
             "venue": "Community Hall 2nd Floor",
             "match": "Next-round fixtures will be updated one day in advance.."
+          },
+           {
+            "game": "Table Tennis",
+            "category": "Single 14+",
+            "round": "🔥 Semifinal 1 🔥",
+            "time": "06:30 PM - 07:00 PM",
+            "venue": "Community Hall 2nd Floor - TT court",
+            "match": "Winner of (Ayushman vs Dhimanta) 🆚 Winner of (Samik vs Souravan)"
+          },
+           {
+            "game": "Table Tennis",
+            "category": "Single 14+",
+            "round": "🔥 Semifinal 2 🔥",
+            "time": "06:30 PM - 07:00 PM",
+            "venue": "Community Hall 2nd Floor - TT court",
+            "match": "Winner of (Arja vs Anirban) 🆚 Akash Chakraborty"
           }
         ]
       }
