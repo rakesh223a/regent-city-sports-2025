@@ -76,14 +76,6 @@
             "time": "09:00 PM - 09:30 PM",
             "venue": "Badminton Court",
             "match": "Haripriya 🆚 Shaanvi Dubey"
-          },
-          {
-            "game": "Badminton",
-            "category": "Singles Female 11 to 13 Yrs",
-            "round": "Round 1",
-            "time": "09:30 PM - 10:00 PM",
-            "venue": "Badminton Court",
-            "match": "Shreya Tiwari 🆚 Isha Das"
           }
         ]
       },
@@ -561,44 +553,62 @@
             "venue": "Community Hall 2nd Floor",
             "match": "Ashim Das 🆚 Goravjeet Mahakul"
           },
-           {
+          {
             "game": "Badminton",
             "category": "Single 9 to 11 Yrs",
             "round": "Round 2",
-            "time": "07:30 PM - 08:00 PM",
+            "time": "03:30 PM - 04:00 PM",
             "venue": "Badminton Court",
             "match": "Winner of (Sanskar Ojha vs Varenyam) 🆚 Winner of (Avyay-sweet vs Avaneesh Patro)"
           },
+          
           {
             "game": "Badminton",
-            "category": "Single 14 to 25 yrs",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "🌸 SemiFinal 🌸",
+            "time": "04:00 PM - 04:30 PM",
+            "venue": "Badminton Court",
+            "match": "Winner of (Pragya vs Padmaja) 🆚 Winner of (Sanjeevani vs Aidya)"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles 14 to 25 yrs",
             "round": "Round 1",
-            "time": "08:00 PM - 08:30 PM",
+            "time": "04:30 PM - 05:00 PM",
             "venue": "Badminton Court",
             "match": "Kaustav Das 🆚 Ayushman Sharma"
+          },
+
+          {
+            "game": "Badminton",
+            "category": "Single Female 40+ yrs",
+            "round": "Round 1",
+            "time": "07:30 PM - 08:00 PM",
+            "venue": "Badminton Court",
+            "match": "Parul Kacker 🆚 Bidisha Bhattacharya"
           },
           {
             "game": "Badminton",
             "category": "Single 14 to 25 yrs",
-            "round": "Round 2",
-            "time": "08:30 PM - 09:00 PM",
+            "round": "🔥 Semifinal 🔥",
+            "time": "08:00 PM - 08:30 PM",
             "venue": "Badminton Court",
             "match": "Kabir Shrey 🆚 Aashita Ojha"
           },
           {
             "game": "Badminton",
             "category": "Single 14 to 25 yrs",
-            "round": "Round 2",
-            "time": "09:00 PM - 09:30 PM",
+            "round": "🔥 Semifinal 🔥",
+            "time": "08:30 PM - 09:00 PM",
             "venue": "Badminton Court",
             "match": "Winner of (Kaustav Das vs Ayushman Sharma) 🆚 Dhimanto Chakraborty"
           },
-          
+
           {
             "game": "Badminton",
             "category": "Single 25 to 40 yrs",
             "round": "Round 1",
-            "time": "09:30 PM - 10:00 PM",
+            "time": "09:00 PM - 09:30 PM",
             "venue": "Badminton Court",
             "match": "Raj Paul 🆚 Gouravjeet Mahakul"
           },
@@ -606,7 +616,7 @@
             "game": "Badminton",
             "category": "Single 25 to 40 yrs",
             "round": "Round 2",
-            "time": "10:30 PM - 10:30 PM",
+            "time": "09:30 PM - 10:00 PM",
             "venue": "Badminton Court",
             "match": "Suraj Biswas 🆚 Jagdeep Saini"
           }
@@ -614,8 +624,8 @@
       },
       "2026-01-04": {
         "label": "4 Jan",
-         "matches": [
-           {
+        "matches": [
+          {
             "game": "Cricket",
             "category": "Mens",
             "round": "Lottery Announcement",
@@ -623,7 +633,7 @@
             "venue": "Regent City Garden",
             "match": "🎟️ Men's Lottery at 10:00 AM — please be present on time!"
           },
-           {
+          {
             "game": "Cricket",
             "category": "Female",
             "round": "Leauge Match 1",
@@ -649,44 +659,84 @@
           },
           {
             "game": "Badminton",
-            "category": "Singles Female 11 to 13 Yrs",
-            "round": "🌸 SemiFinal 🌸",
+            "category": "Double Male 9 to 11 Yrs",
+            "round": "Leauge Match 1",
+            "time": "03:30 PM - 04:00 PM",
+            "venue": "Badminton Court",
+            "match": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay 🆚 Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 9 to 11 Yrs",
+            "round": "Leauge Match 2",
+            "time": "04:00 PM - 04:30 PM",
+            "venue": "Badminton Court",
+            "match": "Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh 🆚 Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 11 to 14 Yrs",
+            "round": "Round 1",
+            "time": "04:30 PM - 05:00 PM",
+            "venue": "Badminton Court",
+            "match": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw 🆚 Daksh Upadhyay 🧑‍🤝‍🧑 Ayushman Ghosh"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 9 to 11 Yrs",
+            "round": "Leauge Match 3",
+            "time": "05:00 PM - 05:30 PM",
+            "venue": "Badminton Court",
+            "match": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay 🆚 Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh"
+          },
+
+          {
+            "game": "Badminton",
+            "category": "Single Female 40+ yrs",
+            "round": "Round 1",
             "time": "07:30 PM - 08:00 PM",
             "venue": "Badminton Court",
-            "match": "Winner of (Pragya vs Padmaja) 🆚 Winner of (Sanjeevani vs Aidya)"
+            "match": "Sarita Roy 🆚 Himika Roy"
           },
-           {
+          {
             "game": "Badminton",
-            "category": "Single 40+",
+            "category": "Single Female 40+ yrs",
             "round": "Round 1",
-            "time": "08:00 PM - 8:30 PM",
+            "time": "07:30 PM - 08:00 PM",
             "venue": "Badminton Court",
-            "match": "Manish Kumar 🆚 Susant Patro"
+            "match": "Surabhi Kumari 🆚 Sangeeta Singh"
           },
-           
-           {
+          {
             "game": "Badminton",
-            "category": "Single 40+",
+            "category": "Mixed Doubles 14 plus Yrs",
             "round": "Round 1",
-            "time": "08:30 PM - 9:00 PM",
+            "time": "08:00 PM - 08:30 PM",
             "venue": "Badminton Court",
-            "match": "Rakesh Prasad 🆚 Prem Alok"
+            "match": "Parul Kacker 🧑‍🤝‍🧑 Arja Bhattacharya 🆚 Vishal Kumar 🧑‍🤝‍🧑 Isha Das"
           },
            {
             "game": "Badminton",
-            "category": "Single 40+",
-            "round": "Round 2",
-            "time": "09:00 PM - 9:30 PM",
+            "category": "Mixed Doubles 14 plus Yrs",
+            "round": "Round 1",
+            "time": "08:30 PM - 09:00 PM",
             "venue": "Badminton Court",
-            "match": "Anirban Mukherjee 🆚 Sanjay Singh"
+            "match": "Prem Alok 🧑‍🤝‍🧑 Pragya Chowdhary 🆚 Jyoti Prakash Pattanayak 🧑‍🤝‍🧑 Haripriya"
           },
-           {
+          {
             "game": "Badminton",
-            "category": "Single 40+",
+            "category": "Mixed Doubles 14 plus Yrs",
             "round": "Round 2",
+            "time": "09:00 PM - 09:30 PM",
+            "venue": "Badminton Court",
+            "match": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay 🆚 Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey"
+          },
+          {
+            "game": "Badminton",
+            "category": "Single Male 40+ yrs",
+            "round": "Round 1",
             "time": "09:30 PM - 10:00 PM",
             "venue": "Badminton Court",
-            "match": "Jyoti Praksh Pattanayak 🆚 Jyoti Kumar"
+            "match": "Manish Kumar 🆚 Sushant Patro"
           },
           {
             "game": "Ludo",
@@ -696,7 +746,7 @@
             "venue": "Community Hall 2nd Floor",
             "match": "Next-round fixtures will be updated one day in advance."
           },
-           {
+          {
             "game": "Chess",
             "category": "Below 14 & Above 14",
             "round": "Next round matches",
@@ -704,8 +754,7 @@
             "venue": "Community Hall 2nd Floor",
             "match": "Next-round fixtures will be updated one day in advance.."
           }
-
-         ]
+        ]
       }
     }
   },
