@@ -626,7 +626,7 @@
            {
             "game": "Cricket",
             "category": "Female",
-            "round": "Famale's Leauge Match 1",
+            "round": "Leauge Match 1",
             "time": "09:30 AM",
             "venue": "Regent City Garden",
             "match": "Team A 🆚 Team B"
@@ -634,7 +634,7 @@
           {
             "game": "Cricket",
             "category": "Men's",
-            "round": "Men's Leauge Match 1",
+            "round": "Leauge Match 1",
             "time": "11:00 AM",
             "venue": "Regent City Garden",
             "match": "Team (To be confirmed) 🆚 Team F"
@@ -642,7 +642,7 @@
           {
             "game": "Cricket",
             "category": "Female",
-            "round": "Famale's Leauge Match 2",
+            "round": "Leauge Match 2",
             "time": "01:00 PM",
             "venue": "Regent City Garden",
             "match": "Team B 🆚 Team C"
