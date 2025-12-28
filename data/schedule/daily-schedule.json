@@ -614,7 +614,98 @@
       },
       "2026-01-04": {
         "label": "4 Jan",
-         "matches": []
+         "matches": [
+           {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Lottery Announcement",
+            "time": "10:00 AM - 10:15 AM",
+            "venue": "Regent City Garden",
+            "match": "🎟️ Men's Lottery at 10:00 AM — please be present on time!"
+          },
+           {
+            "game": "Cricket",
+            "category": "Female",
+            "round": "Famale's Leauge Match 1",
+            "time": "09:30 AM",
+            "venue": "Regent City Garden",
+            "match": "Team A 🆚 Team B"
+          },
+          {
+            "game": "Cricket",
+            "category": "Men's",
+            "round": "Men's Leauge Match 1",
+            "time": "11:00 AM",
+            "venue": "Regent City Garden",
+            "match": "Team (To be confirmed) 🆚 Team F"
+          },
+          {
+            "game": "Cricket",
+            "category": "Female",
+            "round": "Famale's Leauge Match 2",
+            "time": "01:00 PM",
+            "venue": "Regent City Garden",
+            "match": "Team B 🆚 Team C"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "🌸 SemiFinal 🌸",
+            "time": "07:30 PM - 08:00 PM",
+            "venue": "Badminton Court",
+            "match": "Winner of (Pragya vs Padmaja) 🆚 Winner of (Sanjeevani vs Aidya)"
+          },
+           {
+            "game": "Badminton",
+            "category": "Single 40+",
+            "round": "Round 1",
+            "time": "08:00 PM - 8:30 PM",
+            "venue": "Badminton Court",
+            "match": "Manish Kumar 🆚 Susant Patro"
+          },
+           
+           {
+            "game": "Badminton",
+            "category": "Single 40+",
+            "round": "Round 1",
+            "time": "08:30 PM - 9:00 PM",
+            "venue": "Badminton Court",
+            "match": "Rakesh Prasad 🆚 Prem Alok"
+          },
+           {
+            "game": "Badminton",
+            "category": "Single 40+",
+            "round": "Round 2",
+            "time": "09:00 PM - 9:30 PM",
+            "venue": "Badminton Court",
+            "match": "Anirban Mukherjee 🆚 Sanjay Singh"
+          },
+           {
+            "game": "Badminton",
+            "category": "Single 40+",
+            "round": "Round 2",
+            "time": "09:30 PM - 10:00 PM",
+            "venue": "Badminton Court",
+            "match": "Jyoti Praksh Pattanayak 🆚 Jyoti Kumar"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14 & Above 14",
+            "round": "Next round matches",
+            "time": "10:00 AM - 5:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Next-round fixtures will be updated one day in advance."
+          },
+           {
+            "game": "Chess",
+            "category": "Below 14 & Above 14",
+            "round": "Next round matches",
+            "time": "10:00 AM - 5:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Next-round fixtures will be updated one day in advance.."
+          }
+
+         ]
       }
     }
   },
