@@ -131,7 +131,7 @@
             "round": "Round 2",
             "time": "9:30 AM - 9:45 AM",
             "venue": "Community Hall 2nd Floor",
-            "match": "Varenyam 🆚 Cheeku"
+            "match": "Varenyam 🆚 chiku"
           },
 
           {
@@ -553,14 +553,6 @@
             "venue": "Community Hall 2nd Floor",
             "match": "Ashim Das 🆚 Goravjeet Mahakul"
           },
-          {
-            "game": "Badminton",
-            "category": "Single 9 to 11 Yrs",
-            "round": "Round 2",
-            "time": "03:30 PM - 04:00 PM",
-            "venue": "Badminton Court",
-            "match": "Winner of (Sanskar Ojha vs Varenyam) 🆚 Winner of (Avyay-sweet vs Avaneesh Patro)"
-          },
           
           {
             "game": "Badminton",
@@ -681,11 +673,27 @@
             "venue": "Regent City Garden",
             "match": "Team B 🆚 Team C"
           },
+           {
+            "game": "Badminton",
+            "category": "Single 9 to 11 Yrs",
+            "round": "Round 2",
+            "time": "03:30 PM - 04:00 PM",
+            "venue": "Badminton Court",
+            "match": "Avyay (sweet) 🆚  Avaneesh (Avy) Patro"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 11 to 14 Yrs",
+            "round": "Round 1",
+            "time": "04:00 PM - 04:30 PM",
+            "venue": "Badminton Court",
+            "match": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw 🆚 Daksh Upadhyay 🧑‍🤝‍🧑 Ayushman Ghosh"
+          },
           {
             "game": "Badminton",
             "category": "Double Male 9 to 11 Yrs",
             "round": "Leauge Match 1",
-            "time": "03:30 PM - 04:00 PM",
+            "time": "04:30 PM - 05:00 PM",
             "venue": "Badminton Court",
             "match": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay 🆚 Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam"
           },
@@ -693,26 +701,12 @@
             "game": "Badminton",
             "category": "Double Male 9 to 11 Yrs",
             "round": "Leauge Match 2",
-            "time": "04:00 PM - 04:30 PM",
+            "time": "05:00 PM - 05:30 PM",
             "venue": "Badminton Court",
             "match": "Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh 🆚 Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam"
           },
-          {
-            "game": "Badminton",
-            "category": "Double Male 11 to 14 Yrs",
-            "round": "Round 1",
-            "time": "04:30 PM - 05:00 PM",
-            "venue": "Badminton Court",
-            "match": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw 🆚 Daksh Upadhyay 🧑‍🤝‍🧑 Ayushman Ghosh"
-          },
-          {
-            "game": "Badminton",
-            "category": "Double Male 9 to 11 Yrs",
-            "round": "Leauge Match 3",
-            "time": "05:00 PM - 05:30 PM",
-            "venue": "Badminton Court",
-            "match": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay 🆚 Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh"
-          },
+          
+          
 
           {
             "game": "Badminton",
