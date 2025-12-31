@@ -1,33 +1,26 @@
 {
   "Chess": {
-    "title": "Chess Rules",
     "rules": [
-      "Board Set Up: Arrange pieces on the first row from left to right: rook, knight, bishop, queen (on matching color square), king, bishop, knight, rook; pawns fill the second row. ",
-      "Piece movement: *Pawns move forward one square (two on first move), capture diagonally, and promote on reaching the opposite side. *Rooks move any squares horizontally or vertically. *Knights move in an L-shape (two squares one way, one perpendicular) and jump over pieces. *Bishops move any squares diagonally. *Queens move any squares in straight or diagonal lines.*Kings move one square any direction but cannot enter checkEach player will get limited time per game",
-      "Special Move: Castling lets the king move two squares toward a rook ",
-      "Checks and wins: *Say 'check' when attacking the king; opponent must escape. *Checkmate ends the game when the king is in check with no escape. *Draws occur via stalemate",
-      "Rules at RC: *White begins with the clock running after setup. *Each side starts with 15 minutes total on their clock. *No increments time unless specified in begining *After each move, the player presses their clock to switch time to the opponent. *The player who runs out of time first loses, unless they have checkmated the opponent earlier."
+      "Touch and move rule applies",
+      "Illegal move results in loss",
+      "Organizers’ decision is final"
     ]
   },
 
   "Carrom": {
-    "title": "Carrom Rules",
     "rules": [
       "Matches will be knockout based",
       "Board rules as per standard carrom regulations"
     ]
   },
   "Badminton": {
-    "title": "Badminton Rules",
     "rules": [
       "Matches will be played as knockout format",
       "Each match will be best of 3 games",
       "Participants must report on time"
     ]
   },
-
   "Table Tennis": {
-    "title": "Table Tennis Rules",
     "rules": [
       "For TT Rules- Please mention we will follow ITTF rules and referees decisions are final.",
       "Each match will be best of 3 sets",
@@ -37,7 +30,6 @@
     ]
   },
   "Ludo": {
-    "title": "Ludo Rules",
     "rules": [
       "Matches will be played in knockout format",
       "Each match duration will be decided by organizers",
@@ -45,18 +37,100 @@
     ]
   },
   "Cricket": {
-    "title": "Cricket Rules",
-    "rules": [
-      "Each match will be of limited overs as decided by the organizers",
-      "Each team must report at least 15 minutes before match time",
-      "Fair play and sportsmanship are expected at all times",
-      "Organizers' decision will be final"
-    ]
-  },
-  "Fun Game": {
-    "title": "Fun Game Rules",
-    "rules": [
-      "Games are conducted purely for fun and engagement"
-    ]
+    "categories": {
+      "Female": {
+        "title": "🏏Women's Cricket Rules",
+        "sections": [
+          {
+            "heading": "Team Composition",
+            "rules": [
+              "Each team will consist of 8 players.",
+              "Before the match, a lottery will be conducted to decide the 8th player of the team from the available girls aged 11+ up to 14 years.",
+              "If a team is short of one player, the opposition captain will decide which player will repeat batting and bowling for the short-handed team."
+            ]
+          },
+          {
+            "heading": "Match Format",
+            "rules": [
+              "Each match will be an 8-over match.",
+              "The batting team must divide the entire team into 4 pairs.",
+              "Each batting pair can bat for a maximum of 2 overs."
+            ]
+          },
+          {
+            "heading": "Batting & Scoring Rules",
+            "rules": [
+              "4s and 6s are allowed.",
+              "Allowed modes of dismissal: Bowled, Caught, Run Out & Stumped out",
+              "If the bowling team takes a wicket, -4 runs will be deducted from the batting team's total."
+            ]
+          },
+          {
+            "heading": "Bowling Rules",
+            "rules": [
+              "Only one bowler is allowed to bowl a maximum of 2 overs.",
+              "All other bowlers can bowl a maximum of 1 over each.",
+              "Overstepping will be treated as a No Ball.",
+              "Waist-height full toss will also be treated as a No Ball."
+            ]
+          },
+          {
+            "heading": "Batting Guard & Stance",
+            "rules": [
+              "Batters are not allowed to cover the wicket.",
+              "First-wicket guard is not permitted.",
+              "Batters may take only middle-wicket or third-wicket guard.",
+              "The umpire may request a batter to adjust stance if required."
+            ]
+          },
+          {
+            "heading": "Chasing & Overs Completion",
+            "rules": [
+              "Even if the second batting team crosses the target before the 6th over, they must bat for all 8 overs.",
+              "Net Run Rate (NRR) will be calculated at the end in case of league-stage ties."
+            ]
+          },
+          {
+            "heading": "Tie-Breaker",
+            "rules": [
+              "In case of a tie, a Super Over will be conducted to decide the winner."
+            ]
+          },
+          {
+            "heading": "League-to-Final Special Rule",
+            "rules": [
+              "After the league stage, the best 4 cricket players (batters or bowlers) from the third-placed team will be inducted into the finalist teams through a lottery system."
+            ]
+          },
+          {
+            "heading": "Spirit of the Game & Authority",
+            "rules": [
+              "Players are expected to maintain fair play and sportsmanship.",
+              "The umpire’s and organizing committee's decision will be final in all match-related matters."
+            ]
+          }
+        ]
+      },
+      "Junior": {
+        "title": "🏏Junior's Cricket Rules",
+        "sections": [ {
+            "heading": "Spirit of the Game & Authority",
+            "rules": [
+              "Players are expected to maintain fair play and sportsmanship.",
+              "The umpire’s and organizing committee's decision will be final in all match-related matters."
+            ]
+          }]
+      },
+      "Mens": {
+        "title": "🏏Men's Cricket Rules",
+        "sections":[ {
+            "heading": "Spirit of the Game & Authority",
+            "rules": [
+              "Players are expected to maintain fair play and sportsmanship.",
+              "The umpire’s and organizing committee's decision will be final in all match-related matters."
+            ]
+          } ]
+      }
+    }
   }
 }
