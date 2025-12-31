@@ -7,27 +7,69 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Ashray Singh", "player2": "Aadvik Ranjan" },
-            { "player1": "Disha Mohanty", "player2": "BYE3" },
-            { "player1": "Prakhar Choudhary", "player2": "BYE4" },
-            { "player1": "Saanvi Sanyal", "player2": "BYE5" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Ashray Singh",
+              "player2": "Aadvik Ranjan"
+            },
+            {
+              "winner": "Disha Mohanty",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Disha Mohanty",
+              "player2": "BYE3"
+            },
+            {
+              "winner": "Prakhar Choudhary",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Prakhar Choudhary",
+              "player2": "BYE4"
+            },
+            {
+              "winner": "Saanvi Sanyal",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Saanvi Sanyal",
+              "player2": "BYE5"
+            }
           ]
         },
-
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Ashray Singh vs Aadvik Ranjan",
               "player2": "Disha Mohanty"
             },
-            { "player1": "Prakhar Choudhary", "player2": "Saanvi Sanyal" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Prakhar Choudhary",
+              "player2": "Saanvi Sanyal"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -35,33 +77,75 @@
         }
       }
     },
-
     "single_9_11": {
       "title": "Singles 9 to 11 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sanskar Ojha", "player2": "Varenyam" },
-            { "player1": "Avyay (Sweet)", "player2": "Avaneesh Patro" },
-            { "player1": "Prakhar Upadhyay", "player2": "BYE5" },
-            { "player1": "Saqib Saikh", "player2": "BYE6" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Sanskar Ojha",
+              "player2": "Varenyam"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Avyay (Sweet)",
+              "player2": "Avaneesh Patro"
+            },
+            {
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Prakhar Upadhyay",
+              "player2": "BYE5"
+            },
+            {
+              "winner": "Saqib Saikh",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Saqib Saikh",
+              "player2": "BYE6"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Sanskar Ojha vs Varenyam",
               "player2": "Avyay (Sweet) vs Avaneesh Patro"
             },
-            { "player1": "Prakhar Upadhyay", "player2": "Saqib Saikh" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Prakhar Upadhyay",
+              "player2": "Saqib Saikh"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -69,33 +153,75 @@
         }
       }
     },
-
     "single_11_13_male": {
       "title": "Singles Male 11 to 13 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Omkant Ojha", "player2": "Vaibhav Shaw" },
-            { "player1": "Mainak Roy", "player2": "BYE3" },
-            { "player1": "Arja Bhattacharya", "player2": "BYE4" },
-            { "player1": "Daksh Upadhyay", "player2": "BYE5" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Omkant Ojha",
+              "player2": "Vaibhav Shaw"
+            },
+            {
+              "winner": "Mainak Roy",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Mainak Roy",
+              "player2": "BYE3"
+            },
+            {
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Arja Bhattacharya",
+              "player2": "BYE4"
+            },
+            {
+              "winner": "Daksh Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Daksh Upadhyay",
+              "player2": "BYE5"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Omkant Ojah Vs Vaibhav Shaw",
               "player2": "Mainak Roy"
             },
-            { "player1": "Arja Bhattacharya", "player2": "Daksh Upadhyay" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Arja Bhattacharya",
+              "player2": "Daksh Upadhyay"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -103,27 +229,62 @@
         }
       }
     },
-
     "single_11_13_female": {
       "title": "Singles Female 11 to 13 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Pragya Chowdhury", "player2": "Padmaja Upadhyay" },
-            { "player1": "Sanjeevani Singh", "player2": "Aidya Pattanayak" },
-            { "player1": "Haripriya", "player2": "Shaanvi Dubey" },
-            { "player1": "Shreya Tiwari", "player2": "Isha Das" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Pragya Chowdhury",
+              "player2": "Padmaja Upadhyay"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Sanjeevani Singh",
+              "player2": "Aidya Pattanayak"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Haripriya",
+              "player2": "Shaanvi Dubey"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Shreya Tiwari",
+              "player2": "Isha Das"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Pragya Chowdhury vs Padmaja Upadhyay",
               "player2": "Sanjeevani Singh vs  Aidya Pattanayak"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Haripriya vs Shaanvi Dubey",
               "player2": "Shreya Tiwari vs Isha Das"
             }
@@ -133,6 +294,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -140,33 +305,75 @@
         }
       }
     },
-
     "single_14_25": {
       "title": "Singles 14 to 25 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Kaustav Das", "player2": "Ayushman Sharma" },
-            { "player1": "Dhimanto Chakraborty", "player2": "BYE3" },
-            { "player1": "Kabir Shrey", "player2": "BYE4" },
-            { "player1": "Aashita Ojha", "player2": "BYE5" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Kaustav Das",
+              "player2": "Ayushman Sharma"
+            },
+            {
+              "winner": "Dhimanto Chakraborty",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Dhimanto Chakraborty",
+              "player2": "BYE3"
+            },
+            {
+              "winner": "Kabir Shrey",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Kabir Shrey",
+              "player2": "BYE4"
+            },
+            {
+              "winner": "Aashita Ojha",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Aashita Ojha",
+              "player2": "BYE5"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Kaustav Das vs Ayushman Sharma",
               "player2": "Dhimanto Chakraborty"
             },
-            { "player1": "Kabir Shrey", "player2": "Aashita Ojha" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Kabir Shrey",
+              "player2": "Aashita Ojha"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -174,33 +381,75 @@
         }
       }
     },
-
     "single_25_40_male": {
       "title": "Singles Male 25 to 40 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Raj Paul", "player2": "Gouravjeet Mahakul" },
-            { "player1": "Souravan Roy", "player2": "BYE3" },
-            { "player1": "Suraj Biswas", "player2": "BYE4" },
-            { "player1": "Jagdeep Saini", "player2": "BYE5" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Raj Paul",
+              "player2": "Gouravjeet Mahakul"
+            },
+            {
+              "winner": "Souravan Roy",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Souravan Roy",
+              "player2": "BYE3"
+            },
+            {
+              "winner": "Suraj Biswas",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Suraj Biswas",
+              "player2": "BYE4"
+            },
+            {
+              "winner": "Jagdeep Saini",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Jagdeep Saini",
+              "player2": "BYE5"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Raj Paul vs Gouravjeet mahakul",
               "player2": "Souravan Roy"
             },
-            { "player1": "Suraj Biswas", "player2": "Jagdeep Saini" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Suraj Biswas",
+              "player2": "Jagdeep Saini"
+            }
           ]
         },
         "final": {
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -208,46 +457,131 @@
         }
       }
     },
-
     "single_40_plus_male": {
       "title": "Singles Male 40 plus Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Manish Kumar", "player2": "Sushant Patro" },
-            { "player1": "Rakesh Prasad", "player2": "Prem Alok" },
-            { "player1": "Ranjeet Tiwari", "player2": "Samik Bhattacharya" },
-            { "player1": "Dipak Mohanty", "player2": "Vivek Upadhyay" },
-            { "player1": "Anirban Mukherjee", "player2": "BYE9" },
-            { "player1": "Sanjay Singh", "player2": "BYE10" },
-            { "player1": "Jyoti Praksh Pattanayak", "player2": "BYE11" },
-            { "player1": "Jyoti Kumar", "player2": "BYE12" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Manish Kumar",
+              "player2": "Sushant Patro"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Rakesh Prasad",
+              "player2": "Prem Alok"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Ranjeet Tiwari",
+              "player2": "Samik Bhattacharya"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Dipak Mohanty",
+              "player2": "Vivek Upadhyay"
+            },
+            {
+              "winner": "Anirban Mukherjee",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Anirban Mukherjee",
+              "player2": "BYE9"
+            },
+            {
+              "winner": "Sanjay Singh",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Sanjay Singh",
+              "player2": "BYE10"
+            },
+            {
+              "winner": "Jyoti Praksh Pattanayak",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Jyoti Praksh Pattanayak",
+              "player2": "BYE11"
+            },
+            {
+              "winner": "Jyoti Kumar",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Jyoti Kumar",
+              "player2": "BYE12"
+            }
           ]
         },
         "round2": {
           "title": "Round 2",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Manish Kumar vs Sushant Patro",
               "player2": "Rakesh Prasad vs Prem Alok"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Ranjeet Tiwari vs Samik Bhattacharya",
               "player2": "Dipak Mohanty vs Vivek Upadhyay"
             },
-            { "player1": "Anirban Mukherjee", "player2": "Sanjay Singh" },
-            { "player1": "Jyoti Praksh Pattanayak", "player2": "Jyoti Kumar" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Anirban Mukherjee",
+              "player2": "Sanjay Singh"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Jyoti Praksh Pattanayak",
+              "player2": "Jyoti Kumar"
+            }
           ]
         },
         "rounds3": {
           "title": "Round 3 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Anirban Mukherjee vs Sanjay Singh",
               "player2": "Jyoti Prakash  Pattanayak vs Jyoti Kumar"
             }
@@ -257,6 +591,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 3 Match 1",
               "player2": "Winner of Round 3 Match 2"
             }
@@ -264,43 +602,131 @@
         }
       }
     },
-
     "single_14_40_female": {
       "title": "Singles Female 14 to 40 Yrs",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Jyoti Kumari", "player2": "Sneha" },
-            { "player1": "Dipa Kumari", "player2": "Prachi Ganguly" },
-            { "player1": "Anita Thakur", "player2": "BYE5" },
-            { "player1": "Lakshmi Kumari", "player2": "BYE6" },
-            { "player1": "Lovely Lal", "player2": "BYE7" },
-            { "player1": "Swati Singh", "player2": "BYE8" },
-            { "player1": "Puja Kumari", "player2": "BYE9" },
-            { "player1": "Sonal Kumari", "player2": "BYE10" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Jyoti Kumari",
+              "player2": "Sneha"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Dipa Kumari",
+              "player2": "Prachi Ganguly"
+            },
+            {
+              "winner": "Anita Thakur",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Anita Thakur",
+              "player2": "BYE5"
+            },
+            {
+              "winner": "Lakshmi Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Lakshmi Kumari",
+              "player2": "BYE6"
+            },
+            {
+              "winner": "Lovely Lal",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Lovely Lal",
+              "player2": "BYE7"
+            },
+            {
+              "winner": "Swati Singh",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Swati Singh",
+              "player2": "BYE8"
+            },
+            {
+              "winner": "Puja Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Puja Kumari",
+              "player2": "BYE9"
+            },
+            {
+              "winner": "Sonal Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Sonal Kumari",
+              "player2": "BYE10"
+            }
           ]
         },
         "round2": {
           "title": "Round 2",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Jyoti Kumari vs Sneha",
               "player2": "Dipa Kumari vs Prachi Ganguly"
             },
-            { "player1": "Anita Thakur", "player2": "Lakshmi Kumari" },
-            { "player1": "Lovely Lal", "player2": "Swati Singh" },
-            { "player1": "Puja Kumari", "player2": "Sonal Kumari" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Anita Thakur",
+              "player2": "Lakshmi Kumari"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Lovely Lal",
+              "player2": "Swati Singh"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Puja Kumari",
+              "player2": "Sonal Kumari"
+            }
           ]
         },
         "rounds3": {
           "title": "Round 3 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 3",
               "player2": "Winner of Round 2 Match 4"
             }
@@ -310,6 +736,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 3 Match 1",
               "player2": "Winner of Round 3 Match 2"
             }
@@ -323,23 +753,56 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Parul Kacker", "player2": "Bidisha Bhattacharya" },
-            { "player1": "Sarita Roy", "player2": "Himika Roy" },
-            { "player1": "Surabhi Kumari", "player2": "Sangeeta Singh" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Parul Kacker",
+              "player2": "Bidisha Bhattacharya"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Sarita Roy",
+              "player2": "Himika Roy"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Surabhi Kumari",
+              "player2": "Sangeeta Singh"
+            }
           ]
         },
         "round2": {
           "title": "Round 2 ( League format )",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "M1",
               "player2": "M2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "M2",
               "player2": "M3"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "M3",
               "player2": "M1"
             }
@@ -349,6 +812,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "League Topper 1",
               "player2": "League Topper 2"
             }
@@ -356,7 +823,6 @@
         }
       }
     },
-
     "double_female_14_plus": {
       "title": "Doubles Female 14 plus Yrs",
       "rounds": {
@@ -364,18 +830,34 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Surabhi Kumari 🧑‍🤝‍🧑 Puja Kumari",
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Bidisha Bhattacharya"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Sonal Kumari 🧑‍🤝‍🧑 Lakshmi Kumari",
               "player2": "Dipa Kumari 🧑‍🤝‍🧑 Gitanjali Patra"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Parul Kacker 🧑‍🤝‍🧑 Lovely Lal ",
               "player2": "Anita Thakur 🧑‍🤝‍🧑 Prachi Ganguly"
             },
             {
+              "winner": "Sarita Roy 🧑‍🤝‍🧑 Jyoti Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Sarita Roy 🧑‍🤝‍🧑 Jyoti Kumari",
               "player2": "BYE1"
             }
@@ -385,10 +867,18 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 3",
               "player2": "Sarita Roy 🧑‍🤝‍🧑 Jyoti Kumari"
             }
@@ -398,6 +888,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -405,7 +899,6 @@
         }
       }
     },
-
     "mixed_14_plus": {
       "title": "Mixed Doubles 14 plus Yrs",
       "rounds": {
@@ -413,34 +906,66 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Parul Kacker 🧑‍🤝‍🧑 Arja Bhattacharya",
               "player2": "Vishal Kumar 🧑‍🤝‍🧑 Isha Das"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Ranjeet Tiwari 🧑‍🤝‍🧑 Ishani Sanyal",
               "player2": "Kabir Shrey 🧑‍🤝‍🧑 Padmaja Upadhyay"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Prem Alok 🧑‍🤝‍🧑 Pragya Chowdhary",
               "player2": "Jyoti Prakash Pattanayak 🧑‍🤝‍🧑 Haripriya"
             },
             {
+              "winner": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
               "player2": "BYE1"
             },
             {
+              "winner": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
               "player2": "BYE2"
             },
             {
+              "winner": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey",
               "player2": "BYE3"
             },
             {
+              "winner": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
               "player2": "BYE4"
             },
             {
+              "winner": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "BYE4"
             }
@@ -450,18 +975,34 @@
           "title": "Round 2",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 3",
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
               "player2": "Ayushman Sharma Ojha 🧑‍🤝‍🧑 Shaanvi Dubey"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
               "player2": "Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy"
             }
@@ -471,10 +1012,18 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 3",
               "player2": "Winner of Round 2 Match 4"
             }
@@ -484,6 +1033,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 3 Match 1",
               "player2": "Winner of Round 3 Match 2"
             }
@@ -491,7 +1044,6 @@
         }
       }
     },
-
     "couple": {
       "title": "Couple Married",
       "rounds": {
@@ -499,38 +1051,124 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Jyoti Prakash 🌹 Himika",
               "player2": "Prem Alok🌹 Sangeeta"
             },
-            { "player1": "Manish 🌹 Lovely", "player2": "Vishal 🌹 Surabhi" },
-            { "player1": "Sanjay 🌹 Sonal", "player2": "BYE1" },
-            { "player1": "Sushant 🌹 Gitanjali", "player2": "BYE2" },
-            { "player1": "Samik 🌹 Bidisha", "player2": "BYE3" },
-            { "player1": "Rakesh 🌹 Dipa", "player2": "BYE4" },
-            { "player1": "Deepak 🌹 Puja", "player2": "BYE5" },
-            { "player1": "Jyoti 🌹 Lakshmi", "player2": "BYE6" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Manish 🌹 Lovely",
+              "player2": "Vishal 🌹 Surabhi"
+            },
+            {
+              "winner": "Sanjay 🌹 Sonal",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Sanjay 🌹 Sonal",
+              "player2": "BYE1"
+            },
+            {
+              "winner": "Sushant 🌹 Gitanjali",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Sushant 🌹 Gitanjali",
+              "player2": "BYE2"
+            },
+            {
+              "winner": "Samik 🌹 Bidisha",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Samik 🌹 Bidisha",
+              "player2": "BYE3"
+            },
+            {
+              "winner": "Rakesh 🌹 Dipa",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Rakesh 🌹 Dipa",
+              "player2": "BYE4"
+            },
+            {
+              "winner": "Deepak 🌹 Puja",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Deepak 🌹 Puja",
+              "player2": "BYE5"
+            },
+            {
+              "winner": "Jyoti 🌹 Lakshmi",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
+              "player1": "Jyoti 🌹 Lakshmi",
+              "player2": "BYE6"
+            }
           ]
         },
         "round2": {
           "title": "Round 2",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             },
-            { "player1": "Sanjay 🌹 Sonal", "player2": "Sushant 🌹 Gitanjali" },
-            { "player1": "Rakesh 🌹 Dipa", "player2": "Samik 🌹 Bidisha" },
-            { "player1": "Jyoti 🌹 Lakshmi", "player2": "Deepak 🌹 Puja" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Sanjay 🌹 Sonal",
+              "player2": "Sushant 🌹 Gitanjali"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Rakesh 🌹 Dipa",
+              "player2": "Samik 🌹 Bidisha"
+            },
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "Jyoti 🌹 Lakshmi",
+              "player2": "Deepak 🌹 Puja"
+            }
           ]
         },
         "rounds3": {
           "title": "Round 3 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 3",
               "player2": "Winner of Round 2 Match 4"
             }
@@ -540,6 +1178,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 3 Match 1",
               "player2": "Winner of Round 3 Match 2"
             }
@@ -547,7 +1189,6 @@
         }
       }
     },
-
     "double_male_9_11": {
       "title": "Doubles Male 9 to 11 Yrs (League Format)",
       "rounds": {
@@ -555,14 +1196,26 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay",
               "player2": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
               "player2": "Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay",
               "player2": "Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh"
             }
@@ -571,12 +1224,18 @@
         "final": {
           "title": "Final",
           "matches": [
-            { "player1": "League Topper 1", "player2": "League Topper 2" }
+            {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
+              "player1": "League Topper 1",
+              "player2": "League Topper 2"
+            }
           ]
         }
       }
     },
-
     "double_male_11_14": {
       "title": "Doubles Male 11 to 14 Yrs",
       "rounds": {
@@ -584,10 +1243,18 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Mainak Roy 🧑‍🤝‍🧑 ❓",
               "player2": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw",
               "player2": "Daksh Upadhyay 🧑‍🤝‍🧑 Ayushman Ghosh"
             }
@@ -597,6 +1264,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             }
@@ -604,7 +1275,6 @@
         }
       }
     },
-
     "double_female_11_14": {
       "title": "Doubles Female 11 to 14 Yrs",
       "rounds": {
@@ -612,18 +1282,34 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Shreya Tiwari 🧑‍🤝‍🧑 Ishani Sanyal",
               "player2": "Aidya Pattanayak 🧑‍🤝‍🧑 Priya Pradhan"
             },
             {
+              "winner": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
               "player2": "BYE1"
             },
             {
+              "winner": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das",
               "player2": "BYE1"
             },
             {
+              "winner": "Padmaja Upadhyay 🧑‍🤝‍🧑 Shaanvi Dubey",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Padmaja Upadhyay 🧑‍🤝‍🧑 Shaanvi Dubey",
               "player2": "BYE1"
             }
@@ -633,10 +1319,18 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das",
               "player2": "Padmaja Upadhyay 🧑‍🤝‍🧑 Shaanvi Dubey"
             }
@@ -646,6 +1340,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             }
@@ -653,7 +1351,6 @@
         }
       }
     },
-
     "double_male_14_plus": {
       "title": "Doubles Male 14 Yrs",
       "rounds": {
@@ -661,34 +1358,66 @@
           "title": "Round 1",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Gouravjeet Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
               "player2": "Ayushman Sharma 🧑‍🤝‍🧑 Prem Alok"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Jagdeep Saini 🧑‍🤝‍🧑 Dhimanto Chakrabort",
               "player2": "Manish Kumar 🧑‍🤝‍🧑 Jyoti Prakash Pattanayak"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Samik Bhattacharya 🧑‍🤝‍🧑 Deepak Kumar",
               "player2": "Ranjeet Tiwari 🧑‍🤝‍🧑 Kaustav Das"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Tirthankar Kanjilal 🧑‍🤝‍🧑 Keshave Tiwari",
               "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
             {
+              "winner": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay",
               "player2": "BYE1"
             },
             {
+              "winner": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee",
               "player2": "BYE2"
             },
             {
+              "winner": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "BYE3"
             },
             {
+              "winner": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE",
               "player1": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty",
               "player2": "BYE4"
             }
@@ -698,18 +1427,34 @@
           "title": "Round 2",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 1",
               "player2": "Winner of Round 1 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 1 Match 3",
               "player2": "Winner of Round 1 Match 4"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay",
               "player2": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy",
               "player2": "Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty"
             }
@@ -719,10 +1464,18 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 1",
               "player2": "Winner of Round 2 Match 2"
             },
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 2 Match 3",
               "player2": "Winner of Round 2 Match 4"
             }
@@ -732,6 +1485,10 @@
           "title": "Final",
           "matches": [
             {
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "",
               "player1": "Winner of Round 3 Match 1",
               "player2": "Winner of Round 3 Match 2"
             }

@@ -6,15 +6,35 @@
       "matches": [
         {
           "player1": "Ayushman Sharma",
-          "player2": "Dhimanta Chakraborty"
+          "player2": "Dhimanta Chakraborty",
+          "winner": "",
+          "status": "pending",
+          "score": "",  
+          "remarks": ""
         },
         {
           "player1": "Samik Bhattacharya",
-          "player2": "Souravan Roy"
+          "player2": "Souravan Roy",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": ""
         },
         {
           "player1": "Arja Bhattacharya",
-          "player2": "Anirban Mukherjee"
+          "player2": "Anirban Mukherjee",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": ""
+        },
+         {
+          "player1": "Akash Chakraborty",
+          "player2": "BYE1",
+          "winner": "Akash Chakraborty",
+          "status": "completed",
+          "score": "",
+          "remarks": "BYE"
         }
       ]
     },
@@ -23,19 +43,34 @@
       "matches": [
         {
           "player1": "Winner of Round 1 Match 1",
-          "player2": "Winner of Round 1 Match 2"
+          "player2": "Winner of Round 1 Match 2",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": ""
         },
         {
           "player1": "Winner of Round 1 Match 3",
-          "player2": "Akash Chakraborty"
+          "player2": "Akash Chakraborty",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": ""
         }
       ]
     },
-     "final": {
-          "title": "Final",
-          "matches": [
-            { "player1": "Winner of Round 2 Match 1", "player2": "Winner of Round 2 Match 2" }
-          ]
+    "final": {
+      "title": "Final",
+      "matches": [
+        {
+          "player1": "Winner of Round 2 Match 1",
+          "player2": "Winner of Round 2 Match 2",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": ""
         }
+      ]
+    }
   }
 }

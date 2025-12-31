@@ -77,7 +77,7 @@ function setActiveFixtureTab(activeBtn) {
   }
 }
 
-function renderBracketHTML(rounds) {
+function renderBracketHTML_old(rounds) {
   let html = `<div class="bracket">`;
 
   Object.values(rounds).forEach((round, idx)=> {
@@ -105,4 +105,54 @@ function renderBracketHTML(rounds) {
   html += `</div>`;
   return html;
 }
+
+function renderBracketHTML(rounds) {
+  let html = `<div class="bracket">`;
+
+  Object.values(rounds).forEach((round, idx) => {
+    html += `
+      <div class="round-column round-${idx + 1}">
+        <h6>${round.title}</h6>
+    `;
+
+    round.matches.forEach((match, mIdx) => {
+      const isCompleted = match.status === "completed";
+      const winner = match.winner || "";
+
+      const p1Winner = isCompleted && winner === match.player1;
+      const p2Winner = isCompleted && winner === match.player2;
+
+      html += `
+        <div class="match-card">
+          <div class="match-title">Match ${mIdx + 1}</div>
+
+          <div class="match ${isCompleted ? "completed" : ""}">
+            <div class="player ${p1Winner ? "winner" : ""}">
+              ${match.player1}
+            </div>
+
+            <div class="vs">🆚</div>
+
+            <div class="player ${p2Winner ? "winner" : ""}">
+              ${match.player2}
+            </div>
+          </div>
+
+          ${
+            !isCompleted
+              ? `<div class="winner-placeholder">Winner: TBD</div>`
+              : ""
+          }
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+
+
 

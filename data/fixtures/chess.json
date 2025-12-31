@@ -7,14 +7,70 @@
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Avaneesh Patro", "player2": "Ashray Singh" },
-            { "player1": "Rayan Dan", "player2": "Aadvik Ranjan" },
-            { "player1": "Jiyansh Rath", "player2": "Arja Bhattacharya" },
-            { "player1": "Utkarsh Upadhyay", "player2": "Anahita Anvi" },
-            { "player1": "Varenyam", "player2": "BYE9" },
-            { "player1": "Prakhar Upadhyay", "player2": "BYE10" },
-            { "player1": "Advik Behera", "player2": "BYE11" },
-            { "player1": "Padmaja Upadhyay", "player2": "BYE12" }
+            {
+              "player1": "Avaneesh Patro",
+              "player2": "Ashray Singh",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Rayan Dan",
+              "player2": "Aadvik Ranjan",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Jiyansh Rath",
+              "player2": "Arja Bhattacharya",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Utkarsh Upadhyay",
+              "player2": "Anahita Anvi",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Varenyam",
+              "player2": "BYE9",
+              "winner": "Varenyam",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Prakhar Upadhyay",
+              "player2": "BYE10",
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Advik Behera",
+              "player2": "BYE11",
+              "winner": "Advik Behera",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Padmaja Upadhyay",
+              "player2": "BYE12",
+              "winner": "Padmaja Upadhyay",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            }
           ]
         },
         "round2": {
@@ -22,14 +78,36 @@
           "matches": [
             {
               "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player2": "Winner of Round 1 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
             {
               "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4"
+              "player2": "Winner of Round 1 Match 4",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
-            { "player1": "Varenyam", "player2": "Prakhar Upadhyay" },
-            { "player1": "Advik Behera", "player2": "Padmaja Upadhyay" }
+            {
+              "player1": "Varenyam",
+              "player2": "Prakhar Upadhyay",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Advik Behera",
+              "player2": "Padmaja Upadhyay",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
           ]
         },
         "rounds3": {
@@ -37,11 +115,19 @@
           "matches": [
             {
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Winner of Round 2 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
             {
               "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player2": "Winner of Round 2 Match 4",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             }
           ]
         },
@@ -50,30 +136,86 @@
           "matches": [
             {
               "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player2": "Winner of Round 3 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             }
           ]
         }
       }
     },
-
     "chess_14_plus": {
       "title": "Singles 14+",
       "rounds": {
         "round1": {
           "title": "Round 1",
           "matches": [
-            { "player1": "Sushant Patro", "player2": "Sneha" },
-            { "player1": "Souravan Roy", "player2": "Parul Kacker" },
+            {
+              "player1": "Sushant Patro",
+              "player2": "Sneha",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Souravan Roy",
+              "player2": "Parul Kacker",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
             {
               "player1": "Ayushman Sharma",
-              "player2": "Jyoti Prakash Pattanayak"
+              "player2": "Jyoti Prakash Pattanayak",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
-            { "player1": "Urmila Devi", "player2": "Rounak Sahu" },
-            { "player1": "Surabhi Kumari", "player2": "BYE9" },
-            { "player1": "Anirban Mukherjee", "player2": "BYE10" },
-            { "player1": "Lovely Lal", "player2": "BYE11" },
-            { "player1": "Chhoti Kumari", "player2": "BYE12" }
+            {
+              "player1": "Urmila Devi",
+              "player2": "Rounak Sahu",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Surabhi Kumari",
+              "player2": "BYE9",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Anirban Mukherjee",
+              "player2": "BYE10",
+              "winner": "Anirban Mukherjee",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Lovely Lal",
+              "player2": "BYE11",
+              "winner": "Lovely Lal",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            },
+            {
+              "player1": "Chhoti Kumari",
+              "player2": "BYE12",
+              "winner": "Chhoti Kumari",
+              "status": "completed",
+              "score": "",
+              "remarks": "BYE"
+            }
           ]
         },
         "round2": {
@@ -81,14 +223,36 @@
           "matches": [
             {
               "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player2": "Winner of Round 1 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
             {
               "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4"
+              "player2": "Winner of Round 1 Match 4",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
-            { "player1": "Surabhi Kumari", "player2": "Anirban Mukherjee" },
-            { "player1": "Lovely Lal", "player2": "Chhoti Kumari" }
+            {
+              "player1": "Surabhi Kumari",
+              "player2": "Anirban Mukherjee",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Lovely Lal",
+              "player2": "Chhoti Kumari",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
           ]
         },
         "rounds3": {
@@ -96,11 +260,19 @@
           "matches": [
             {
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Winner of Round 2 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             },
             {
               "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player2": "Winner of Round 2 Match 4",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             }
           ]
         },
@@ -109,7 +281,11 @@
           "matches": [
             {
               "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player2": "Winner of Round 3 Match 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
             }
           ]
         }
