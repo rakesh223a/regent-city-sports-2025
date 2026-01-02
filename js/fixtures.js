@@ -137,6 +137,11 @@ function renderBracketHTML(rounds) {
               ${match.player2}
             </div>
           </div>
+             ${
+            match.score
+              ? `<div class="match-score">Score: ${match.score}</div>`
+              : ""
+          }
 
           ${
             !isCompleted

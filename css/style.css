@@ -663,6 +663,14 @@ hr.dotted {
   background: #f8fafc;
 }
 
+.match-score {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #673902;
+  text-align: center;
+}
+
 
 
 
