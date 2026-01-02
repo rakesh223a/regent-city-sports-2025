@@ -43,17 +43,13 @@
         "sections": [
           {
             "heading": "Team Composition",
-            "rules": [
-              "Each team will consist of 8 players.",
-              "Before the match, a lottery will be conducted to decide the 8th player of the team from the available girls aged 11+ up to 14 years.",
-              "If a team is short of one player, the opposition captain will decide which player will repeat batting and bowling for the short-handed team."
-            ]
+            "rules": ["Each team will consist of 6 players."]
           },
           {
             "heading": "Match Format",
             "rules": [
-              "Each match will be an 8-over match.",
-              "The batting team must divide the entire team into 4 pairs.",
+              "Each match will be an 6-over match.",
+              "The batting team must divide the entire team into 3 pairs.",
               "Each batting pair can bat for a maximum of 2 overs."
             ]
           },
@@ -61,7 +57,7 @@
             "heading": "Batting & Scoring Rules",
             "rules": [
               "4s and 6s are allowed.",
-              "Allowed modes of dismissal: Bowled, Caught, Run Out & Stumped out",
+              "Allowed modes of dismissal: Bowled, Caught, Run Out, Play down, Hit-wicket & Stumped out",
               "If the bowling team takes a wicket, -4 runs will be deducted from the batting team's total."
             ]
           },
@@ -71,22 +67,36 @@
               "Only one bowler is allowed to bowl a maximum of 2 overs.",
               "All other bowlers can bowl a maximum of 1 over each.",
               "Overstepping will be treated as a No Ball.",
-              "Waist-height full toss will also be treated as a No Ball."
+              "Waist-height full toss will also be treated as a No Ball.",
+              "No free hit will be awarded for a No Ball."
+            ]
+          },
+          {
+            "heading": "Mid Pitch dead bowl rule",
+            "rules": [
+              "A mid-pitch line will be marked on the ground.",
+              "Any ball whose first bounce lands before the mid-pitch line will be declared a dead ball",
+              "No run will be awarded for a dead ball.",
+              "If the batter hits a dead ball, it will not be counted as a legal delivery."
             ]
           },
           {
             "heading": "Batting Guard & Stance",
             "rules": [
-              "Batters are not allowed to cover the wicket.",
-              "First-wicket guard is not permitted.",
-              "Batters may take only middle-wicket or third-wicket guard.",
-              "The umpire may request a batter to adjust stance if required."
+              "There will be no restriction on wicket coverage by the batter.",
+              "Batting guard and stance restrictions are not applicable."
+            ]
+          },
+          {
+            "heading": "Change of Strike Rule",
+            "rules": [
+              "The striker and non-striker must exchange roles at the end of every over, irrespective of whether runs are scored or not."
             ]
           },
           {
             "heading": "Chasing & Overs Completion",
             "rules": [
-              "Even if the second batting team crosses the target before the 6th over, they must bat for all 8 overs.",
+              "Even if the second batting team crosses the target before the 4th over, they must bat for all 6 overs.",
               "Net Run Rate (NRR) will be calculated at the end in case of league-stage ties."
             ]
           },
@@ -96,12 +106,7 @@
               "In case of a tie, a Super Over will be conducted to decide the winner."
             ]
           },
-          {
-            "heading": "League-to-Final Special Rule",
-            "rules": [
-              "After the league stage, the best 4 cricket players (batters or bowlers) from the third-placed team will be inducted into the finalist teams through a lottery system."
-            ]
-          },
+
           {
             "heading": "Spirit of the Game & Authority",
             "rules": [
@@ -111,25 +116,78 @@
           }
         ]
       },
-      "Junior": {
-        "title": "🏏Junior's Cricket Rules",
-        "sections": [ {
+      "Mens & Junior ": {
+        "title": "🏏Men's & Junior's Cricket Rules",
+        "sections": [
+          {
+            "heading": "Team & Match Format Cricket",
+            "rules": [
+              "For Junior Category, each team will consist of 9 players.",
+              "For Men's Category, each team will consist of 6 players.",
+              "Each match will be an 8-over match."
+            ]
+          },
+          {
+            "heading": "Bowling Rules",
+            "rules": [
+              "A maximum of two bowlers are allowed to bowl up to 2 overs each.",
+              "Bowling Restricted Area Rule",
+              "Bowlers must bowl only from the restricted bowling area.",
+              "Both legs must be grounded at the time of delivery.",
+              "Any violation will be considered a No Ball."
+            ]
+          },
+          {
+            "heading": "Batting Rules",
+            "rules": [
+              "There will be a cap on individual maximum score: 35 runs for Junior category and 40 runs for Men's category.",
+              "After reaching the cap, the batsman must retire.",
+              "Retired batsmen may return only as the last wicket.",
+              "If two batsmen retire, they will return in the same sequence in which they retired."
+ 
+            ]
+          },
+          {
+            "heading": "Special Dismissal Rules",
+            "rules": [
+              "A direct hit ball landing outside the boundary without bouncing inside, or touching any living or non-living object outside the field, will be considered OUT.",
+              "The last batsman is allowed to bat.",
+              "In case of the last batsman: An extra runner will be provided from the same team. A run-out will be considered on either end. If the runner leaves the non-striker’s crease before the batsman hits the ball, the delivery will be considered a dot ball."
+            ]
+          },
+          {
+            "heading": "Scoring Rules",
+            "rules": [
+              "Runs for byes and overthrows are allowed and will be added to the total score.",
+              "Leg byes are NOT allowed.",
+              "Boundary rules (4s and 6s) apply as per ground markings.",
+              "If the batter hits a dead ball, it will not be counted as a legal delivery."
+            ]
+          },
+          {
+            "heading": "No Ball Rules",
+            "rules": [
+              "The following will be considered a No Ball Overstepping , Waist-height full toss",
+              "No Free Hit will be awarded.",
+              "A common height marker will be placed on the ground to decide waist-height No Balls for all players."
+                     ]
+          },
+          {
+            "heading": "Tie-Breaker",
+            "rules": [
+              "In case of a tie, a Super Over will be conducted to decide the winner."
+            ]
+          },
+          {
             "heading": "Spirit of the Game & Authority",
             "rules": [
+              "Umpire decisions are final and binding.",
               "Players are expected to maintain fair play and sportsmanship.",
-              "The umpire’s and organizing committee's decision will be final in all match-related matters."
+              "The umpire's and organizing committee's decision will be final in all match-related matters.",
+              "Rules may be fine-tuned based on ground conditions and match timelines."
             ]
-          }]
-      },
-      "Mens": {
-        "title": "🏏Men's Cricket Rules",
-        "sections":[ {
-            "heading": "Spirit of the Game & Authority",
-            "rules": [
-              "Players are expected to maintain fair play and sportsmanship.",
-              "The umpire’s and organizing committee's decision will be final in all match-related matters."
-            ]
-          } ]
+          }
+        ]
       }
     }
   }
