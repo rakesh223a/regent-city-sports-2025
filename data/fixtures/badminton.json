@@ -244,17 +244,17 @@
               "player2": "Padmaja Upadhyay"
             },
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Sanjeevani Singh",
+              "status": "completed",
+              "score": "15-12, 15-13",
               "remarks": "",
               "player1": "Sanjeevani Singh",
               "player2": "Aidya Pattanayak"
             },
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Haripriya",
+              "status": "completed",
+              "score": "15-2, 15-11",
               "remarks": "",
               "player1": "Haripriya",
               "player2": "Shaanvi Dubey"
@@ -278,14 +278,14 @@
               "score": "",
               "remarks": "",
               "player1": "Pragya Chowdhury",
-              "player2": "Sanjeevani Singh vs  Aidya Pattanayak"
+              "player2": "Sanjeevani Singh"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Haripriya vs Shaanvi Dubey",
+              "player1": "Haripriya",
               "player2": "Shreya Tiwari vs Isha Das"
             }
           ]
