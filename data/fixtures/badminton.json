@@ -8,9 +8,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Ashray Singh",
+              "status": "completed",
+              "score": "15-12, 15-13, 15-12",
               "remarks": "",
               "player1": "Ashray Singh",
               "player2": "Aadvik Ranjan"
@@ -49,13 +49,13 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Ashray Singh vs Aadvik Ranjan",
+              "player1": "Ashray Singh",
               "player2": "Disha Mohanty"
             },
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Prakhar Choudhary",
+              "status": "completed",
+              "score": "21-20 ,15-9, 15-12",
               "remarks": "",
               "player1": "Prakhar Choudhary",
               "player2": "Saanvi Sanyal"
@@ -71,7 +71,7 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Prakhar Upadhyay"
             }
           ]
         }
@@ -84,9 +84,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Varenyam",
+              "status": "completed",
+              "score": "15-10, 15-12",
               "remarks": "",
               "player1": "Sanskar Ojha",
               "player2": "Varenyam"
@@ -125,13 +125,13 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Sanskar Ojha vs Varenyam",
+              "player1": "Varenyam",
               "player2": "Avyay (Sweet) vs Avaneesh Patro"
             },
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
+              "score": "15-12, 15-7",
               "remarks": "",
               "player1": "Prakhar Upadhyay",
               "player2": "Saqib Saikh"
@@ -147,7 +147,7 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Prakhar Upadhyay"
             }
           ]
         }
@@ -160,9 +160,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Omkant Ojha",
+              "status": "completed",
+              "score": "15-4, 15-6",
               "remarks": "",
               "player1": "Omkant Ojha",
               "player2": "Vaibhav Shaw"
@@ -197,11 +197,11 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
-              "winner": "",
+              "winner": "Omkant Ojha",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Omkant Ojah Vs Vaibhav Shaw",
+              "player1": "Omkant Ojha",
               "player2": "Mainak Roy"
             },
             {
