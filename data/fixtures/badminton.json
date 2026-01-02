@@ -205,9 +205,9 @@
               "player2": "Mainak Roy"
             },
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
+              "score": "15-10,11-15,15-8",
               "remarks": "",
               "player1": "Arja Bhattacharya",
               "player2": "Daksh Upadhyay"
@@ -223,7 +223,7 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Arja Bhattacharya"
             }
           ]
         }
