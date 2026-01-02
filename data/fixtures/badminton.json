@@ -236,9 +236,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Pragya Chowdhury",
+              "status": "completed",
+              "score": "15-3, 15-6",
               "remarks": "",
               "player1": "Pragya Chowdhury",
               "player2": "Padmaja Upadhyay"
@@ -277,7 +277,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Pragya Chowdhury vs Padmaja Upadhyay",
+              "player1": "Pragya Chowdhury",
               "player2": "Sanjeevani Singh vs  Aidya Pattanayak"
             },
             {
