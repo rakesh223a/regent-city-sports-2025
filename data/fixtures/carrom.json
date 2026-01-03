@@ -26,8 +26,8 @@
             {
               "player1": "Prakhar Upadhyay",
               "player2": "Utkarsh Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Utkarsh Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -53,7 +53,7 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Prakhar Upadhyay vs Utkarsh Upadhyay)",
+              "player1": "Utkarsh Upadhyay",
               "player2": "Padmaja Upadhyay",
               "winner": "",
               "status": "pending",
