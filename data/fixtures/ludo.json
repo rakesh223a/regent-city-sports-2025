@@ -645,10 +645,10 @@
             {
               "player1": "Surabhi Kumari",
               "player2": "Sneha",
-              "winner": "",
-              "status": "pending",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
               "score": "",
-              "remarks": ""
+              "remarks": "Walkover"
             },
             {
               "player1": "Kumari Anshu Chowdhary",
@@ -728,7 +728,7 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Surabhi Kumari vs Sneha)",
+              "player1": "Surabhi Kumari",
               "player2": "Kumari Anshu Chowdhary",
               "winner": "",
               "status": "pending",
