@@ -10,24 +10,24 @@
             {
               "player1": "Advik Behera",
               "player2": "Debasish Panda",
-              "winner": "",
-              "status": "pending",
+              "winner": "Advik Behera",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Avyay (Sweet)",
               "player2": "Pragya Chowdhary",
-              "winner": "",
-              "status": "pending",
+              "winner": "Pragya Chowdhary",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Mainak Roy",
               "player2": "Arik Choudhary",
-              "winner": "",
-              "status": "pending",
+              "winner": "Mainak Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -269,15 +269,15 @@
           "title": "Round 2",
           "matches": [
             {
-              "player1": "Advik Behera Vs Debasish Panda",
-              "player2": "Avyay (Sweet) Vs Pragya Chowdhary",
-              "winner": "",
-              "status": "pending",
+              "player1": "Advik Behera",
+              "player2": "Pragya Chowdhary",
+              "winner": "Advik Behera",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Mainak Roy Vs Arik Choudhary",
+              "player1": "Mainak Roy",
               "player2": "Prakhar Choudhary",
               "winner": "",
               "status": "pending",
@@ -285,26 +285,26 @@
               "remarks": ""
             },
             {
-              "player1": "Sanjeevani",
+              "player1": "Sanjeevani Singh",
               "player2": "Ashray",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sanjeevani Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Akshya Singh",
               "player2": "Shaanvi Dubey",
-              "winner": "",
-              "status": "pending",
+              "winner": "Shaanvi Dubey",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Varenyam",
               "player2": "Chiku",
-              "winner": "",
-              "status": "pending",
+              "winner": "Chiku",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -327,32 +327,32 @@
             {
               "player1": "Arja Bhattacharya",
               "player2": "Anhita Anvi",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Rajveer Singh",
               "player2": "Utkarsh Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Utkarsh Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Prakhar Upadhyay",
               "player2": "Reyanshi",
-              "winner": "",
-              "status": "pending",
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Aidya Pattanayak",
+              "player1": "Adiya Pattanayak",
               "player2": "Saanvi Sanyal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Adiya Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -367,16 +367,16 @@
             {
               "player1": "Swarnbindu Mukherjee",
               "player2": "Advik Ranjan",
-              "winner": "",
-              "status": "pending",
+              "winner": "Advik Ranjan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Samujjal Mukherjee",
               "player2": "Haripriya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Haripriya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -391,8 +391,8 @@
             {
               "player1": "Ishani Sanyal",
               "player2": "Padmaja Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Ishani Sanyal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -402,64 +402,64 @@
           "title": "Round 3",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player1": "Advik Behera",
+              "player2": "Winner of (Mainak Roy vs Prakhar Choudhary)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4",
+              "player1": "Sanjeevani Singh",
+              "player2": "Shaanvi Dubey",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 5",
-              "player2": "Winner of Round 2 Match 6",
+              "player1": "Chiku",
+              "player2": "Winner of (Rayan Dan vs Shlok Bansal)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 7",
-              "player2": "Winner of Round 2 Match 8",
+              "player1": "Winner of (Ayushman Ghosh vs Isha Das)",
+              "player2": "Arja Bhattacharya",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 9",
-              "player2": "Winner of Round 2 Match 10",
+              "player1": "Utkarsh Upadhyay",
+              "player2": "Prakhar Upadhyay",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 11",
-              "player2": "Winner of Round 2 Match 12",
+              "player1": "Adiya Pattanayak",
+              "player2": "Winner of (Disha Mohanty vs Priya Pradhan)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 13",
-              "player2": "Winner of Round 2 Match 14",
+              "player1": "Aadvik Ranjan",
+              "player2": "Haripriya",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 15",
-              "player2": "Winner of Round 2 Match 16",
+              "player1": "Winner of (Avaneesh Patro vs Arav Raj)",
+              "player2": "Ishani Sanyal",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -549,32 +549,32 @@
             {
               "player1": "Prachi Ganguly",
               "player2": "Parul Kacker",
-              "winner": "",
-              "status": "pending",
+              "winner": "Prachi Ganguly",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Dipa Kumari",
               "player2": "Puja Kumari",
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Bindu Kumari",
               "player2": "Lovely Lal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Bindu Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Sangeeta Singh",
               "player2": "Jyoti Kumari",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sangeeta Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -597,16 +597,16 @@
             {
               "player1": "Swati Singh",
               "player2": "Prabha Behera",
-              "winner": "",
-              "status": "pending",
+              "winner": "Swati Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Paramjeet Kaur",
               "player2": "Manish Kumar",
-              "winner": "",
-              "status": "pending",
+              "winner": "Paramjeet Kaur",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -621,24 +621,24 @@
             {
               "player1": "Sananda Mukherjee",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Shatarupa Choudhary",
               "player2": "Jagdeep Saini",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jagdeep Saini",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Anita Thakur",
               "player2": "Himika Roy",
-              "winner": "",
-              "status": "pending",
+              "winner": "Anita Thakur",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -680,55 +680,55 @@
           "title": "Round 2",
           "matches": [
             {
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2",
+              "player1": "Prachi Ganguly",
+              "player2": "Dipa Kumari",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4",
+              "player1": "Bindu Kumari",
+              "player2": "Sangeeta Singh",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 5",
-              "player2": "Winner of Round 1 Match 6",
+              "player1": "Winner of (Indu Bala vs Gitanjali Patra)",
+              "player2": "Winner of (Chaitanya vs Vandana Upadhyay)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 7",
-              "player2": "Winner of Round 1 Match 8",
+              "player1": "Swati Singh",
+              "player2": "Paramjeet Kaur",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 9",
-              "player2": "Winner of Round 1 Match 10",
+              "player1": "Winner of (Sarita Roy vs Urmila Devi)",
+              "player2": "Jyoti Prakash Pattanayak",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 11",
-              "player2": "Winner of Round 1 Match 12",
+              "player1": "Jagdeep Saini",
+              "player2": "Anita Thakur",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 13",
+              "player1": "Winner of (Surabhi Kumari vs Sneha)",
               "player2": "Kumari Anshu Chowdhary",
               "winner": "",
               "status": "pending",
@@ -738,8 +738,8 @@
             {
               "player1": "Sonal Kumari",
               "player2": "Mahua Sanyal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sonal Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }

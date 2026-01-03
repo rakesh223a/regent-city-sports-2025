@@ -10,8 +10,8 @@
             {
               "player1": "Varenyam",
               "player2": "Akshay Singh",
-              "winner": "",
-              "status": "pending",
+              "winner": "Akshay Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -34,8 +34,8 @@
             {
               "player1": "Padmaja Upadhyay",
               "player2": "Ishani Sanyal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Padmaja Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -86,40 +86,40 @@
             {
               "player1": "Kaustav Das",
               "player2": "Tirthankar Kanjilal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Parul Kacker",
               "player2": "Prabha Behera",
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Dipa Kumari",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Chhoti Kumari",
               "player2": "Sarita Roy",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sarita Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Kajal Paul",
               "player2": "Ayushman Sharma",
-              "winner": "",
-              "status": "pending",
+              "winner": "Ayushman Sharma",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -243,16 +243,16 @@
             {
               "player1": "Surabhi Kumari",
               "player2": "Chetan",
-              "winner": "",
-              "status": "pending",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Souravan Roy",
               "player2": "Prachi Ganguly",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -275,8 +275,8 @@
             {
               "player1": "Ashim Das",
               "player2": "Goravjeet Mahakul",
-              "winner": "",
-              "status": "pending",
+              "winner": "Ashim Das",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -417,9 +417,9 @@
               "remarks": ""
             },
             {
-              "player1": "Gouravjeet Mahakul & Sneha",
+              "player1": "Gouravjeet Mahakul & Kuntalika Das",
               "player2": "BYE1",
-              "winner": "Gouravjeet Mahakul & Sneha",
+              "winner": "Gouravjeet Mahakul & Kuntalika Das",
               "status": "completed",
               "score": "",
               "remarks": "BYE"
@@ -478,7 +478,7 @@
               "remarks": ""
             },
             {
-              "player1": "Gouravjeet Mahakul & Sneha",
+              "player1": "Gouravjeet Mahakul & Kuntalika Das",
               "player2": "Dipa Kumari & Parul Kacker",
               "winner": "",
               "status": "pending",
