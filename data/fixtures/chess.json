@@ -26,16 +26,16 @@
             {
               "player1": "Jiyansh Rath",
               "player2": "Arja Bhattacharya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Utkarsh Upadhyay",
               "player2": "Anahita Anvi",
-              "winner": "",
-              "status": "pending",
+              "winner": "Utkarsh Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -77,16 +77,16 @@
           "title": "Round 2",
           "matches": [
             {
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2",
+              "player1": "Winner of (Avaneesh Patro vs Ashray Singh)",
+              "player2": "Winner of (Rayan Dan vs Aadvik Ranjan)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4",
+              "player1": "Arja Bhattacharya",
+              "player2": "Utkarsh Upadhyay",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -95,16 +95,16 @@
             {
               "player1": "Varenyam",
               "player2": "Prakhar Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Advik Behera",
               "player2": "Padmaja Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Advik Behera" ,
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -122,8 +122,8 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4",
+              "player1": "Prakhar Upadhyay",
+              "player2": "Advik Behera",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -171,8 +171,8 @@
             {
               "player1": "Ayushman Sharma",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -240,8 +240,8 @@
             {
               "player1": "Surabhi Kumari",
               "player2": "Anirban Mukherjee",
-              "winner": "",
-              "status": "pending",
+              "winner": "Anirban Mukherjee",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
