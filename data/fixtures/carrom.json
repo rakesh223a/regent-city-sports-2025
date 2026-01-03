@@ -45,16 +45,16 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2",
+              "player1": "Akshay Singh",
+              "player2": "Winner of (Rayan Dan vs Arja Bhattacharya)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4",
+              "player1": "Winner of (Prakhar Upadhyay vs Utkarsh Upadhyay)",
+              "player2": "Padmaja Upadhyay",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -217,23 +217,23 @@
           "title": "Round 2",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player1": "Tirthankar Kanjilal",
+              "player2": "Parul Kacker",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4",
+              "player1": "Jyoti Prakash Pattanayak",
+              "player2": "Sarita Roy",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 5",
+              "player1": "Ayushman Sharma",
               "player2": "Sushant Patro",
               "winner": "",
               "status": "pending",
