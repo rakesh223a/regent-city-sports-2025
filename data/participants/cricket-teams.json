@@ -23,15 +23,15 @@
       "title": "Female 14+",
       "teams": [
         {
-          "name": "Team Dhurandar",
+          "name": "Team - Dhurandar",
           "members": ["Lakshmi Kumari (VC)", "Parul Kacker (C)", "Shatarupa Chowdhary", "Vandana Upadhyay", "Surabhi Kumari", "Himika Roy"]
         },
         {
-          "name": "Team Dhakad",
+          "name": "Team - Dhakad",
           "members": ["Sonal Kumari", "Lovely Lal (C)", "Kumari Anshu Chowdhary(VC)", "Prachi Ganguly", "Shreya", "Supriya Kant"]
         },
         {
-          "name": "Team Diamond Divas",
+          "name": "Team - Diamond Divas",
           "members": ["Bidisha Bhattacharya", "Sananda Mukherjee", "Gitanjali Patra", "Jyoti Kumari", "Prabha Behera", "Sandhya Kumari"]
         }
       ]
