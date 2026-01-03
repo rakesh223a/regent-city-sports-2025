@@ -312,9 +312,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Ayushman Sharma",
+              "status": "completed",
+              "score": "15-13, 15-9",
               "remarks": "",
               "player1": "Kaustav Das",
               "player2": "Ayushman Sharma"
@@ -353,7 +353,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Kaustav Das vs Ayushman Sharma",
+              "player1": "Kaustav Das",
               "player2": "Dhimanto Chakraborty"
             },
             {
