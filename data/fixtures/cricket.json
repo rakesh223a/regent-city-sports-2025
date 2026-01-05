@@ -1,0 +1,48 @@
+{
+  "game": "Cricket Female",
+  "rounds": {
+    "round_1": {
+      "title": "League Matches",
+      "matches": [
+        {
+          "player1": "Dhurandar",
+          "player2": "Dhakad",
+          "winner": "Dhakad",
+          "status": "completed",
+          "score": "Dhurandar-60 runs & Dhakad-64 runs in 6 overs",
+          "remarks": ""
+        },
+        {
+          "player1": "Dhakad",
+          "player2": "Diamond Divas",
+          "winner": "Diamond Divas",
+          "status": "completed",
+          "score": "Dhakad-57 runs & Diamond Divas-110 runs in 6 overs",
+          "remarks": ""
+        },
+        {
+          "player1": "Dhurandar",
+          "player2": "Diamond Divas",
+          "winner": "Dhurandar",
+          "status": "completed",
+          "score": "Diamond Divas-54 runs & Dhurandar-58 runs in 6 overs",
+          "remarks": ""
+        }
+    
+      ]
+    },
+    "final": {
+      "title": "Final",
+      "matches": [
+        {
+          "player1": "Diamond Divas",
+          "player2": "Dhurandar",
+          "winner": "",
+          "status": "pending",
+          "score": "",
+          "remarks": "Reached to final based on better NRR - Diamond Divas(+4.00),Dhurandar(+0.88) & Dhakad(-4.09)."
+        }
+      ]
+    }
+  }
+}

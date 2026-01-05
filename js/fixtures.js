@@ -148,6 +148,7 @@ function renderBracketHTML(rounds) {
               ? `<div class="winner-placeholder">Winner: TBD</div>`
               : ""
           }
+          <div class="match-remarks">${match.remarks}</div>
         </div>
       `;
     });
