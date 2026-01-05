@@ -5,16 +5,46 @@
       "title": "Junior (Below 14) | Mixed",
       "teams": [
         {
-          "name": "Team A",
-           "members": ["Avyay (Sweet)", "Ayushman Ghosh", "Arja Bhattacharya", "Prakhar Upadhyay", "Saqib Saikh", "Omkant Ojha", "Priya Pradhan", "Rayan Dan"]
+          "name": "RCB - Regent City Bashers",
+          "members": [
+            "Avyay (Sweet)",
+            "Ayushman Ghosh",
+            "Arja Bhattacharya",
+            "Prakhar Upadhyay",
+            "Saqib Saikh",
+            "Omkant Ojha",
+            "Priya Pradhan",
+            "Rayan Dan",
+            "Ridhan Tiwari"
+          ]
         },
         {
-          "name": "Team B",
-          "members": ["Mainak Roy", "Varenyam", "Daksh Upadhyay", "Ishani Sanyal", "Pragya Choudhary", "Arohi", "Aidya Pattanayak", "Arannya Ghosh (Jim)"]
+          "name": "LORC - Legends Of Regent City",
+          "members": [
+            "Mainak Roy",
+            "Varenyam",
+            "Daksh Upadhyay",
+            "Ishani Sanyal",
+            "Pragya Choudhary",
+            "Arohi",
+            "Aidya Pattanayak",
+            "Arannya Ghosh (Jim)",
+            "Arik Chowdhary"
+          ]
         },
         {
-          "name": "Team C",
-         "members": ["Sanskar Ojha", "Isha Das", "Haripriya", "Padmaja Updhyay", "Avaneesh Patro", "Aaradhya", "Arik Chowdhary", "Ashita Ojha", "Akshay Singh"]
+          "name": "RCP - Regent City Panthers",
+          "members": [
+            "Sanskar Ojha",
+            "Isha Das",
+            "Haripriya",
+            "Padmaja Updhyay",
+            "Avaneesh Patro",
+            "Aaradhya",
+            "Arik Chowdhary",
+            "Ashita Ojha",
+            "Akshay Singh"
+          ]
         }
       ]
     },
@@ -24,15 +54,36 @@
       "teams": [
         {
           "name": "Team - Dhurandar",
-          "members": ["Lakshmi Kumari (VC)", "Parul Kacker (C)", "Shatarupa Chowdhary", "Vandana Upadhyay", "Surabhi Kumari", "Himika Roy"]
+          "members": [
+            "Lakshmi Kumari (VC)",
+            "Parul Kacker (C)",
+            "Shatarupa Chowdhary",
+            "Vandana Upadhyay",
+            "Surabhi Kumari",
+            "Himika Roy"
+          ]
         },
         {
           "name": "Team - Dhakad",
-          "members": ["Sonal Kumari", "Lovely Lal (C)", "Kumari Anshu Chowdhary(VC)", "Prachi Ganguly", "Shreya", "Supriya Kant"]
+          "members": [
+            "Sonal Kumari",
+            "Lovely Lal (C)",
+            "Kumari Anshu Chowdhary(VC)",
+            "Prachi Ganguly",
+            "Shreya",
+            "Supriya Kant"
+          ]
         },
         {
           "name": "Team - Diamond Divas",
-          "members": ["Bidisha Bhattacharya", "Sananda Mukherjee", "Gitanjali Patra", "Jyoti Kumari", "Prabha Behera", "Sandhya Kumari"]
+          "members": [
+            "Bidisha Bhattacharya",
+            "Sananda Mukherjee",
+            "Gitanjali Patra",
+            "Jyoti Kumari",
+            "Prabha Behera",
+            "Sandhya Kumari"
+          ]
         }
       ]
     },
@@ -42,27 +93,75 @@
       "teams": [
         {
           "name": "Team A",
-          "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Dhimanto",
+            "Jyoti Prakash",
+            "Manish Kumar",
+            "Ranjit Tiwari",
+            "Chetan",
+            "Abhishek",
+            "Ashita Ojha(substitute)"
+          ]
         },
         {
           "name": "Team B",
-         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Ayushman Sharma",
+            "Joydeep",
+            "Sanjay",
+            "Souravan",
+            "Vivek",
+            "Rakshak",
+            "Shanu(substitute)"
+          ]
         },
         {
           "name": "Team C",
-         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Akash",
+            "Jagdeep",
+            "Kabir",
+            "Keshav",
+            "Prem Alok",
+            "Rounak Sahu",
+            "Omkant(substitute)"
+          ]
         },
         {
           "name": "Team D",
-         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Chaitanya",
+            "Samik",
+            "Sushanto",
+            "Vishal",
+            "Dipankar",
+            "Mustafa",
+            "Arja(substitute)"
+          ]
         },
         {
           "name": "Team E",
-         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Anirban",
+            "Divyanshu ",
+            "Gouravjit",
+            "Kaustav Das",
+            "Rakesh Prasad",
+            "Tirthankar",
+            "Dipak Shaw(substitute)"
+          ]
         },
         {
           "name": "Team F",
-         "members": ["Player 1", "Player 2 ", "Player 3", "Player 4", "Player 5", "Player 6"]
+          "members": [
+            "Pratap",
+            "Joydeep Maity",
+            "Dipankar",
+            "Subho",
+            "Sonai",
+            "Hitler",
+            "Player F6(substitute)"
+          ]
         }
       ]
     }
