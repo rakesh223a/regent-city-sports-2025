@@ -7,25 +7,25 @@
         {
           "player1": "Ayushman Sharma",
           "player2": "Dhimanta Chakraborty",
-          "winner": "",
-          "status": "pending",
-          "score": "",  
+          "winner": "Dhimanta Chakraborty",
+          "status": "completed",
+          "score": "11-9, 6-11,13-11",
           "remarks": ""
         },
         {
           "player1": "Samik Bhattacharya",
           "player2": "Souravan Roy",
-          "winner": "",
-          "status": "pending",
-          "score": "",
+          "winner": "Samik Bhattacharya",
+          "status": "completed",
+          "score": "15-3, 11-5",
           "remarks": ""
         },
         {
           "player1": "Arja Bhattacharya",
           "player2": "Anirban Mukherjee",
-          "winner": "",
-          "status": "pending",
-          "score": "",
+          "winner": "Anirban Mukherjee",
+          "status": "completed",
+          "score": "11-8, 11-5",
           "remarks": ""
         },
          {
@@ -42,19 +42,19 @@
       "title": "Round 2 | Semifinal",
       "matches": [
         {
-          "player1": "Winner of Round 1 Match 1",
-          "player2": "Winner of Round 1 Match 2",
+          "player1": "Ayushman Sharma",
+          "player2": "Samik Bhattacharya",
           "winner": "",
           "status": "pending",
           "score": "",
           "remarks": ""
         },
         {
-          "player1": "Winner of Round 1 Match 3",
+          "player1": "Anirban Mukherjee",
           "player2": "Akash Chakraborty",
-          "winner": "",
-          "status": "pending",
-          "score": "",
+          "winner": "Akash Chakraborty",
+          "status": "completed",
+          "score": "11-4, 11-5",
           "remarks": ""
         }
       ]
@@ -63,8 +63,8 @@
       "title": "Final",
       "matches": [
         {
-          "player1": "Winner of Round 2 Match 1",
-          "player2": "Winner of Round 2 Match 2",
+          "player1": "Winner of (Ayushman Sharma vs Samik Bhattacharya)",
+          "player2": "Akash Chakraborty",
           "winner": "",
           "status": "pending",
           "score": "",

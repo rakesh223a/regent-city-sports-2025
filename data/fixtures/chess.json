@@ -10,8 +10,8 @@
             {
               "player1": "Avaneesh Patro",
               "player2": "Ashray Singh",
-              "winner": "",
-              "status": "pending",
+              "winner": "Avaneesh Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -77,7 +77,7 @@
           "title": "Round 2",
           "matches": [
             {
-              "player1": "Winner of (Avaneesh Patro vs Ashray Singh)",
+              "player1": "Avaneesh Patro",
               "player2": "Winner of (Rayan Dan vs Aadvik Ranjan)",
               "winner": "",
               "status": "pending",
@@ -87,8 +87,8 @@
             {
               "player1": "Arja Bhattacharya",
               "player2": "Utkarsh Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -115,7 +115,7 @@
           "matches": [
             {
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player2": "Arja Bhattacharya",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -224,16 +224,16 @@
             {
               "player1": "Sushant Patro",
               "player2": "Souravan Roy",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Jyoti Prakash Pattanayak",
               "player2": "Rounak Sahu",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -259,8 +259,8 @@
           "title": "Round 3 | Semi Final",
           "matches": [
             {
-              "player1": "Winner of (Sushant Patro vs Souravan Roy)",
-              "player2": "Winner of (Jyoti Prakash Pattanayak vs Rounak Sahu)",
+              "player1": "Souravan Roy",
+              "player2": "Jyoti Prakash Pattanayak",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -269,8 +269,8 @@
             {
               "player1": "Anirban Mukherjee",
               "player2": "Lovely Lal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Anirban Mukherjee",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -280,8 +280,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2",
+              "player1": "Winner of (Souravan Roy vs Jyoti Prakash Pattanayak)",
+              "player2": "Anirban Mukherjee",
               "winner": "",
               "status": "pending",
               "score": "",

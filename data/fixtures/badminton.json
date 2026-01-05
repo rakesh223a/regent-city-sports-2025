@@ -198,7 +198,7 @@
           "matches": [
             {
               "winner": "Omkant Ojha",
-              "status": "pending",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Omkant Ojha",
@@ -222,7 +222,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
+              "player1": "Omkant Ojha",
               "player2": "Arja Bhattacharya"
             }
           ]
@@ -273,8 +273,8 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Pragya Chowdhury",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Pragya Chowdhury",
@@ -298,7 +298,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
+              "player1": "Pragya Chowdhury",
               "player2": "Winner of Round 2 Match 2"
             }
           ]
@@ -349,16 +349,16 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Ayushman Sharma",
+              "status": "completed",
+              "score": "15-13,15-13",
               "remarks": "",
               "player1": "Ayushman Sharma",
               "player2": "Dhimanto Chakraborty"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Kabir Shrey",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Kabir Shrey",
@@ -370,12 +370,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Kabir Shrey",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "Ayushman Sharma",
+              "player2": "Kabir Shrey"
             }
           ]
         }
@@ -388,9 +388,9 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
-              "score": "",
+              "winner": "Raj Paul",
+              "status": "completed",
+              "score": "15-9, 12-15, 15-9",
               "remarks": "",
               "player1": "Raj Paul",
               "player2": "Gouravjeet Mahakul"
@@ -429,7 +429,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Raj Paul vs Gouravjeet mahakul",
+              "player1": "Raj Paul",
               "player2": "Souravan Roy"
             },
             {
@@ -754,8 +754,8 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Parul Kacker",
@@ -1196,8 +1196,8 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay",

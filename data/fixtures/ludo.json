@@ -319,8 +319,8 @@
             {
               "player1": "Ayushman Ghosh",
               "player2": "Isha Das",
-              "winner": "",
-              "status": "pending",
+              "winner": "Isha Das",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -383,8 +383,8 @@
             {
               "player1": "Avaneesh Patro",
               "player2": "Arav Raj",
-              "winner": "",
-              "status": "pending",
+              "winner": "Avaneesh Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -412,8 +412,8 @@
             {
               "player1": "Sanjeevani Singh",
               "player2": "Shaanvi Dubey",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sanjeevani Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -426,7 +426,7 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Ayushman Ghosh vs Isha Das)",
+              "player1": "Isha Das",
               "player2": "Arja Bhattacharya",
               "winner": "",
               "status": "pending",
@@ -436,8 +436,8 @@
             {
               "player1": "Utkarsh Upadhyay",
               "player2": "Prakhar Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Prakhar Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -452,16 +452,16 @@
             {
               "player1": "Aadvik Ranjan",
               "player2": "Haripriya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Haripriya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of (Avaneesh Patro vs Arav Raj)",
+              "player1": "Avaneesh Patro",
               "player2": "Ishani Sanyal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Avaneesh Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -495,8 +495,8 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 3 Match 7",
-              "player2": "Winner of Round 3 Match 8",
+              "player1": "Haripriya",
+              "player2": "Avaneesh Patro",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -581,16 +581,16 @@
             {
               "player1": "Indu Bala",
               "player2": "Gitanjali Patra",
-              "winner": "",
-              "status": "pending",
+              "winner": "Gitanjali Patra",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Chaitanya",
               "player2": "Vandana Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Chaitanya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -682,16 +682,16 @@
             {
               "player1": "Prachi Ganguly",
               "player2": "Dipa Kumari",
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Bindu Kumari",
               "player2": "Sangeeta Singh",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sangeeta Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -706,8 +706,8 @@
             {
               "player1": "Swati Singh",
               "player2": "Paramjeet Kaur",
-              "winner": "",
-              "status": "pending",
+              "winner": "Paramjeet Kaur",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -722,16 +722,16 @@
             {
               "player1": "Jagdeep Saini",
               "player2": "Anita Thakur",
-              "winner": "",
-              "status": "pending",
+              "winner": "Anita Thakur",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Surabhi Kumari",
               "player2": "Kumari Anshu Chowdhary",
-              "winner": "",
-              "status": "pending",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
