@@ -1,48 +1,196 @@
 {
-  "game": "Cricket Female",
-  "rounds": {
-    "round_1": {
-      "title": "League Matches",
-      "matches": [
-        {
-          "player1": "Dhurandar",
-          "player2": "Dhakad",
-          "winner": "Dhakad",
-          "status": "completed",
-          "score": "Dhurandar-60 runs & Dhakad-64 runs in 6 overs",
-          "remarks": ""
+  "game": "Cricket",
+  "categories": {
+    "female": {
+      "title": "Female",
+      "rounds": {
+        "round1": {
+          "title": "League Matches",
+          "matches": [
+            {
+              "player1": "Dhurandar",
+              "player2": "Dhakad",
+              "winner": "Dhakad",
+              "status": "completed",
+              "score": "Dhurandar-60 runs & Dhakad-64 runs in 6 overs",
+              "remarks": ""
+            },
+            {
+              "player1": "Dhakad",
+              "player2": "Diamond Divas",
+              "winner": "Diamond Divas",
+              "status": "completed",
+              "score": "Dhakad-57 runs & Diamond Divas-110 runs in 6 overs",
+              "remarks": ""
+            },
+            {
+              "player1": "Dhurandar",
+              "player2": "Diamond Divas",
+              "winner": "Dhurandar",
+              "status": "completed",
+              "score": "Diamond Divas-54 runs & Dhurandar-58 runs in 6 overs",
+              "remarks": ""
+            }
+          ]
         },
-        {
-          "player1": "Dhakad",
-          "player2": "Diamond Divas",
-          "winner": "Diamond Divas",
-          "status": "completed",
-          "score": "Dhakad-57 runs & Diamond Divas-110 runs in 6 overs",
-          "remarks": ""
-        },
-        {
-          "player1": "Dhurandar",
-          "player2": "Diamond Divas",
-          "winner": "Dhurandar",
-          "status": "completed",
-          "score": "Diamond Divas-54 runs & Dhurandar-58 runs in 6 overs",
-          "remarks": ""
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "Diamond Divas",
+              "player2": "Dhurandar",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "Reached to final based on better NRR - Diamond Divas(+4.00),Dhurandar(+0.88) & Dhakad(-4.09)."
+            }
+          ]
         }
-    
-      ]
+      }
     },
-    "final": {
-      "title": "Final",
-      "matches": [
-        {
-          "player1": "Diamond Divas",
-          "player2": "Dhurandar",
-          "winner": "",
-          "status": "pending",
-          "score": "",
-          "remarks": "Reached to final based on better NRR - Diamond Divas(+4.00),Dhurandar(+0.88) & Dhakad(-4.09)."
+    "Junior Mixed": {
+      "title": "Junior Mixed",
+      "rounds": {
+        "round1": {
+          "title": "League Matches",
+          "matches": [
+            {
+              "player1": "RCB - Regent City Bashers",
+              "player2": "LORC - Legends Of Regent City",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "LORC - Legends Of Regent City",
+              "player2": "RCP - Regent City Panthers",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "RCP - Regent City Panthers",
+              "player2": "RCB - Regent City Bashers",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "League Topper 1",
+              "player2": "League Topper 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
         }
-      ]
-    }
+      }
+    },
+    "Senior Mens": {
+      "title": "Senior Mens",
+      "rounds": {
+        "round1": {
+          "title": "Mens League - Group 1",
+          "matches": [
+            {
+              "player1": "Team A",
+              "player2": "Team B",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Team B",
+              "player2": "Team C",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Team C",
+              "player2": "Team A",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        },
+        "round2": {
+          "title": "Mens League - Group 2",
+          "matches": [
+            {
+              "player1": "Team D",
+              "player2": "Team E",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Team E",
+              "player2": "Team F",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Team F",
+              "player2": "Team D",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        },
+        "semifinal": {
+          "title": "Semifinal",
+          "matches": [
+            {
+              "player1": "Group 1-Rank 1",
+              "player2": "Group 2-Rank 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            },
+            {
+              "player1": "Group 2-Rank 1",
+              "player2": "Group 1-Rank 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        },
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "Semifinal Winner 1",
+              "player2": "Semifinal Winner 2",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        }
+      }
   }
+}
 }

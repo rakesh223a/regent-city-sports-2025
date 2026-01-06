@@ -110,6 +110,7 @@ function renderBracketHTML(rounds) {
   let html = `<div class="bracket">`;
 
   Object.values(rounds).forEach((round, idx) => {
+    
     html += `
       <div class="round-column round-${idx + 1}">
         <h6>${round.title}</h6>
