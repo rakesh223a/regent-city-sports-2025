@@ -99,7 +99,7 @@
       "title": "Senior Mens",
       "rounds": {
         "round1": {
-          "title": "Mens League - Group 1",
+          "title": "Mens League - Group 1 & Group 2",
           "matches": [
             {
               "player1": "Team A",
@@ -107,7 +107,15 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 9:30 AM to 10:30 AM"
+            },
+            {
+              "player1": "Team D",
+              "player2": "Team E",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "Match Timing : 10th Jan 10:45 AM to 11:45 AM"
             },
             {
               "player1": "Team B",
@@ -115,7 +123,15 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 12:00 PM to 01:00 PM"
+            },
+             {
+              "player1": "Team E",
+              "player2": "Team F",
+              "winner": "",
+              "status": "pending",
+              "score": "",
+              "remarks": "Match Timing : 10th Jan 02:00 PM to 03:00 PM"
             },
             {
               "player1": "Team C",
@@ -123,28 +139,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
-            }
-          ]
-        },
-        "round2": {
-          "title": "Mens League - Group 2",
-          "matches": [
-            {
-              "player1": "Team D",
-              "player2": "Team E",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": ""
-            },
-            {
-              "player1": "Team E",
-              "player2": "Team F",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 03:15 PM to 04:15 PM"
             },
             {
               "player1": "Team F",
@@ -152,28 +147,29 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 04:30 PM to 05:30 PM"
             }
           ]
         },
+       
         "semifinal": {
           "title": "Semifinal",
           "matches": [
             {
-              "player1": "Group 1-Rank 1",
-              "player2": "Group 2-Rank 2",
+              "player1": "Group 1 Topper",
+              "player2": "Group 2 Runner-up",
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 06:00 PM to 07:00 PM"
             },
             {
-              "player1": "Group 2-Rank 1",
-              "player2": "Group 1-Rank 2",
+              "player1": "Group 2 Topper",
+              "player2": "Group 1 Runner-up",
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match Timing : 10th Jan 07:15 PM to 08:15 PM"
             }
           ]
         },
