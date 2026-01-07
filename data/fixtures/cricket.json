@@ -107,7 +107,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 9:30 AM to 10:30 AM"
+              "remarks": "Group 1-Match Timing : 10th Jan 9:30 AM to 10:30 AM"
             },
             {
               "player1": "Team D",
@@ -115,7 +115,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 10:45 AM to 11:45 AM"
+              "remarks": "Group 2-Match Timing : 10th Jan 10:45 AM to 11:45 AM"
             },
             {
               "player1": "Team B",
@@ -123,7 +123,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 12:00 PM to 01:00 PM"
+              "remarks": "Group 1-Match Timing : 10th Jan 12:00 PM to 01:00 PM"
             },
              {
               "player1": "Team E",
@@ -131,7 +131,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 02:00 PM to 03:00 PM"
+              "remarks": "Group 2-Match Timing : 10th Jan 02:00 PM to 03:00 PM"
             },
             {
               "player1": "Team C",
@@ -139,7 +139,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 03:15 PM to 04:15 PM"
+              "remarks": "Group 1-Match Timing : 10th Jan 03:15 PM to 04:15 PM"
             },
             {
               "player1": "Team F",
@@ -147,7 +147,7 @@
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": "Match Timing : 10th Jan 04:30 PM to 05:30 PM"
+              "remarks": "Group 2-Match Timing : 10th Jan 04:30 PM to 05:30 PM"
             }
           ]
         },
