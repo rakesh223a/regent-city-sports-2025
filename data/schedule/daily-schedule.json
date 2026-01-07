@@ -1017,7 +1017,96 @@
 
   "week_2": {
     "label": "Week 2",
-    "days": {}
+    "days": {
+      "2026-01-10": {
+        "label": "10 Jan",
+        "matches": []
+      },
+      "2026-01-11": {
+        "label": "11 Jan",
+        "matches": [
+           {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 1-Leauge Match 1",
+            "time": "09:30 AM - 10:30 AM",
+            "venue": "Regent City Garden",
+            "match": "Team A 🆚 Team B"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 2-Leauge Match 1",
+            "time": "10:45 AM - 11:45 AM",
+            "venue": "Regent City Garden",
+            "match": "Team D 🆚 Team E"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 1-Leauge Match 2",
+            "time": "12:00 PM - 01:00 PM",
+            "venue": "Regent City Garden",
+            "match": "Team B 🆚 Team C"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 2-Leauge Match 2",
+            "time": "02:00 PM - 03:00 PM",
+            "venue": "Regent City Garden",
+            "match": "Team E 🆚 Team F"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 1-Leauge Match 3",
+            "time": "03:15 PM - 04:15 PM",
+            "venue": "Regent City Garden",
+            "match": "Team C 🆚 Team A"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Group 2-Leauge Match 3",
+            "time": "04:30 PM - 05:30 PM",
+            "venue": "Regent City Garden",
+            "match": "Team F 🆚 Team D"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Semifinal 1",
+            "time": "05:45 PM - 06:45 PM",
+            "venue": "Regent City Garden",
+            "match": "Group 1 Topper 🆚 Group 2 Runner-up"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "Semifinal 2",
+            "time": "07:00 PM - 08:00 PM",
+            "venue": "Regent City Garden",
+            "match": "Group 2 Topper 🆚 Group 1 Runner-up"
+          }
+
+        ]
+      },
+      "2026-01-12": {
+        "label": "12 Jan",
+        "matches": [
+          {
+            "game": "Fun Game",
+            "category": "Upto 9 Yrs",
+            "round": "🏆 Fun Game Events 🏆",
+            "time": "09:00 AM - 01:00 PM",
+            "venue": "Regent City Garden",
+            "match": "🎉 Join us for exciting fun games designed for kids aged 2-9 years! Enjoy a variety of entertaining activities and win prizes! 🎉 and also visit the Yes Bank Zone at the Regent City Garden and be amongst the First 50 Lucky Dip Winner to receive your New Year Gift! 🎁"
+          }
+        ]
+      }
+
+    }
   },
 
   "week_3": {
