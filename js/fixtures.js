@@ -30,7 +30,7 @@ function loadFixtures(game, btn) {
             target="_blank"
             class="pdf-link"
           >
-            📄 Download Full Cricket Schedule
+            📄 Download Men's Cricket Schedule
           </a>`
         : ""
     }
