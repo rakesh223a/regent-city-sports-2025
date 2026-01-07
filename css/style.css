@@ -680,14 +680,33 @@ hr.dotted {
   line-height: 1.4;
   white-space: normal;
   word-break: break-word;
-  overflow-wrap: anywhere;
-  display: --webkit-box;
-  -webkit-line-clamp: 3;
+
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
 
+.fixtures-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 
+.pdf-link {
+  font-size: 14px;
+  color: #1e5ed7;
+  text-decoration: none;
+  border: 1px solid #1e5ed7;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #f5f9ff;
+}
+
+.pdf-link:hover {
+  background: #1e5ed7;
+  color: #fff;
+}
 
 
 

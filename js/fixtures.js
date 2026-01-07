@@ -19,7 +19,23 @@ function loadFixtures(game, btn) {
       const content = document.getElementById("content");
       if (!content) return;
 
-      let html = `<h2>${data.game} Fixtures</h2>`;
+     let html = `
+  <div class="fixtures-header">
+    <h2>${data.game} Fixtures</h2>
+
+    ${
+      data.game.toLowerCase() === "cricket"
+        ? `<a 
+            href="assets/Regent_City_Mens_Cricket_Schedule.pdf"
+            target="_blank"
+            class="pdf-link"
+          >
+            📄 Download Full Cricket Schedule
+          </a>`
+        : ""
+    }
+  </div>
+`;
 
       // Games with categories (Badminton)
       if (data.categories) {
