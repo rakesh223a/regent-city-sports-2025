@@ -1,8 +1,8 @@
 {
   "game": "Cricket",
   "categories": {
-    "female": {
-      "title": "Female",
+    "Womens": {
+      "title": "Womens",
       "rounds": {
         "round1": {
           "title": "League Matches",
@@ -95,8 +95,8 @@
         }
       }
     },
-    "Senior Mens": {
-      "title": "Senior Mens",
+    "Mens": {
+      "title": "Mens",
       "rounds": {
         "round1": {
           "title": "Mens League - Group 1 & Group 2",
