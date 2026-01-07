@@ -609,10 +609,10 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Kumar",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Jyoti Kumari",
               "player2": "Sneha"
             },
@@ -682,12 +682,12 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Jyoti Kumari vs Sneha",
+              "player1": "Jyoti Kumari",
               "player2": "Dipa Kumari vs Prachi Ganguly"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Lakshmi Kumari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Anita Thakur",
@@ -720,15 +720,15 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Lakshmi Kumari"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player1": "Winner of (Lovely Lal vs Swati Singh)",
+              "player2": "Winner of (Puja Kumari vs Sonal Kumari)"
             }
           ]
         },
@@ -838,16 +838,16 @@
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Bidisha Bhattacharya"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari 🧑‍🤝‍🧑 Gitanjali Patra",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Sonal Kumari 🧑‍🤝‍🧑 Lakshmi Kumari",
               "player2": "Dipa Kumari 🧑‍🤝‍🧑 Gitanjali Patra"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker 🧑‍🤝‍🧑 Lovely Lal",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Parul Kacker 🧑‍🤝‍🧑 Lovely Lal ",
@@ -872,14 +872,14 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player2": "Dipa Kumari 🧑‍🤝‍🧑 Gitanjali Patra"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 1 Match 3",
+              "player1": "Parul Kacker 🧑‍🤝‍🧑 Lovely Lal",
               "player2": "Sarita Roy 🧑‍🤝‍🧑 Jyoti Kumari"
             }
           ]
