@@ -55,8 +55,8 @@
             {
               "player1": "Utkarsh Upadhyay",
               "player2": "Padmaja Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Utkarsh Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -66,8 +66,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player1": "Winner of (Akshay Singh vs Winner of (Rayan Dan vs Arja Bhattacharya))",
+              "player2": "Utkarsh Upadhyay",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -274,7 +274,7 @@
             },
             {
               "player1": "Ashim Das",
-              "player2": "Goravjeet Mahakul",
+              "player2": "Gouravjit Mahakul",
               "winner": "Ashim Das",
               "status": "completed",
               "score": "",
@@ -286,32 +286,32 @@
           "title": "Round 3 | QuarterFinal",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player1": "Winner of (Tirthankar Kanjilal vs Parul Kacker)",
+              "player2": "Winner of (Jyoti Prakash Pattanayak vs Sarita Roy)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4",
+              "player1": "Winner of (Ayushman Sharma vs Sushant Patro)",
+              "player2": "Surabhi Kumari",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 5",
-              "player2": "Winner of Round 2 Match 6",
+              "player1": "Souravan Roy",
+              "player2": "Winner of (Vishal Kumar vs Ranjeet Tiwari)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 7",
-              "player2": "Winner of Round 2 Match 8",
+              "player1": "Winner of (Kunatalika Das vs Himika Roy)",
+              "player2": "Ashim Das",
               "winner": "",
               "status": "pending",
               "score": "",

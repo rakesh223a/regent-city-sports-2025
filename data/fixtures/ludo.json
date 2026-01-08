@@ -311,8 +311,8 @@
             {
               "player1": "Rayan Dan",
               "player2": "Shlok Bansal",
-              "winner": "",
-              "status": "pending",
+              "winner": "Shlok Bansal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -419,9 +419,9 @@
             },
             {
               "player1": "Chiku",
-              "player2": "Winner of (Rayan Dan vs Shlok Bansal)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Shlok Bansal",
+              "winner": "Chiku",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -472,22 +472,22 @@
           "matches": [
             {
               "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2",
+              "player2": "Sanjeevani Singh",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 3 Match 3",
-              "player2": "Winner of Round 3 Match 4",
+              "player1": "Chiku",
+              "player2": "Winner of (Isha Das vs Arja Bhattacharya)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 3 Match 5",
+              "player1": "Prakhar Upadhyay",
               "player2": "Winner of Round 3 Match 6",
               "winner": "",
               "status": "pending",
@@ -696,10 +696,10 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Indu Bala vs Gitanjali Patra)",
-              "player2": "Winner of (Chaitanya vs Vandana Upadhyay)",
-              "winner": "",
-              "status": "pending",
+              "player1": "Gitanjali Patra",
+              "player2": "Chaitanya",
+              "winner": "Gitanjali Patra",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -749,32 +749,32 @@
           "title": "Round 3 | QuarterFinal",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2",
+              "player1": "Dipa Kumari",
+              "player2": "Sangeeta Singh",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4",
+              "player1": "Gitanjali Patra",
+              "player2": "Paramjeet Kaur",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 5",
-              "player2": "Winner of Round 2 Match 6",
+              "player1": "Winner of (Winner of (Sarita Roy vs Urmila Devi) VS Jyoti Prakash Pattanayak)",
+              "player2": "Anita Thakur",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 2 Match 7",
-              "player2": "Winner of Round 2 Match 8",
+              "player1": "Surabhi Kumari",
+              "player2": "Sonal Kumari",
               "winner": "",
               "status": "pending",
               "score": "",
