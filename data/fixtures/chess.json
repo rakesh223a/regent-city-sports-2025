@@ -18,8 +18,8 @@
             {
               "player1": "Rayan Dan",
               "player2": "Aadvik Ranjan",
-              "winner": "",
-              "status": "pending",
+              "winner": "Aadvik Ranjan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -78,9 +78,9 @@
           "matches": [
             {
               "player1": "Avaneesh Patro",
-              "player2": "Winner of (Rayan Dan vs Aadvik Ranjan)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Aadvik Ranjan",
+              "winner": "Avaneesh Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -114,7 +114,7 @@
           "title": "Round 3 | Semi Final",
           "matches": [
             {
-              "player1": "Winner of Round 2 Match 1",
+              "player1": "Avaneesh Patro",
               "player2": "Arja Bhattacharya",
               "winner": "",
               "status": "pending",
@@ -124,8 +124,8 @@
             {
               "player1": "Prakhar Upadhyay",
               "player2": "Advik Behera",
-              "winner": "",
-              "status": "pending",
+              "winner": "Advik Behera",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -135,8 +135,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2",
+              "player1": "Winner of (Avaneesh Patro vs Arja Bhattacharya)",
+              "player2": "Advik Behera",
               "winner": "",
               "status": "pending",
               "score": "",
