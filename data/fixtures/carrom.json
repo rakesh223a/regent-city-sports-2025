@@ -219,24 +219,24 @@
             {
               "player1": "Tirthankar Kanjilal",
               "player2": "Parul Kacker",
-              "winner": "",
-              "status": "pending",
+              "winner": "Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Jyoti Prakash Pattanayak",
               "player2": "Sarita Roy",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Ayushman Sharma",
               "player2": "Sushant Patro",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sushant Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -286,15 +286,15 @@
           "title": "Round 3 | QuarterFinal",
           "matches": [
             {
-              "player1": "Winner of (Tirthankar Kanjilal vs Parul Kacker)",
-              "player2": "Winner of (Jyoti Prakash Pattanayak vs Sarita Roy)",
+              "player1": "Tirthankar Kanjilal",
+              "player2": "Jyoti Prakash Pattanayak",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of (Ayushman Sharma vs Sushant Patro)",
+              "player1": "Sushant Patro",
               "player2": "Surabhi Kumari",
               "winner": "",
               "status": "pending",
@@ -303,7 +303,7 @@
             },
             {
               "player1": "Souravan Roy",
-              "player2": "Winner of (Vishal Kumar vs Ranjeet Tiwari)",
+              "player2": "Vishal Kumar",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -323,16 +323,16 @@
           "title": "Round 4 | Semifinal",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2",
+              "player1": "Winner of (Tirthankar Kanjilal vs Jyoti Prakash Pattanayak)",
+              "player2": "Winner of (Sushant Patro vs Surabhi Kumari)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 3 Match 3",
-              "player2": "Winner of Round 3 Match 4",
+              "player1": "Winner of (Souravan Roy vs Vishal Kumar)",
+              "player2": "Winner of (Winner of (Kunatalika Das vs Himika Roy) vs Ashim Das)",
               "winner": "",
               "status": "pending",
               "score": "",
