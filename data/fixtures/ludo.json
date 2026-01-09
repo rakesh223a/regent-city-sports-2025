@@ -404,8 +404,8 @@
             {
               "player1": "Advik Behera",
               "player2": "Prakhar Choudhary",
-              "winner": "",
-              "status": "pending",
+              "winner": "Advik Behera",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -471,7 +471,7 @@
           "title": "Round 4 | QuarterFinal",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
+              "player1": "Advik Behera",
               "player2": "Sanjeevani Singh",
               "winner": "",
               "status": "pending",
@@ -497,8 +497,8 @@
             {
               "player1": "Haripriya",
               "player2": "Avaneesh Patro",
-              "winner": "",
-              "status": "pending",
+              "winner": "Haripriya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
