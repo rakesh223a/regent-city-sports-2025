@@ -1019,11 +1019,11 @@
     "label": "Week 2",
     "days": {
       "2026-01-10": {
-        "label": "10 Jan",
+        "label": "9 Jan",
         "matches": []
       },
       "2026-01-11": {
-        "label": "11 Jan",
+        "label": "10 Jan",
         "matches": [
            {
             "game": "Cricket",
@@ -1093,7 +1093,7 @@
         ]
       },
       "2026-01-12": {
-        "label": "12 Jan",
+        "label": "11 Jan",
         "matches": [
           {
             "game": "Fun Game",
