@@ -1020,7 +1020,184 @@
     "days": {
       "2026-01-09": {
         "label": "9 Jan",
-        "matches": []
+        "matches": [
+          {
+            "game": "Badminton",
+            "category": "Upto 9 Yrs",
+            "round": "Final",
+            "time": "08:00 PM", 
+            "venue": "Badminton Court",
+            "match": "🏆 Champion: Winner of (Ashray Singh vs Prakhar Choudhary)"
+          },
+          {
+            "game": "Badminton",
+            "category": "Mixed Doubles 14 plus Yrs",
+            "round": "Round 1",
+            "time": "08:30 PM", 
+            "venue": "Badminton Court",
+            "match": "Ranjit Tiwari 🧑‍🤝‍🧑 Ishani Sanyal 🆚 Kabir Shrey 🧑‍🤝‍🧑 Padmaja Chowdhary"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Round 1",
+            "time": "09:00 PM", 
+            "venue": "Badminton Court",
+            "match": "Shreya 🆚 Isha Das"
+          },
+          {
+            "game": "Badminton",
+            "category": "Mixed Doubles 14 plus Yrs",
+            "round": "Round 2",
+            "time": "09:15 PM", 
+            "venue": "Badminton Court", 
+            "match": "Prem Alok 🧑‍🤝‍🧑 Pragya Chowdhary 🆚 Ashita Ojha 🧑‍🤝‍🧑 Omkant Ojha"
+          },
+          {
+            "game": "Badminton",
+            "category": "Singles Female 11 to 13 Yrs",
+            "round": "Semifinal 2",
+            "time": "09:45 PM", 
+            "venue": "Badminton Court",
+            "match": "Haripriya 🆚 Winner of (Shreya vs Isha Das)"
+          },
+          {
+            "game": "Badminton",
+            "category": "Mixed Doubles 14 plus Yrs",
+            "round": "Round 2",
+            "time": "10:00 PM",
+            "venue": "Badminton Court",
+            "match": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay 🆚 Ayushman Sharma 🧑‍🤝‍🧑 Shaanvi Dubey"
+          },
+          {
+            "game": "Badminton",
+            "category": "Mixed Doubles 14 plus Yrs",
+            "round": "Round 2",
+            "time": "10:00 PM",
+            "venue": "Badminton Court",
+            "match": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay 🆚 Ayushman Sharma 🧑‍🤝‍🧑 Shaanvi Dubey"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 14+ years",
+            "round": "Round 1",
+            "time": "10:15 PM",
+            "venue": "Badminton Court",
+            "match": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas 🆚 Ayushman Sharma 🧑‍🤝‍🧑 Prem Alok"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 14+ years",
+            "round": "Round 1",
+            "time": "10:30 PM",
+            "venue": "Badminton Court",
+            "match": "Tirthankar 🧑‍🤝‍🧑 Keshav 🆚 Sushanto 🧑‍🤝‍🧑 Kabir"
+          },
+          {
+            "game": "Badminton",
+            "category": "Double Male 14+ years",
+            "round": "Round 1",
+            "time": "10:45 PM",
+            "venue": "Badminton Court",
+            "match": "Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy 🆚 Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty"
+          },
+          {
+            "game": "Ludo",
+            "category": "Above 14",
+            "round": "Round 3 | Quarterfinal 1",
+            "time": "06:30 PM",
+            "venue": "Ludo Court",
+            "match": "Dipa Kumari 🆚 Sangeeta Singh"
+          },
+          {
+            "game": "Ludo",
+            "category": "Above 14",
+            "round": "Round 1",
+            "time": "07:00 PM",
+            "venue": "Ludo Court",
+            "match": "Sarita Roy 🆚 Urmila Devi"
+          },
+            {
+            "game": "Ludo",
+            "category": "Above 14",
+            "round": "Round 3 | Quarterfinal 2",
+            "time": "07:00 PM",
+            "venue": "Ludo Court",
+            "match": "Gitanjali Patra 🆚 Paramjeet Kaur"
+          },
+          {
+            "game": "Ludo",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "07:30 PM",
+            "venue": "Ludo Court",
+            "match": "Winner of (Sarita Roy vs Urmila Devi) 🆚 Jyoti Prakash Pattanayak"
+          },
+           {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 2",
+            "time": "07:30 PM",
+            "venue": "Ludo Court",
+            "match": "Mainak Roy 🆚 Prakhar Choudhary"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 3",
+            "time": "08:00 PM",
+            "venue": "Ludo Court",
+            "match": "Winner of (Mainak Roy Vs Prakhar Choudhary) 🆚 Advika Behera"
+          },
+          {
+            "game": "Ludo",
+            "category": "Below 14",
+            "round": "Round 4 | Quarterfinal 4",
+            "time": "09:00 PM",
+            "venue": "Ludo Court",
+            "match": "Haripriya 🆚 Avaneesh Patro"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "05:30 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Ayushman Sharma 🆚 Sushanto Patro"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "07:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Tirthankar Kanjilal 🆚 Parul Kacker"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "07:30 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Jyoti Prakash Pattanayak 🆚 Sarita Roy"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "08:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Kunatalika Das 🆚 Himika Roy"
+          },
+          {
+            "game": "Carrom",
+            "category": "Above 14",
+            "round": "Round 2",
+            "time": "09:00 PM",
+            "venue": "Community Hall 2nd Floor",
+            "match": "Vishal Kumar 🆚 Ranjeet Tiwari"
+          }
+        ]
       },
       "2026-01-10": {
         "label": "10 Jan",
