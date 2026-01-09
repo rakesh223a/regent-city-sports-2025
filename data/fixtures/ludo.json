@@ -767,8 +767,8 @@
             {
               "player1": "Jyoti Prakash Pattanayak",
               "player2": "Anita Thakur",
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -794,7 +794,7 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Jyoti Prakash Pattanayak vs Anita Thakur)",
+              "player1": "Jyoti Prakash Pattanayak",
               "player2": "Winner of (Surabhi Kumari vs Sonal Kumari)",
               "winner": "",
               "status": "pending",
