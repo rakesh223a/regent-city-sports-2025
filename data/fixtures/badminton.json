@@ -2,7 +2,7 @@
   "game": "Badminton",
   "categories": {
     "single_upto_9": {
-      "title": " Singles Up to 9 Yrs",
+      "title": " Singles Up to 9 Yrs -- COMPLETED",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -78,7 +78,7 @@
       }
     },
     "single_9_11": {
-      "title": "Singles 9 to 11 Yrs",
+      "title": "Singles 9 to 11 Yrs -- COMPLETED",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -154,7 +154,7 @@
       }
     },
     "single_11_13_male": {
-      "title": "Singles Male 11 to 13 Yrs",
+      "title": "Singles Male 11 to 13 Yrs ( 1 match left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -230,7 +230,7 @@
       }
     },
     "single_11_13_female": {
-      "title": "Singles Female 11 to 13 Yrs",
+      "title": "Singles Female 11 to 13 Yrs -- COMPLETED",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -306,7 +306,7 @@
       }
     },
     "single_14_25": {
-      "title": "Singles 14 to 25 Yrs",
+      "title": "Singles 14 to 25 Yrs -- COMPLETED",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -382,7 +382,7 @@
       }
     },
     "single_25_40_male": {
-      "title": "Singles Male 25 to 40 Yrs",
+      "title": "Singles Male 25 to 40 Yrs ( 1 match left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -458,7 +458,7 @@
       }
     },
     "single_40_plus_male": {
-      "title": "Singles Male 40 plus Yrs",
+      "title": "Singles Male 40 plus Yrs (11 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -603,7 +603,7 @@
       }
     },
     "single_14_40_female": {
-      "title": "Singles Female 14 to 40 Yrs",
+      "title": "Singles Female 14 to 40 Yrs (2 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -748,7 +748,7 @@
       }
     },
     "single_40_plus_female": {
-      "title": "Singles Female 40+ Yrs",
+      "title": "Singles Female 40+ Yrs (4 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -824,7 +824,7 @@
       }
     },
     "double_female_14_plus": {
-      "title": "Doubles Female 14 plus Yrs",
+      "title": "Doubles Female 14 plus Yrs (3 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -900,7 +900,7 @@
       }
     },
     "mixed_14_plus": {
-      "title": "Mixed Doubles 14 plus Yrs",
+      "title": "Mixed Doubles 14 plus Yrs (7 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -1045,7 +1045,7 @@
       }
     },
     "couple": {
-      "title": "Couple Married",
+      "title": "Couple Married (9 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -1190,7 +1190,7 @@
       }
     },
     "double_male_9_11": {
-      "title": "Doubles Male 9 to 11 Yrs (League Format)",
+      "title": "Doubles Male 9 to 11 Yrs (League Format) -- COMPLETED",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -1237,7 +1237,7 @@
       }
     },
     "double_male_11_14": {
-      "title": "Doubles Male 11 to 14 Yrs",
+      "title": "Doubles Male 11 to 14 Yrs (3 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -1276,7 +1276,7 @@
       }
     },
     "double_female_11_14": {
-      "title": "Doubles Female 11 to 14 Yrs",
+      "title": "Doubles Female 11 to 14 Yrs (4 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -1352,7 +1352,7 @@
       }
     },
     "double_male_14_plus": {
-      "title": "Doubles Male 14 Yrs",
+      "title": "Doubles Male 14 Yrs (10 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
