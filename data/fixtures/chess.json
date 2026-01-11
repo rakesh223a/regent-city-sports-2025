@@ -2,7 +2,7 @@
   "game": "Chess",
   "categories": {
     "chess_below_14": {
-      "title": "Singles Below 14",
+      "title": "Singles Below 14 (2 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -147,7 +147,7 @@
       }
     },
     "chess_14_plus": {
-      "title": "Singles 14+",
+      "title": "Singles 14+ (2 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",

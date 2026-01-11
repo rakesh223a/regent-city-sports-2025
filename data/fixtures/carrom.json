@@ -2,7 +2,7 @@
   "game": "Carrom",
   "categories": {
     "carrom_below_14": {
-      "title": "Singles Below 14",
+      "title": "Singles Below 14 ( 2 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -78,7 +78,7 @@
       }
     },
     "carrom_14_plus": {
-      "title": "Singles 14+",
+      "title": "Singles 14+ (3 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -356,7 +356,7 @@
       }
     },
     "double_below_14": {
-      "title": "Doubles below 14",
+      "title": "Doubles below 14 (3 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -395,7 +395,7 @@
       }
     },
     "double_14_plus": {
-      "title": "Doubles 14+",
+      "title": "Doubles 14+ (9 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "Round 1",

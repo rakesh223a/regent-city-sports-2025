@@ -2,7 +2,7 @@
   "game": "Cricket",
   "categories": {
     "Womens": {
-      "title": "Womens",
+      "title": "Womens ( 1 match left to be completed )",
       "rounds": {
         "round1": {
           "title": "League Matches",
@@ -49,7 +49,7 @@
       }
     },
     "Junior Mixed": {
-      "title": "Junior Mixed",
+      "title": "Junior Mixed (4 matches left to be completed )",
       "rounds": {
         "round1": {
           "title": "League Matches",
@@ -96,7 +96,7 @@
       }
     },
     "Mens": {
-      "title": "Mens",
+      "title": "Mens (1 match left to be completed )",
       "rounds": {
         "round1": {
           "title": "Mens League - Group 1 & Group 2",
