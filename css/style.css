@@ -443,10 +443,17 @@ hr.dotted {
     border: 1px solid #d0d6ff;
     padding: 9px 16px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 8px;
     cursor: pointer;
+    color:#031135
+   
  
+}
+
+.completedCat{
+ color: brown;
+ font-size: 12px;
 }
 
 .category-btn:active {
