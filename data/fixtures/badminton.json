@@ -260,8 +260,8 @@
               "player2": "Shaanvi Dubey"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Shreya Tiwari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Shreya Tiwari",
@@ -281,12 +281,12 @@
               "player2": "Sanjeevani Singh"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Shreya Tiwari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Haripriya",
-              "player2": "Shreya Tiwari vs Isha Das"
+              "player2": "Shreya Tiwari"
             }
           ]
         },
@@ -299,7 +299,7 @@
               "score": "",
               "remarks": "",
               "player1": "Pragya Chowdhury",
-              "player2": "Winner of Round 2 Match 2"
+              "player2": "Shreya Tiwari"
             }
           ]
         }
@@ -617,8 +617,8 @@
               "player2": "Sneha"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Dipa Kumari",
@@ -678,12 +678,12 @@
           "title": "Round 2",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Jyoti Kumari",
-              "player2": "Dipa Kumari vs Prachi Ganguly"
+              "player2": "Dipa Kumari"
             },
             {
               "winner": "Lakshmi Kumari",
@@ -694,18 +694,18 @@
               "player2": "Lakshmi Kumari"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Lovely Lal",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Lovely Lal",
               "player2": "Swati Singh"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sonal Kumari",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Puja Kumari",
               "player2": "Sonal Kumari"
             }
@@ -719,16 +719,16 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
+              "player1": "Dipa Kumari",
               "player2": "Lakshmi Kumari"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sonal Kumari",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of (Lovely Lal vs Swati Singh)",
-              "player2": "Winner of (Puja Kumari vs Sonal Kumari)"
+              "player1": "Lovely Lal",
+              "player2": "Sonal Kumari"
             }
           ]
         },
@@ -740,8 +740,8 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player1": "Winner of (Dipa Kumari vs Lakshmi Kumari)",
+              "player2": "Sonal Kumari"
             }
           ]
         }
@@ -1212,8 +1212,8 @@
               "player2": "Avaneesh Patro 🧑‍🤝‍🧑 Saqib Saikh"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay",
@@ -1225,12 +1225,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "League Topper 1",
-              "player2": "League Topper 2"
+              "player1": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
+              "player2": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay"
             }
           ]
         }

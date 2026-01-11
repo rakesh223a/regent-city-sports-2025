@@ -288,24 +288,24 @@
             {
               "player1": "Tirthankar Kanjilal",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Sushant Patro",
               "player2": "Surabhi Kumari",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sushant Patro",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Souravan Roy",
               "player2": "Vishal Kumar",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -323,15 +323,15 @@
           "title": "Round 4 | Semifinal",
           "matches": [
             {
-              "player1": "Winner of (Tirthankar Kanjilal vs Jyoti Prakash Pattanayak)",
-              "player2": "Winner of (Sushant Patro vs Surabhi Kumari)",
-              "winner": "",
-              "status": "pending",
+              "player1": "Tirthankar Kanjilal",
+              "player2": "Sushant Patro",
+              "winner": "Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of (Souravan Roy vs Vishal Kumar)",
+              "player1": "Souravan Roy",
               "player2": "Winner of (Winner of (Kunatalika Das vs Himika Roy) vs Ashim Das)",
               "winner": "",
               "status": "pending",
@@ -344,7 +344,7 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 4 Match 1",
+              "player1": "Tirthankar Kanjilal",
               "player2": "Winner of Round 4 Match 2",
               "winner": "",
               "status": "pending",
