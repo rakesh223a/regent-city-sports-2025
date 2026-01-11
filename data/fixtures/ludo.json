@@ -775,8 +775,8 @@
             {
               "player1": "Surabhi Kumari",
               "player2": "Sonal Kumari",
-              "winner": "",
-              "status": "pending",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -795,9 +795,9 @@
             },
             {
               "player1": "Jyoti Prakash Pattanayak",
-              "player2": "Winner of (Surabhi Kumari vs Sonal Kumari)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Surabhi Kumari",
+              "winner": "Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -807,8 +807,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of (Sangeeta Singh vs Paramjeet Kaur)",
-              "player2": "Winner of ((Jyoti Prakash Pattanayak vs Anita Thakur) VS (Surabhi Kumari vs Sonal Kumari))",
+              "player1": "Sangeeta Singh",
+              "player2": "Jyoti Prakash Pattanayak",
               "winner": "",
               "status": "pending",
               "score": "",
