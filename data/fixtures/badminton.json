@@ -425,16 +425,16 @@
           "title": "Round 2 | Semifinal",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Raj Paul",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Raj Paul",
               "player2": "Souravan Roy"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Suraj Biswas",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Suraj Biswas",
@@ -450,8 +450,8 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "Raj Paul",
+              "player2": "Suraj Biswas"
             }
           ]
         }
