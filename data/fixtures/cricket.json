@@ -104,50 +104,50 @@
             {
               "player1": "Team A",
               "player2": "Team B",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 1-Match Timing : 10th Jan 9:30 AM to 10:30 AM"
+              "winner": "Team B",
+              "status": "completed",
+              "score": "Team B won by 39 runs",
+              "remarks": ""
             },
             {
               "player1": "Team D",
               "player2": "Team E",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 2-Match Timing : 10th Jan 10:45 AM to 11:45 AM"
+              "winner": "Team D",
+              "status": "completed",
+              "score": "Team D won by 1 wicket",
+              "remarks": ""
             },
             {
               "player1": "Team B",
               "player2": "Team C",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 1-Match Timing : 10th Jan 12:00 PM to 01:00 PM"
+              "winner": "Team B",
+              "status": "completed",
+              "score": "Team B won by 18 runs",
+              "remarks": ""
             },
              {
               "player1": "Team E",
               "player2": "Team F",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 2-Match Timing : 10th Jan 02:00 PM to 03:00 PM"
+              "winner": "Team F",
+              "status": "completed",
+              "score": "Team F won by 19 runs",
+              "remarks": ""
             },
             {
               "player1": "Team C",
               "player2": "Team A",
               "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 1-Match Timing : 10th Jan 03:15 PM to 04:15 PM"
+              "status": "completed",
+              "score": "Team C won by 3 wickets",
+              "remarks": ""
             },
             {
               "player1": "Team F",
               "player2": "Team D",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Group 2-Match Timing : 10th Jan 04:30 PM to 05:30 PM"
+              "winner": "Team F",
+              "status": "completed",
+              "score": "Team F won by 15 runs",
+              "remarks": ""
             }
           ]
         },
@@ -156,20 +156,20 @@
           "title": "Semifinal",
           "matches": [
             {
-              "player1": "Group 1 Topper",
-              "player2": "Group 2 Runner-up",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Match Timing : 10th Jan 06:00 PM to 07:00 PM"
+              "player1": "Team D",
+              "player2": "Team B",
+              "winner": "Team D",
+              "status": "completed",
+              "score": "Team D won by 4 wicket",
+              "remarks": ""
             },
             {
-              "player1": "Group 2 Topper",
-              "player2": "Group 1 Runner-up",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": "Match Timing : 10th Jan 07:15 PM to 08:15 PM"
+              "player1": "Team C",
+              "player2": "Team F",
+              "winner": "Team F",
+              "status": "completed",
+              "score": "Team F won by 25 runs",
+              "remarks": ""
             }
           ]
         },
@@ -177,12 +177,12 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Semifinal Winner 1",
-              "player2": "Semifinal Winner 2",
+              "player1": "Team D",
+              "player2": "Team F",
               "winner": "",
               "status": "pending",
               "score": "",
-              "remarks": ""
+              "remarks": "Match to be played on 18th Jan 2026"
             }
           ]
         }
