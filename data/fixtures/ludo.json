@@ -2,7 +2,7 @@
   "game": "Ludo",
   "categories": {
     "ludo_below_14": {
-      "title": "Below 14 -- 8 matches left to be completed",
+      "title": "Below 14",
       "rounds": {
         "round1": {
           "title": "Round 1",
@@ -541,7 +541,7 @@
       }
     },
     "ludo_14_plus": {
-      "title": "Above 14 -- 1 match left to be completed",
+      "title": "Above 14",
       "rounds": {
         "round1": {
           "title": "Round 1",

@@ -6,6 +6,27 @@ function setActive(btn) {
   btn.classList.add("active");
 }
 
+function getCategoryStatus(category) {
+  let totalMatches = 0;
+  let pendingMatches = 0;
+
+  Object.values(category.rounds).forEach(round => {
+    round.matches.forEach(match => {
+      totalMatches++;
+      if (match.status !== "completed") {
+        pendingMatches++;
+      }
+    });
+  });
+
+  if (totalMatches === 0) return "";
+
+  if (pendingMatches === 0) {
+    return "COMPLETED";
+  }
+
+  return `( ${pendingMatches} matches left to be completed )`;
+}
 
 
 function loadFixtures(game, btn) {
@@ -44,11 +65,17 @@ function loadFixtures(game, btn) {
           const catId = `category-${cIdx}`;
           const isOpen = "none"; 
           
+          const statusText = getCategoryStatus(category);
+
+
           html += `
             <section class="card">
               <p class="category-btn"
                 onclick="toggleRound('${catId}')">
                 ${category.title}
+                 <span class="category-status ${statusText === "COMPLETED" ? "done" : "pending"}">
+      ${statusText}
+    </span>
               </p>
               <div id="${catId}" style="display:${isOpen}">
                 ${renderBracketHTML(category.rounds)}

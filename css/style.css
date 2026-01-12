@@ -715,6 +715,31 @@ hr.dotted {
   color: #fff;
 }
 
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.category-status {
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.category-status.done {
+  background: #e6f6ea;
+  color: #1b7f3a;
+  font-weight: 600;
+}
+
+.category-status.pending {
+  background: #fff4e5;
+  color: #a15c00;
+}
+
 
 
 
