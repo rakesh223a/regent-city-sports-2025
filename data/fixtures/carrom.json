@@ -47,8 +47,8 @@
             {
               "player1": "Akshay Singh",
               "player2": "Arja Bhattacharya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -66,10 +66,10 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of (Akshay Singh vs Arja Bhattacharya))",
+              "player1": "Arja Bhattacharya",
               "player2": "Utkarsh Upadhyay",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -267,8 +267,8 @@
             {
               "player1": "Kunatalika Das",
               "player2": "Himika Roy",
-              "winner": "",
-              "status": "pending",
+              "winner": "Kunatalika Das",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -310,12 +310,12 @@
               "remarks": ""
             },
             {
-              "player1": "Winner of (Kunatalika Das vs Himika Roy)",
+              "player1": "Kunatalika Das",
               "player2": "Ashim Das",
-              "winner": "",
-              "status": "pending",
+              "winner": "Ashim Das",
+              "status": "completed",
               "score": "",
-              "remarks": ""
+              "remarks": "Emotional Walkover"
             }
           ]
         },
@@ -332,7 +332,7 @@
             },
             {
               "player1": "Souravan Roy",
-              "player2": "Winner of (Winner of (Kunatalika Das vs Himika Roy) vs Ashim Das)",
+              "player2": "Ashim Das",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -345,7 +345,7 @@
           "matches": [
             {
               "player1": "Tirthankar Kanjilal",
-              "player2": "Winner of Round 4 Match 2",
+              "player2": "Winner of (Souravan Vs Ashim Das)",
               "winner": "",
               "status": "pending",
               "score": "",
