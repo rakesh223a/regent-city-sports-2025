@@ -1,4 +1,49 @@
 {
+  "double_below_14": {
+    "title": "Carrom Doubles - Below 14",
+    "participants": [
+      { "name": "Arja Bhattacharya" },
+      { "name": "Avneesh Patro" },
+      { "name": "Akshay Singh" },
+      { "name": "Padmaja Upadhyay" },
+      { "name": "Prakhar Upadhyay" },
+      { "name": "Rayan Dan" },
+      { "name": "Utkarsh Upadhyay" },
+      { "name": "Ishani Sanyal" }
+    ]
+  },
+  "double_14_plus_female": {
+    "title": "Carrom Doubles Female – 14+",
+    "participants": [
+      { "name": "Gouri Prabha Behera"},
+      { "name": "Lovely Lal"},
+      { "name": "Kunatalika Das" },
+      { "name": "Prachi Ganguly" },
+      { "name": "Parul Kacker" },
+      { "name": "Dipa Kumari" },
+      { "name": "Sarita Roy" },
+      { "name": "Himika Roy" },
+      { "name": "Gitanjali Patra" },
+      { "name": "Surabhi Kumari" }
+    ]
+  },
+  "double_14_plus_male": {
+    "title": "Carrom Doubles Male – 14+",
+    "participants": [
+      { "name": "Tirthankar Kanjilal" },
+      { "name": "Ranjeet Tiwari" },
+      { "name": "Manish Kumar" },
+      { "name": "Gouravjit Mahakul" },
+      { "name": "Ashim Das" },
+      { "name": "Sushant Patro" },
+      { "name": "Souravan Roy" },
+      { "name": "Ayushman Sharma" },
+      { "name": "Vishal Kumar" },
+      { "name": "Jyoti Prakash Pattanayak" },
+      { "name": "Rakesh Prasad" },
+      {"name" : "Pratap"}
+    ]
+  },
   "single_14_plus": {
     "title": "Carrom Singles - 14+",
     "participants": [
@@ -39,35 +84,6 @@
       { "name": "Rayan Dan" },
       { "name": "Utkarsh Upadhyay" },
       { "name": "Varenyam" }
-    ]
-  },
-
-  "double_below_14": {
-    "title": "Carrom Doubles - Below 14",
-    "participants": [
-      { "name": "Arja Bhattacharya" },
-      { "name": "Avneesh Patro" },
-      { "name": "Akshay Singh" },
-      { "name": "Padmaja Upadhyay" },
-      { "name": "Prakhar Upadhyay" },
-      { "name": "Rayan Dan" },
-      { "name": "Utkarsh Upadhyay" },
-      { "name": "Ishani Sanyal" }
-    ]
-  },
-  "double_14_plus": {
-    "title": "Carrom Doubles – 14+",
-    "participants": [
-      { "name": " Gouri Prabha Behera 🧑‍🤝‍🧑 Tirthankar Kanjilal" },
-      { "name": " Lovely Lal 🧑‍🤝‍🧑 Ranjeet Tiwari" },
-      { "name": " Chhoti Kumari 🧑‍🤝‍🧑 Prachi Ganguly" },
-      { "name": " Gouravjit Mahakul 🧑‍🤝‍🧑 Sneha" },
-      { "name": " Manish Kumar 🧑‍🤝‍🧑 Ashim Das" },
-      { "name": " Dipa Kumari 🧑‍🤝‍🧑 Parul Kacker" },
-      { "name": " Sarita Roy 🧑‍🤝‍🧑 Sushant Patro" },
-      { "name": " Souravan Roy 🧑‍🤝‍🧑 Himika Roy" },
-      { "name": " Gitanjali Patra 🧑‍🤝‍🧑 Ayushman Sharma" },
-      { "name": " Vishal Kumar 🧑‍🤝‍🧑 Surabhi Kumari" }
     ]
   }
 }
