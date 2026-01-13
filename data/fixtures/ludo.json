@@ -359,8 +359,8 @@
             {
               "player1": "Debanshi Mohanty (Disha)",
               "player2": "Priya Pradhan",
-              "winner": "",
-              "status": "pending",
+              "winner": "Priya Pradhan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -428,8 +428,8 @@
             {
               "player1": "Isha Das",
               "player2": "Arja Bhattacharya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Isha Das",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -443,7 +443,7 @@
             },
             {
               "player1": "Adiya Pattanayak",
-              "player2": "Winner of (Debanshi Mohanty (Disha) vs Priya Pradhan)",
+              "player2": "Priya Pradhan",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -480,7 +480,7 @@
             },
             {
               "player1": "Chiku",
-              "player2": "Winner of (Isha Das vs Arja Bhattacharya)",
+              "player2": "Isha Das",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -488,7 +488,7 @@
             },
             {
               "player1": "Prakhar Upadhyay",
-              "player2": "Winner of Round 3 Match 6",
+              "player2": "Winner of (Aidya vs Priya)",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -508,16 +508,16 @@
           "title": "Round 5 | Semifinal",
           "matches": [
             {
-              "player1": "Winner of Round 4 Match 1",
-              "player2": "Winner of Round 4 Match 2",
+              "player1": "Sanjeevani Singh",
+              "player2": "Winner of (Chiku vs Isha)",
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of Round 4 Match 3",
-              "player2": "Winner of Round 4 Match 4",
+              "player1": "Winner of (Prakhar Upadhyay VS (Winner of (Aidya vs Priya)))",
+              "player2": "Haripriya",
               "winner": "",
               "status": "pending",
               "score": "",
@@ -788,8 +788,8 @@
             {
               "player1": "Sangeeta Singh",
               "player2": "Paramjeet Kaur",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sangeeta Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
