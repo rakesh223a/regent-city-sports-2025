@@ -444,8 +444,8 @@
             {
               "player1": "Adiya Pattanayak",
               "player2": "Priya Pradhan",
-              "winner": "",
-              "status": "pending",
+              "winner": "Priya Pradhan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -481,16 +481,16 @@
             {
               "player1": "Chiku",
               "player2": "Isha Das",
-              "winner": "",
-              "status": "pending",
+              "winner": "Chiku",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
               "player1": "Prakhar Upadhyay",
-              "player2": "Winner of (Aidya vs Priya)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Priya Pradhan",
+              "winner": "Priya Pradhan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -509,14 +509,14 @@
           "matches": [
             {
               "player1": "Sanjeevani Singh",
-              "player2": "Winner of (Chiku vs Isha)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Chiku",
+              "winner": "Sanjeevani Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
             {
-              "player1": "Winner of (Prakhar Upadhyay VS (Winner of (Aidya vs Priya)))",
+              "player1": "Priya",
               "player2": "Haripriya",
               "winner": "",
               "status": "pending",
@@ -529,8 +529,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 5 Match 1",
-              "player2": "Winner of Round 5 Match 2",
+              "player1": "Sanjeevani Singh",
+              "player2": "Winner of (Priya vs Haripriya)",
               "winner": "",
               "status": "pending",
               "score": "",

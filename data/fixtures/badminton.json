@@ -541,8 +541,8 @@
               "player2": "Rakesh Prasad"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Samik Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Samik Bhattacharya",
@@ -575,11 +575,11 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of ( Winner of (Manish vs Sushanto) VS Rakesh)",
-              "player2": "Winner of (Samik Vs Dipak Mohanty)"
+              "player2": "Samik Bhattacharya"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Kumar",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Sanjay Singh",
@@ -596,7 +596,7 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player2": "Jyoti Kumar"
             }
           ]
         }
@@ -736,8 +736,8 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Dipa Kumari",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Dipa Kumari",
@@ -762,10 +762,10 @@
               "player2": "Bidisha Bhattacharya"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sarita Roy",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Sarita Roy",
               "player2": "Himika Roy"
             },
@@ -783,28 +783,28 @@
           "title": "Round 2 ( League format )",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker",
+              "status": "completed",
               "score": "",
-              "remarks": "",
-              "player1": "M1",
-              "player2": "M2"
+              "remarks": "Walkover",
+              "player1": "Parul Kacker",
+              "player2": "Sarita Roy"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Surabhi Kumari",
+              "status": "completed",
               "score": "",
-              "remarks": "",
-              "player1": "M2",
-              "player2": "M3"
+              "remarks": "Walkover",
+              "player1": "Sarita Roy",
+              "player2": "Surabhi Kumari"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "M3",
-              "player2": "M1"
+              "player1": "Surabhi Kumari",
+              "player2": "Parul Kacker"
             }
           ]
         },
@@ -812,12 +812,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Parul Kacker",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "League Topper 1",
-              "player2": "League Topper 2"
+              "player1": "Parul Kacker",
+              "player2": "Surabhi Kumari"
             }
           ]
         }
@@ -991,8 +991,8 @@
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Ayushman Sharma 🧑‍🤝‍🧑 Shaanvi Dubey",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Aidya Pattanayak 🧑‍🤝‍🧑 Daksh Upadhyay",
@@ -1012,8 +1012,8 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Kabir Shrey 🧑‍🤝‍🧑 Padmaja Upadhyay",
@@ -1024,8 +1024,8 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player1": "Ayushman Sharma 🧑‍🤝‍🧑 Shaanvi Dubey",
+              "player2": "Winner of (Lovely Lal 🧑‍🤝‍🧑 Sushant Patro VS Shreya Tiwari 🧑‍🤝‍🧑 Souravan Roy)"
             }
           ]
         },
@@ -1037,7 +1037,7 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 3 Match 1",
+              "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
               "player2": "Winner of Round 3 Match 2"
             }
           ]
@@ -1243,10 +1243,10 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Mainak Roy 🧑‍🤝‍🧑 ❓",
               "player2": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)"
             },
@@ -1264,12 +1264,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player1": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)",
+              "player2": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw"
             }
           ]
         }
@@ -1385,7 +1385,7 @@
               "winner": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey",
               "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Tirthankar Kanjilal 🧑‍🤝‍🧑 Keshave Tiwari",
               "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
@@ -1431,23 +1431,23 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player1": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
+              "player2": "Winner of (Jaggi & Dhimanto Vs Manish & Jyoti Pattanayak)"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 1 Match 3",
-              "player2": "Winner of Round 1 Match 4"
+              "player1": "Samik Bhattacharya 🧑‍🤝‍🧑 Deepak Kumar",
+              "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
-              "remarks": "",
-              "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Vivek Upadhyay",
+              "remarks": "Tirthankar as replacement for Vivek",
+              "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal",
               "player2": "Sanjay Singh 🧑‍🤝‍🧑 Anirban Mukherjee"
             },
             {
@@ -1468,16 +1468,16 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "Winner of (Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas VS (Winner of Round 1 Match 2))",
+              "player2": "Winner of (Samik Bhattacharya 🧑‍🤝‍🧑 Deepak Kumar VS Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey)"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal",
+              "player2": "Winner of (Vishal Kumar 🧑‍🤝‍🧑 Souravan Roy VS Raj Paul 🧑‍🤝‍🧑 Dipak Mohanty)"
             }
           ]
         },
