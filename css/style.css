@@ -740,6 +740,17 @@ hr.dotted {
   color: #a15c00;
 }
 
+.category-winner {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #be3f0c;
+  background: #e8f5e9;
+  padding: 3px 8px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
 
 
 

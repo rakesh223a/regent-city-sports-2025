@@ -28,6 +28,27 @@ function getCategoryStatus(category) {
   return `( ${pendingMatches} matches left to be completed )`;
 }
 
+function isCategoryCompleted(category) {
+  return getCategoryStatus(category) === "COMPLETED";
+}
+
+function getCategoryWinner(category) {
+  if (!category.rounds) return "";
+
+  // find final round (final / Final / round_final etc.)
+  const finalKey = Object.keys(category.rounds).find(key =>
+    key.toLowerCase().includes("final")
+  );
+
+  if (!finalKey) return "";
+
+  const finalRound = category.rounds[finalKey];
+  if (!finalRound.matches || finalRound.matches.length === 0) return "";
+
+  const finalMatch = finalRound.matches[0];
+
+  return finalMatch.status === "completed" ? finalMatch.winner : "";
+}
 
 function loadFixtures(game, btn) {
   setActiveFixtureTab(btn);
@@ -65,23 +86,33 @@ function loadFixtures(game, btn) {
           const catId = `category-${cIdx}`;
           const isOpen = "none"; 
           
+          
           const statusText = getCategoryStatus(category);
+const completed = isCategoryCompleted(category);
+const categoryWinner = getCategoryWinner(category);
 
+         html += `
+  <section class="card">
+    <p class="category-btn"
+      onclick="toggleRound('${catId}')">
+      ${category.title}
 
-          html += `
-            <section class="card">
-              <p class="category-btn"
-                onclick="toggleRound('${catId}')">
-                ${category.title}
-                 <span class="category-status ${statusText === "COMPLETED" ? "done" : "pending"}">
-      ${statusText}
-    </span>
-              </p>
-              <div id="${catId}" style="display:${isOpen}">
-                ${renderBracketHTML(category.rounds)}
-              </div>
-            </section>
-          `;
+      <span class="category-status ${completed ? "done" : "pending"}">
+        ${statusText}
+      </span>
+
+      ${
+        completed && categoryWinner
+          ? `<span class="category-winner">🏆: ${categoryWinner}</span>`
+          : ""
+      }
+    </p>
+
+    <div id="${catId}" style="display:${isOpen}">
+      ${renderBracketHTML(category.rounds)}
+    </div>
+  </section>
+`;
         });
       }
 
@@ -120,34 +151,6 @@ function setActiveFixtureTab(activeBtn) {
   }
 }
 
-function renderBracketHTML_old(rounds) {
-  let html = `<div class="bracket">`;
-
-  Object.values(rounds).forEach((round, idx)=> {
-    html += `
-      <div class="round-column round-${idx +1}">
-        <h6>${round.title}</h6>
-    `;
-
-    round.matches.forEach((match,mIdx) => {
-      html += `
-      <li class="match-card">
-      <div class="match-title">Match ${mIdx + 1}</div>
-        <div class="match">
-        
-          <div class="player">${match.player1}</div>
-         <div class="vs">🆚</div>
-          <div class="player">${match.player2}</div>
-        </div>
-      `;
-    });
-
-    html += `</div>`;
-  });
-
-  html += `</div>`;
-  return html;
-}
 
 function renderBracketHTML(rounds) {
   let html = `<div class="bracket">`;
