@@ -1,0 +1,224 @@
+{
+  "FunGames-Race": [
+    {
+      "category": "Race 2+ below 3",
+      "winner": "Swarnadip Mukherjee",
+      "runnerUp": "Avyansh Sahu"
+    },
+    {
+      "category": "Race 3+ below 4",
+      "winner": "Reyansh Pandey",
+      "runnerUp": "Arya Gupta"
+    },
+    {
+      "category": "Race 4+ below 5",
+      "winner": "Yuvaan Kumar",
+      "runnerUp": "Keshav Kumar"
+    },
+    {
+      "category": "Race 5+ below 6",
+      "winner": "Ameera",
+      "runnerUp": "Saatwik & Samriddhi"
+    },
+    {
+      "category": "Race 6+ below 7",
+      "winner": "Arav Raj",
+      "runnerUp": "Ashray Singh"
+    },
+    {
+      "category": "Race 7+ below 8",
+      "winner": "Advik Ranjan",
+      "runnerUp": "Shlok Bansal"
+    },
+    {
+      "category": "Race 8+ below 9",
+      "winner": "Advik Behera",
+      "runnerUp": "Debanshi Mohanty"
+    }
+  ],
+
+  "FunGames-Zig Zag Race ": [
+    {
+      "category": "Race 3+ below 4",
+      "winner": "Arya Gupta",
+      "runnerUp": "Reyansh Pandey"
+    },
+    {
+      "category": "Race 4+ below 5",
+      "winner": "Advat",
+      "runnerUp": "Yuvaan Kumar"
+    },
+    {
+      "category": "Race 5+ below 6",
+      "winner": "Ameera",
+      "runnerUp": "Satwik"
+    },
+    {
+      "category": "Race 6+ below 7",
+      "winner": "Arav Raj",
+      "runnerUp": "Saanvi Sanyal"
+    },
+    {
+      "category": "Race 7+ below 8",
+      "winner": "Shlok Bansal",
+      "runnerUp": "Utkrist Das"
+    },
+    {
+      "category": "Race 8+ below 9",
+      "winner": "Chiku",
+      "runnerUp": "Debanshi Mohanty"
+    }
+  ],
+
+  "Fun Games-Cricket": [
+    {
+      "category": "Hit the ball (6-8)",
+      "winner": "Advik Ranjan"
+    }
+  ],
+  "Badminton": [
+    {
+      "category": "Singles Up to 9 Yrs",
+      "winner": "Ashray Singh",
+      "runnerUp": "Prakhar Chowdhury"
+    },
+    {
+      "category": "Singles 9 to 11 Yrs",
+      "winner": "Varenyam",
+      "runnerUp": "Prakhar Upadhyay"
+    },
+     {
+      "category": "Singles Male 11 to 13 Yrs ",
+      "winner": "Arja Bhattacharya",
+      "runnerUp": "Omkant Ojha"
+    },
+     {
+      "category": "Singles Female 11 to 13 Yrs ",
+      "winner": "Pragya Chowdhury",
+      "runnerUp": "Shreya Tiwari"
+    },
+     {
+      "category": "Singles 14 to 25 Yrs",
+      "winner": "Kabir Shrey",
+      "runnerUp": "Ayushman Sharma"
+    },
+     {
+      "category": "Singles Male 25 to 40 Yrs ",
+      "winner": "Raj Paul",
+      "runnerUp": "Suraj Biswas"
+    },
+     {
+      "category": "Singles Male 40 plus Yrs ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+     {
+      "category": "Singles Female 14 to 40 Yrs ",
+      "winner": "Dipa Kumari",
+      "runnerUp": "Sonal Kumari"
+    },
+     {
+      "category": "Singles Female 40+ Yrs",
+      "winner": "Parul Kacker",
+      "runnerUp": "Surabhi Kumari"
+    },
+     {
+      "category": "Doubles Female 14 plus Yrs ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+     {
+      "category": "Mixed Doubles 14 plus Yrs ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+     {
+      "category": "Couple Married",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+     {
+      "category": "Doubles Male 9 to 11 Yrs",
+      "winner": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
+      "runnerUp": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay"
+    },
+     {
+      "category": "Doubles Male 11 to 14 Yrs ",
+      "winner": "Omkant Ojah 🧑‍🤝‍🧑 Vaibhav Shaw",
+      "runnerUp": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)"
+    },
+     {
+      "category": "Doubles Female 11 to 14 Yrs",
+      "winner": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
+      "runnerUp": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das"
+    },
+    {
+      "category": "Doubles Male 14 Yrs ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ],
+
+  "Table Tennis": [
+    {
+      "category": "Men's Singles",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ],
+
+  "Chess": [
+    {
+      "category": "Singles Below 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+    {
+      "category": "Singles Above 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ],
+    "Carrom": [
+    {
+      "category": "Singles Below 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+    {
+      "category": "Singles Above 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ],
+    "LUDO": [
+    {
+      "category": "Singles Below 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+    {
+      "category": "Singles Above 14 ",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ],
+
+  "Cricket": [
+    {
+      "category": "Women's Cricket (6)",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+    {
+      "category": "Men's Cricket (7)",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    },
+     {
+      "category": "Junior's Mixed Cricket (9)",
+      "winner": "TBD",
+      "runnerUp": "TBD"
+    }
+  ]
+}

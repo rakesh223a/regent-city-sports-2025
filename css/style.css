@@ -751,7 +751,76 @@ hr.dotted {
   white-space: nowrap;
 }
 
+.game-title {
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
 
+.winner-row {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 1.2fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size:15px;
+}
+
+.winner {
+  color: #2e7d32;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.runner {
+  color: #6a1b9a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .winner-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .winner-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 12px;
+    border-radius: 10px;
+    background: #f9fafb;
+    margin-bottom: 12px;
+  }
+
+  .winner-row > div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .winner-row .category-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1f2937;
+  }
+
+  .winner-row .winner::before {
+    content: " Winner: ";
+    font-weight: 600;
+    color: #16a34a;
+  }
+
+  .winner-row .runner::before {
+    content: "Runner-up: ";
+    font-weight: 600;
+    color: #7c3aed;
+  }
+}
 
 
 
