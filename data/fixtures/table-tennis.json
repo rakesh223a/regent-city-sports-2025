@@ -44,8 +44,8 @@
         {
           "player1": "Dhimanta Chakraborty",
           "player2": "Samik Bhattacharya",
-          "winner": "",
-          "status": "pending",
+          "winner": "Samik Bhattacharya",
+          "status": "completed",
           "score": "",
           "remarks": ""
         },
@@ -63,7 +63,7 @@
       "title": "Final",
       "matches": [
         {
-          "player1": "Winner of (Dhimanta Chakraborty vs Samik Bhattacharya)",
+          "player1": "Samik Bhattacharya",
           "player2": "Akash Chakraborty",
           "winner": "",
           "status": "pending",

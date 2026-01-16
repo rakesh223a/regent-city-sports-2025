@@ -262,7 +262,7 @@
               "winner": "Vishal Kumar",
               "status": "completed",
               "score": "",
-              "remarks": ""
+              "remarks": "Vishal won the match by Queen shootout"
             },
             {
               "player1": "Kunatalika Das",
@@ -333,10 +333,10 @@
             {
               "player1": "Souravan Roy",
               "player2": "Ashim Das",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
-              "remarks": ""
+              "remarks": "Souravan won the match by Queen shootout"
             }
           ]
         },
@@ -345,9 +345,9 @@
           "matches": [
             {
               "player1": "Tirthankar Kanjilal",
-              "player2": "Winner of (Souravan Vs Ashim Das)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Souravan Roy",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
