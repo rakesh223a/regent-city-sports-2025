@@ -58,25 +58,25 @@
               "player1": "RCB - Regent City Bashers",
               "player2": "LORC - Legends Of Regent City",
               "winner": "",
-              "status": "pending",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 17th Jan 2026 at 9:45 AM"
+              "remarks": "RCB won the match by 49 runs"
             },
             {
               "player1": "LORC - Legends Of Regent City",
               "player2": "RCP - Regent City Panthers",
               "winner": "",
-              "status": "pending",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 17th Jan 2026 at 11:00 AM"
+              "remarks": "RCP won the match by 15 runs"
             },
             {
               "player1": "RCP - Regent City Panthers",
               "player2": "RCB - Regent City Bashers",
               "winner": "",
-              "status": "pending",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 17th Jan 2026 at 12.15 PM"
+              "remarks": "Match not required"
             }
           ]
         },
@@ -84,8 +84,8 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "League Topper 1",
-              "player2": "League Topper 2",
+              "player1": "RCB - Regent City Bashers",
+              "player2": "RCP - Regent City Panthers",
               "winner": "",
               "status": "pending",
               "score": "",

@@ -888,8 +888,8 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Aashita Ojha 🧑‍🤝‍🧑 Bidisha",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Aashita Ojha 🧑‍🤝‍🧑 Bidisha",
@@ -1020,8 +1020,8 @@
               "player2": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Ayushman Sharma 🧑‍🤝‍🧑 Shaanvi Dubey",
@@ -1033,12 +1033,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
-              "player2": "Winner of (Ayushman & Shaanvi Vs Lovely & Sushanto)"
+              "player2": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro"
             }
           ]
         }
@@ -1051,16 +1051,16 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Prem Alok🌹 Sangeeta",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Jyoti Prakash 🌹 Himika",
               "player2": "Prem Alok🌹 Sangeeta"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Manish 🌹 Lovely",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Manish 🌹 Lovely",
@@ -1124,30 +1124,30 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 1 Match 1",
-              "player2": "Winner of Round 1 Match 2"
+              "player1": "Prem Alok 🌹 Sangeeta",
+              "player2": "Manish 🌹 Lovely"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sushant 🌹 Gitanjali",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Sanjay 🌹 Sonal",
               "player2": "Sushant 🌹 Gitanjali"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh 🌹 Dipa",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Rakesh 🌹 Dipa",
               "player2": "Samik 🌹 Bidisha"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti 🌹 Lakshmi",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Jyoti 🌹 Lakshmi",
               "player2": "Deepak 🌹 Puja"
             }
@@ -1161,16 +1161,16 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 1",
-              "player2": "Winner of Round 2 Match 2"
+              "player1": "Winner of (Prem & Sangeeta Vs Manish & Lovely)",
+              "player2": "Sushant 🌹 Gitanjali"
             },
             {
               "winner": "",
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 2 Match 3",
-              "player2": "Winner of Round 2 Match 4"
+              "player1": "Rakesh 🌹 Dipa",
+              "player2": "Jyoti 🌹 Lakshmi"
             }
           ]
         },
@@ -1366,10 +1366,10 @@
               "player2": "Ayushman Sharma 🧑‍🤝‍🧑 Prem Alok"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Manish Kumar 🧑‍🤝‍🧑 Jyoti Prakash Pattanayak",
+              "status": "completed",
               "score": "",
-              "remarks": "",
+              "remarks": "Walkover",
               "player1": "Jagdeep Saini 🧑‍🤝‍🧑 Dhimanto Chakraborty",
               "player2": "Manish Kumar 🧑‍🤝‍🧑 Jyoti Prakash Pattanayak"
             },
@@ -1432,7 +1432,7 @@
               "score": "",
               "remarks": "",
               "player1": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
-              "player2": "Winner of (Jaggi & Dhimanto Vs Manish & Jyoti Pattanayak)"
+              "player2": "Manish & Jyoti Pattanayak"
             },
             {
               "winner": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey",
@@ -1468,12 +1468,12 @@
               "status": "pending",
               "score": "",
               "remarks": "",
-              "player1": "Winner of (Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas VS (Winner of Round 1 Match 2))",
+              "player1": "Winner of (Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas VS Manish & Jyoti Prakash)",
               "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal",
@@ -1490,7 +1490,7 @@
               "score": "",
               "remarks": "",
               "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player2": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal"
             }
           ]
         }
