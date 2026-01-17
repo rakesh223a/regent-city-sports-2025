@@ -116,8 +116,8 @@
             {
               "player1": "Avaneesh Patro",
               "player2": "Arja Bhattacharya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -135,10 +135,10 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of (Avaneesh Patro vs Arja Bhattacharya)",
+              "player1": "Arja Bhattacharya",
               "player2": "Advik Behera",
-              "winner": "",
-              "status": "pending",
+              "winner": "Arja Bhattacharya",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }

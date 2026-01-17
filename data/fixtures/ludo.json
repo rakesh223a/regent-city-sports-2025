@@ -516,10 +516,10 @@
               "remarks": ""
             },
             {
-              "player1": "Priya",
+              "player1": "Priya Pradhan",
               "player2": "Haripriya",
-              "winner": "",
-              "status": "pending",
+              "winner": "Priya Pradhan",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -530,9 +530,9 @@
           "matches": [
             {
               "player1": "Sanjeevani Singh",
-              "player2": "Winner of (Priya vs Haripriya)",
-              "winner": "",
-              "status": "pending",
+              "player2": "Priya Pradhan",
+              "winner": "Sanjeevani Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
@@ -809,8 +809,8 @@
             {
               "player1": "Sangeeta Singh",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Sangeeta Singh",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
