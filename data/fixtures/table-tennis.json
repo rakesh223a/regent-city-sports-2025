@@ -65,8 +65,8 @@
         {
           "player1": "Samik Bhattacharya",
           "player2": "Akash Chakraborty",
-          "winner": "",
-          "status": "pending",
+          "winner": "Akash Chakraborty",
+          "status": "completed",
           "score": "",
           "remarks": ""
         }

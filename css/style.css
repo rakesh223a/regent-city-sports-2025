@@ -822,6 +822,35 @@ hr.dotted {
   }
 }
 
+.winner-link {
+  display: inline-block;
+  padding: 3px 8px;
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  color: #ffffff;
+  font-weight: 300;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
+  transition: all 0.2s ease;
+}
+
+.winner-link:hover {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  transform: translateY(-1px);
+}
+
+
+.winner-link-wrapper {
+  text-align: right;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .winner-link-wrapper {
+    text-align: center;
+  }
+}
+
 
 
 

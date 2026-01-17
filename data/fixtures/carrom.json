@@ -401,10 +401,10 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Dipa Kumari & Gitanjali Patro" ,
+              "player1": "Dipa Kumari & Gitanjali Patra" ,
               "player2": "Sarita Roy & Himika Roy",
-              "winner": "" ,
-              "status": "pending",
+              "winner": "Dipa Kumari & Gitanjali Patra" ,
+              "status": "completed",
               "score": "",
               "remarks": ""
             }

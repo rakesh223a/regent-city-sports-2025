@@ -464,8 +464,8 @@
           "title": "Round 1",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Sushant Patro",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Manish Kumar",
@@ -533,11 +533,11 @@
           "title": "Round 2",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh Prasad",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Manish Kumar vs Sushant Patro",
+              "player1": "Sushant Patro",
               "player2": "Rakesh Prasad"
             },
             {
@@ -570,11 +570,11 @@
           "title": "Round 3 | Semi Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh Prasad",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of ( Winner of (Manish vs Sushanto) VS Rakesh)",
+              "player1": "Rakesh Prasad",
               "player2": "Samik Bhattacharya"
             },
             {
@@ -591,11 +591,11 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Jyoti Kumar",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 3 Match 1",
+              "player1": "Rakesh Prasad",
               "player2": "Jyoti Kumar"
             }
           ]
@@ -1120,8 +1120,8 @@
           "title": "Round 2",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Manish 🌹 Lovely",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Prem Alok 🌹 Sangeeta",
@@ -1157,16 +1157,16 @@
           "title": "Round 3 | Semi Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Manish 🌹 Lovely",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of (Prem & Sangeeta Vs Manish & Lovely)",
+              "player1": "Manish 🌹 Lovely",
               "player2": "Sushant 🌹 Gitanjali"
             },
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh 🌹 Dipa",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Rakesh 🌹 Dipa",
@@ -1178,12 +1178,12 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Rakesh 🌹 Dipa",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2"
+              "player1": "Manish 🌹 Lovely",
+              "player2": "Rakesh 🌹 Dipa"
             }
           ]
         }
@@ -1427,8 +1427,8 @@
           "title": "Round 2",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
+              "status": "completed",
               "score": "",
               "remarks": "",
               "player1": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
@@ -1464,11 +1464,11 @@
           "title": "Round 2 | Semi Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of (Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas VS Manish & Jyoti Prakash)",
+              "player1": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
               "player2": "Sushant Patro 🧑‍🤝‍🧑 Kabir Shrey"
             },
             {
@@ -1485,11 +1485,11 @@
           "title": "Final",
           "matches": [
             {
-              "winner": "",
-              "status": "pending",
+              "winner": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
+              "status": "completed",
               "score": "",
               "remarks": "",
-              "player1": "Winner of Round 3 Match 1",
+              "player1": "Gouravjit Mahakul 🧑‍🤝‍🧑 Suraj Biswas",
               "player2": "Rakesh Prasad 🧑‍🤝‍🧑 Tirthankar Kanjilal"
             }
           ]
