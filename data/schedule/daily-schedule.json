@@ -1288,6 +1288,48 @@
 
   "week_3": {
     "label": "Week 3",
-    "days": {}
+       "days": {
+
+      "2026-01-18": {
+        "label": "18 Jan",
+        "matches": [
+           {
+            "game": "Cricket",
+            "category": "Junior Mixed",
+            "round": "FINAL",
+            "time": "01 PM",
+            "venue": "Regent City Garden",
+            "match": "RCB 🆚 RCP"
+          },
+          {
+            "game": "Cricket",
+            "category": "Womens",
+            "round": "Final",
+            "time": "2:30 PM",
+            "venue": "Regent City Garden",
+            "match": "Team Dhurandar 🆚 Team Diamond Divas"
+          },
+          {
+            "game": "Cricket",
+            "category": "Mens",
+            "round": "FINAL",
+            "time": "4 PM",
+            "venue": "Regent City Garden",
+            "match": "Team D 🆚 Team F"
+          },
+         {
+            "game": "Prize Distribution",
+            "category": "All",
+            "round": "🏆 Prize Distribution Events 🏆",
+            "time": "6 PM Onwards",
+            "venue": "Regent City Garden",
+            "match": "🎉 Join us for 🏆 Prize distribution for Regent City Annual Sports 2025–26 ,tomorrow from 6:00 PM onwards. All winners and participants are requested to be present on time."
+          }
+
+        ]
+      }
+  
+
+    }
   }
 }
