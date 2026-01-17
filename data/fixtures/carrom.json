@@ -358,34 +358,52 @@
     "double_below_14": {
       "title": "Doubles below 14",
       "rounds": {
-        "round1": {
-          "title": "Round 1",
-          "matches": [
-            {
-              "player1": "Pair 1",
-              "player2": "Pair 2",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": ""
-            },
-            {
-              "player1": "Pair 3",
-              "player2": "Pair 4",
-              "winner": "",
-              "status": "pending",
-              "score": "",
-              "remarks": ""
-            }
-          ]
-        },
+        
         "final": {
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of Round 3 Match 1",
-              "player2": "Winner of Round 3 Match 2",
-              "winner": "",
+              "player1": "Utkarsh Upadhyay & Avaneesh Patro" ,
+              "player2": "Arja Bhattacharya & Rayan Dan",
+              "winner": "Arja Bhattacharya & Rayan Dan" ,
+              "status": "completed",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        }
+      }
+    },
+     "double_above_14_male": {
+      "title": "Doubles above 14 Male",
+      "rounds": {
+        
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "Ashim Das & Prabhav" ,
+              "player2": "Tirthankar Kanjilal & Sushanto Patro",
+              "winner": "Ashim Das & Prabhav" ,
+              "status": "completed",
+              "score": "",
+              "remarks": ""
+            }
+          ]
+        }
+      }
+    },
+        "double_above_14_female": {
+      "title": "Doubles above 14 Female",
+      "rounds": {
+        
+        "final": {
+          "title": "Final",
+          "matches": [
+            {
+              "player1": "Dipa Kumari & Gitanjali Patro" ,
+              "player2": "Sarita Roy & Himika Roy",
+              "winner": "" ,
               "status": "pending",
               "score": "",
               "remarks": ""
