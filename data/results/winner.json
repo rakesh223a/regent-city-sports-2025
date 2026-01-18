@@ -87,67 +87,67 @@
       "winner": "Varenyam",
       "runnerUp": "Prakhar Upadhyay"
     },
-     {
+    {
       "category": "Singles Male 11 to 13 Yrs ",
       "winner": "Arja Bhattacharya",
       "runnerUp": "Omkant Ojha"
     },
-     {
+    {
       "category": "Singles Female 11 to 13 Yrs ",
       "winner": "Pragya Chowdhury",
       "runnerUp": "Shreya Tiwari"
     },
-     {
+    {
       "category": "Singles 14 to 25 Yrs",
       "winner": "Kabir Shrey",
       "runnerUp": "Ayushman Sharma"
     },
-     {
+    {
       "category": "Singles Male 25 to 40 Yrs ",
       "winner": "Raj Paul",
       "runnerUp": "Suraj Biswas"
     },
-     {
+    {
       "category": "Singles Male 40 plus Yrs ",
       "winner": "Jyoti Kumar",
       "runnerUp": "Rakesh Prasad"
     },
-     {
+    {
       "category": "Singles Female 14 to 40 Yrs ",
       "winner": "Dipa Kumari",
       "runnerUp": "Sonal Kumari"
     },
-     {
+    {
       "category": "Singles Female 40+ Yrs",
       "winner": "Parul Kacker",
       "runnerUp": "Surabhi Kumari"
     },
-     {
+    {
       "category": "Doubles Female 14 plus Yrs ",
       "winner": "Aashita Ojha 🧑‍🤝‍🧑 Bidisha",
       "runnerUp": "Parul Kacker 🧑‍🤝‍🧑 Lovely Lal"
     },
-     {
+    {
       "category": "Mixed Doubles 14 plus Yrs ",
       "winner": "Aashita Ojha 🧑‍🤝‍🧑 Omkant Ojha",
       "runnerUp": "Lovely Lal 🧑‍🤝‍🧑 Sushant Patro"
     },
-     {
+    {
       "category": "Couple Married",
       "winner": "Dipa 🌹 Rakesh",
       "runnerUp": "Lovely 🌹 Manish"
     },
-     {
+    {
       "category": "Doubles Male 9 to 11 Yrs",
       "winner": "Avyay (Sweet) 🧑‍🤝‍🧑 Varenyam",
       "runnerUp": "Sanskar Ojha 🧑‍🤝‍🧑 Prakhar Upadhyay"
     },
-     {
+    {
       "category": "Doubles Male 11 to 14 Yrs ",
       "winner": "Omkant Ojha 🧑‍🤝‍🧑 Vaibhav Shaw",
       "runnerUp": "Arja Bhattacharya 🧑‍🤝‍🧑 Arannya Ghosh (Jim)"
     },
-     {
+    {
       "category": "Doubles Female 11 to 14 Yrs",
       "winner": "Pragya Chowdhury 🧑‍🤝‍🧑 Haripriya",
       "runnerUp": "Sanjeevani Singh 🧑‍🤝‍🧑 Isha Das"
@@ -175,11 +175,11 @@
     },
     {
       "category": "Singles Above 14 ",
-      "winner": "TBD",
-      "runnerUp": "TBD"
+      "winner": "Souravan Roy",
+      "runnerUp": "Anirban Mukherjee"
     }
   ],
-    "Carrom": [
+  "Carrom": [
     {
       "category": "Singles Below 14 ",
       "winner": "Arja Bhattacharya",
@@ -190,24 +190,23 @@
       "winner": "Souravan Roy",
       "runnerUp": "Tirthankar Kanjilal"
     },
-     {
+    {
       "category": "Double below 14 ",
       "winner": "Arja Bhattacharya & Rayan Dan",
       "runnerUp": "Utkarsh Upadhyay & Avaneesh Patro"
     },
-     {
+    {
       "category": "Double Above 14 Male",
       "winner": "Ashim Das & Prabhav Mishra",
       "runnerUp": "Tirthankar Kanjilal & Sushanto Patro"
     },
-     {
+    {
       "category": "Double Above 14 Female",
       "winner": "Dipa Kumari & Gitanjali Patra",
       "runnerUp": "Sarita Roy & Himika Roy"
     }
-
   ],
-    "LUDO": [
+  "LUDO": [
     {
       "category": "Singles Below 14 ",
       "winner": "Sanjeevani Singh",
@@ -222,19 +221,44 @@
 
   "Cricket": [
     {
-      "category": "Women's Cricket (6)",
-      "winner": "TBD",
-      "runnerUp": "TBD"
+      "category": "Junior's Mixed Cricket - MOM",
+      "winner": "Omkant Ojha"
     },
     {
-      "category": "Men's Cricket (7)",
-      "winner": "TBD",
-      "runnerUp": "TBD"
+      "category": "Junior's Mixed Cricket - MOS",
+      "winner": "Arja Bhattacharya"
+    },
+    {
+      "category": "Junior's Mixed Cricket - Champion",
+      "winner": "RCB - Regent City Bashers",
+      "runnerUp": "RCP - Regent City Panthers"
     },
      {
-      "category": "Junior's Mixed Cricket (9)",
-      "winner": "TBD",
-      "runnerUp": "TBD"
+      "category": "Men's Cricket MOM",
+      "winner": "Dipankar from Team Falcons"
+    },
+    {
+      "category": "Men's Cricket MOS",
+      "winner": "Deepankar from Regent Maintainence Staff"
+    },
+    {
+      "category": "Men's Cricket - Champion",
+      "winner": "Team Falcon",
+      "runnerUp": "RC Royal"
+    },
+    {
+      "category": "Women's Cricket - WOM",
+      "winner": "Surabhi Kumari"
+    },
+    {
+      "category": "Women's Cricket - WOS",
+      "winner": "Parul Kacker"
+    },
+    {
+      "category": "Women's Cricket - Champion",
+      "winner": "Team Dhurandar",
+      "runnerUp": "Team Diamond Divas"
     }
+   
   ]
 }

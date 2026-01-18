@@ -39,10 +39,10 @@
             {
               "player1": "Diamond Divas",
               "player2": "Dhurandar",
-              "winner": "",
-              "status": "pending",
+              "winner": "Dhurandar",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 18th Jan 2026 at 2:30 PM"
+              "remarks": "Champion Team Dhurandar"
             }
           ]
         }
@@ -86,10 +86,10 @@
             {
               "player1": "RCB - Regent City Bashers",
               "player2": "RCP - Regent City Panthers",
-              "winner": "",
-              "status": "pending",
+              "winner": "RCB - Regent City Bashers",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 18th Jan 2026 at 1 PM"
+              "remarks": "Champion RCB - Regent City Bashers"
             }
           ]
         }
@@ -177,12 +177,12 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Team D",
-              "player2": "Team F",
-              "winner": "",
-              "status": "pending",
+              "player1": "Team D - Falcons",
+              "player2": "Team F - RC Royal",
+              "winner": "Team D - Falcons",
+              "status": "completed",
               "score": "",
-              "remarks": "Match to be played on 18th Jan 2026 at 4 PM"
+              "remarks": "Champion Team Falcon"
             }
           ]
         }

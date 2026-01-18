@@ -261,8 +261,8 @@
             {
               "player1": "Souravan Roy",
               "player2": "Jyoti Prakash Pattanayak",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             },
@@ -280,10 +280,10 @@
           "title": "Final",
           "matches": [
             {
-              "player1": "Winner of (Souravan Roy vs Jyoti Prakash Pattanayak)",
+              "player1": "Souravan Roy",
               "player2": "Anirban Mukherjee",
-              "winner": "",
-              "status": "pending",
+              "winner": "Souravan Roy",
+              "status": "completed",
               "score": "",
               "remarks": ""
             }
