@@ -200,3 +200,29 @@ footer {
     height: 130px;
   }
 }
+
+/* Language Toggle */
+.language-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background: #fff3e0;
+}
+
+.lang-btn {
+  border: 1px solid #ff9800;
+  background: white;
+  color: #e65100;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.lang-btn.active {
+  background: #ff9800;
+  color: white;
+}
+
