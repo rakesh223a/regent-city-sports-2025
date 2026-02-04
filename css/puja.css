@@ -226,3 +226,8 @@ footer {
   color: white;
 }
 
+#schedule .language-toggle,
+#gallery .language-toggle {
+  display: none;
+}
+
