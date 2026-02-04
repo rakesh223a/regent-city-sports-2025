@@ -1,0 +1,202 @@
+/* ===============================
+   Global Reset & Base Styles
+================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fff7ed;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===============================
+   Header
+================================ */
+header {
+  background: linear-gradient(135deg, #ff8f00, #ffcc80);
+  color: #fff;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+header p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* ===============================
+   Tabs
+================================ */
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #ffe0b2;
+  border-bottom: 2px solid #ffcc80;
+}
+
+.tab-button {
+  background: transparent;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5d4037;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background: #ffd180;
+}
+
+.tab-button.active {
+  background: #ffb74d;
+  color: #fff;
+}
+
+/* ===============================
+   Content Sections
+================================ */
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px 15px;
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+h2 {
+  color: #e65100;
+  margin-bottom: 12px;
+}
+
+h3 {
+  color: #ef6c00;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   Lists
+================================ */
+ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* ===============================
+   Tables (Schedule)
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 20px;
+  background: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+
+th {
+  background: #ffe0b2;
+  color: #4e342e;
+  font-weight: 600;
+}
+
+td {
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background: #fffaf2;
+}
+
+/* ===============================
+   Gallery
+================================ */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ffcc80;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* ===============================
+   Footer
+================================ */
+footer {
+  background: #ffcc80;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4e342e;
+}
+
+/* ===============================
+   Responsive (Mobile)
+================================ */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  .tab-button {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+
+  th,
+  td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .gallery img {
+    height: 130px;
+  }
+}
