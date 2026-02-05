@@ -26,25 +26,17 @@
       </button>
     </div>
 
-    <!-- Language Toggle INSIDE About -->
-    <div class="language-toggle">
-      <button id="btn-en" class="lang-btn active" onclick="setLanguage('en')">
-        English
-      </button>
-      <button id="btn-hi" class="lang-btn" onclick="setLanguage('hi')">
-        हिंदी
-      </button>
-      <button id="btn-bn" class="lang-btn" onclick="setLanguage('bn')">
-        বাংলা
-      </button>
-      <button id="btn-or" class="lang-btn" onclick="setLanguage('or')">
-        ଓଡ଼ିଆ
-      </button>
-    </div>
-
-    <!-- language contents come below -->
     <!-- ABOUT -->
     <div id="about" class="content active">
+
+      <!-- Language Toggle (ONLY inside About) -->
+      <div class="language-toggle">
+        <button class="lang-btn active" onclick="setLanguage('en', this)">English</button>
+        <button class="lang-btn" onclick="setLanguage('hi', this)">हिंदी</button>
+        <button class="lang-btn" onclick="setLanguage('bn', this)">বাংলা</button>
+        <button class="lang-btn" onclick="setLanguage('or', this)">ଓଡ଼ିଆ</button>
+      </div>
+
       <!-- ENGLISH CONTENT -->
       <div class="lang en">
         <h2>🌼 5-Kundiya Gayatri Mahayagya 🌼</h2>
@@ -89,7 +81,7 @@
       </div>
 
       <!-- HINDI CONTENT -->
-      <div class="lang hi" style="display: none">
+      <div class="lang hi" style="display:none;">
         <h2>🌼 5-कुंडीय गायत्री महायज्ञ 🌼</h2>
 
         <p>
@@ -131,7 +123,7 @@
       </div>
 
       <!-- BENGALI CONTENT -->
-      <div class="lang bn" style="display: none">
+      <div class="lang bn" style="display:none;">
         <h2>🌼 ৫-কুণ্ডীয় গায়ত্রী মহাযজ্ঞ 🌼</h2>
 
         <p>
@@ -172,8 +164,9 @@
           <li>শিশুরা অভিভাবকের তত্ত্বাবধানে অংশ নিতে পারে</li>
         </ul>
       </div>
-      <!-- ORIYA / ODIA CONTENT -->
-      <div class="lang or" style="display: none">
+
+      <!-- ORIYA CONTENT -->
+      <div class="lang or" style="display:none;">
         <h2>🌼 ୫-କୁଣ୍ଡୀୟ ଗାୟତ୍ରୀ ମହାଯଜ୍ଞ 🌼</h2>
 
         <p>
@@ -216,7 +209,6 @@
       </div>
     </div>
 
-    <!-- UPDATED SCHEDULE -->
     <div id="schedule" class="content">
       <h2>📅 Puja Schedule</h2>
 
@@ -244,7 +236,7 @@
       </table>
 
       <h3>📅 8th February (Sunday)</h3>
-      <p><strong>📍 Venue:</strong> Community Hall</p>
+      <p><strong>📍 Venue:</strong> Near Community Hall</p>
 
       <table>
         <tr>
@@ -345,59 +337,7 @@
 
     <footer>🙏 Regent City Society | Sarve Bhavantu Sukhinah 🙏</footer>
 
-    <script>
-     
-  function openTab(tabId, event) {
-    // hide all tab contents
-    document.querySelectorAll('.content').forEach(c => {
-      c.style.display = 'none';
-      c.classList.remove('active');
-    });
-
-    // show selected tab
-    const activeTab = document.getElementById(tabId);
-    activeTab.style.display = 'block';
-    activeTab.classList.add('active');
-
-    // update tab buttons
-    document.querySelectorAll('.tab-button').forEach(b => {
-      b.classList.remove('active');
-    });
-    event.target.classList.add('active');
-
-    // 🔴 hide language toggle by default
-    const langToggle = document.querySelector('.language-toggle');
-    if (langToggle) {
-      langToggle.style.display = 'none';
-    }
-
-    // 🟢 show language toggle ONLY for About tab
-    if (tabId === 'about' && langToggle) {
-      langToggle.style.display = 'flex';
-    }
-  }
-
-
-      function setLanguage(lang) {
-        const aboutSection = document.getElementById("about");
-
-        // hide only language blocks inside ABOUT
-        aboutSection.querySelectorAll(".lang").forEach((el) => {
-          el.style.display = "none";
-        });
-
-        // show selected language
-        aboutSection.querySelectorAll(".lang." + lang).forEach((el) => {
-          el.style.display = "block";
-        });
-
-        // update buttons
-        aboutSection.querySelectorAll(".lang-btn").forEach((btn) => {
-          btn.classList.remove("active");
-        });
-
-        document.getElementById("btn-" + lang).classList.add("active");
-      }
-    </script>
+    <!-- External JS -->
+    <script src="js/puja.js"></script>
   </body>
 </html>
